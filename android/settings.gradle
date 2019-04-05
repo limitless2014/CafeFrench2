@@ -1,0 +1,3 @@
+rootProject.name = 'CafeFrench2'
+
+include ':app'
