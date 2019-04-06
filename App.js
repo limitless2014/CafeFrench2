@@ -7,11 +7,25 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import { Container, Header, Title, Button, Left, Right, Body,Icon,Drawer,Text  } from 'native-base';
 import SplashScreen from 'react-native-splash-screen';
+import SideBar from './components/sideBar';
 
 
 export default class App extends Component {
+
+    constructor(props){
+      super(props);
+    }
+
+
+   closeDrawer=()=>{
+   this.drawer._root.close();
+   }
+
+   openDrawer=()=>{
+    this.drawer._root.open();
+   }
 
   componentDidMount() {
     SplashScreen.hide()
@@ -20,9 +34,26 @@ export default class App extends Component {
 
   render() {
     return (
-      <View >
-        <Text >Welcome to React Native!</Text>
-      </View>
+      <Drawer
+      ref={(ref)=>this.drawer=ref}
+      content={<SideBar/>}
+     
+      onClose={()=>this.closeDrawer()}
+      >
+      <Container>
+        <Header>
+          <Left>
+            <Button onPress={()=>this.openDrawer()} transparent>
+              <Icon  name='menu' />
+            </Button>
+          </Left>
+          <Body>
+            <Title>Menu</Title>
+          </Body>
+          <Right/>
+        </Header>
+      </Container>
+      </Drawer>
     );
   }
 }
