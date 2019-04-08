@@ -7,158 +7,18 @@
  */
 
 import React, {Component} from 'react';
-import { Container, Header, Title, Button, Left, Right, Body,Icon,Drawer,Text, List, ListItem, DeckSwiper, Card, CardItem, Thumbnail, Item,   } from 'native-base';
-import {View,Image,Dimensions,ImageBackground} from 'react-native';
-import SplashScreen from 'react-native-splash-screen';
-import SideBar from './components/sideBar';
-import Carousel,{ Pagination } from 'react-native-snap-carousel';
 
-const {width} = Dimensions.get('window');
-
-export default class App extends Component {
-
-    constructor(props){
-      super(props);
-      this.state=
-      {
-        entries:[
-          {
-            text:'Lesson 1',name:'Musiques',image:require('./assets/img/lessons/1.png')
-          },
-          {
-            text:'Lesson 2',name:'Rencontres',image:require('./assets/img/lessons/2.png')
-          },
-          {
-            text:'Lesson 3',name:'Contacts',image:require('./assets/img/lessons/3.jpg')
-          },
-          {
-            text:'Lesson 4',name:'Fetes',image:require('./assets/img/lessons/4.png')
-          }
-      
-      
-      ],
-      activeSlide:0
-      }
-
-    }
+import {createStackNavigator,createAppContainer} from 'react-navigation';
+import Home from './components/home';
+import About from './components/About';
+import D1 from './components/lessons/1/d1';
+import V1 from './components/lessons/1/v1';
+import G1 from './components/lessons/1/g1';
 
 
-   closeDrawer=()=>{
-   this.drawer._root.close();
-   }
+const rootNavigator=createStackNavigator({
+   Home:{screen:Home},About:{screen:About},D1:{screen:D1},V1:{screen:V1},G1:{screen:G1}
+},{headerMode:'none',mode:'modal'
+})
 
-   openDrawer=()=>{
-    this.drawer._root.open();
-   }
-
-  componentDidMount() {
-    SplashScreen.hide()
-  }
-
-
-
-  _renderItem ({item, index}) {
-    return (
-     
-      <Card style={{elevation:4,}}>
-     <CardItem>
-       <Left>
-         <Thumbnail source={item.image}/>
-         <Body>
-           <Text>{item.text}</Text>
-           <Text note>{item.name}</Text>
-         </Body>
-       </Left>
-     </CardItem>
-     <CardItem cardBody>
-     <Image blurRadius={3} resizeMode="stretch" source={item.image} style={{height:200,flex:1}}/>
-     </CardItem>
-     <CardItem style={{justifyContent:'center',alignItems:'center'}}>
-       <Button rounded  primary>
-       <Text>Dialogs</Text>
-       </Button>
-     </CardItem>
-     <CardItem style={{justifyContent:'center',alignItems:'center'}}>
-       <Button rounded  danger>
-       <Text>Vocabulary</Text>
-       </Button>
-     </CardItem>
-     <CardItem style={{justifyContent:'center',alignItems:'center'}}>
-       <Button rounded  success>
-       <Text>Grammer</Text>
-       </Button>
-     </CardItem>
-     </Card>
-     
-     
-    );
-}
- 
-get pagination () {
-  const { entries, activeSlide } = this.state;
-  return (
-      <Pagination
-      
-        dotsLength={entries.length}
-        activeDotIndex={activeSlide}
-        containerStyle={{  }}
-        dotStyle={{
-            width: 10,
-            height: 10,
-            borderRadius: 5,
-            marginHorizontal: 8,
-            backgroundColor: 'rgba(255, 255, 255, 0.92)'
-        }}
-        inactiveDotStyle={{
-            // Define styles for inactive dots here
-           
-            
-        }}
-        inactiveDotOpacity={0.4}
-        inactiveDotScale={0.6}
-      />
-  );
-}
-
-
-  render() {
-    return (
-      <Drawer
-      ref={(ref)=>this.drawer=ref}
-      content={<SideBar/>}
-      side="right"
-      onClose={()=>this.closeDrawer()}
-      >
-      <Container>
-        <Header>
-          <Left style={{flex:1}}/>
-          <Body style={{flex:1,justifyContent: 'center', alignItems: 'center'}}>
-            <Title>Cafe French 2</Title>
-            </Body>
-          <Right style={{flex:1}}>
-              <Button onPress={()=>this.openDrawer()} transparent>
-              <Icon  name='menu' />
-              </Button>
-            </Right>
-        </Header>
-        <ImageBackground resizeMode="stretch" style={{width:'100%',height:'100%'}} source={require('./assets/img/book.jpg')}>
-        <View>
-            <Carousel 
-              ref={(c) => { this._carousel = c; }}
-              data={this.state.entries}
-              renderItem={this._renderItem}
-              sliderWidth={width}
-              itemWidth={width*80/100}
-              onSnapToItem={(index) => this.setState({ activeSlide: index }) }
-              
-            />
-            { this.pagination }
-            </View>
-            </ImageBackground>
-      </Container>
-      </Drawer>
-    );
-  }
-}
-
-
+export default createAppContainer(rootNavigator);
