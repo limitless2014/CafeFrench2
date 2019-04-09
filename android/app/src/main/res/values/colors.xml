@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="blue">@drawable/gradient</color>
+    <color name="blues">#d500f9</color>
 </resources>
