@@ -67,7 +67,7 @@ class Home extends Component {
   _renderItem=({item, index})=> {
     return (
      
-      <Card style={{elevation:4,}}>
+      <Card style={{elevation:4,height:'100%',}}>
      <CardItem>
        <Left>
          <Badge>
@@ -152,7 +152,7 @@ get pagination () {
             </Right>
         </Header>
         <ImageBackground resizeMode="stretch" style={{width:'100%',height:'100%'}} source={require('../assets/img/book.jpg')}>
-        <View>
+        <View style={{height:'90%'}}>
             <Carousel 
               ref={(c) => { this._carousel = c; }}
               data={this.state.entries}
@@ -160,7 +160,6 @@ get pagination () {
               sliderWidth={width}
               itemWidth={width*80/100}
               onSnapToItem={(index) => this.setState({ activeSlide: index }) }
-              
             />
             { this.pagination }
             </View>
