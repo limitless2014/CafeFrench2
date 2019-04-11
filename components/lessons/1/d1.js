@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import {Image} from 'react-native'
 import { Container,Text, Card, CardItem, Header, Icon, Left, Body, Right, Button,  } from 'native-base';
 import { ScrollView } from 'react-native-gesture-handler';
-import Tts from 'react-native-tts';
-Tts.setDefaultLanguage('fr-FR');
+
 
 
 export default class D1 extends Component {
@@ -38,9 +37,7 @@ export default class D1 extends Component {
               Le public qu'on y rencontre est jeune et international. Plus de 100 000 personnes assistent aux différents spectacles.
               Tous les styles musicaux sont présents. c'est la féte dans toute la ville pendent une semaine.
               </Text>
-              <Button  transparent>
-              <Icon type="AntDesign" name="sound"/>
-              </Button>
+              
                <Image style={{width:'100%'}} source={require('../../../assets/img/lessons/lesson1/d1.png')}/>
             </Body>
           </CardItem>
