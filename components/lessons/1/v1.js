@@ -8,11 +8,16 @@ export default class V1 extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      vocabs:[{title:'Allo', key: 'allo',trans:'الو',ph:'[bɔ̃ʒuʀ]'},
+      vocabs:[{title:'allo', key: 'allo',trans:'الو',ph:'[bɔ̃ʒuʀ]'},
       {title:'bonsoir',key:'bonsoir',trans:'شب بخیر',ph:'[bɔ̃ʒuʀ]'},
       {title:'bonnuit',key:'bonnuit',trans:'شب بخیر',ph:'[bɔ̃ʒuʀ]'},
       {title:'carnet',key:'carnet',trans:'دفترچه',ph:'[bɔ̃ʒuʀ]'}
-    ]
+    ],
+    search:[{title:'allo', key: 'allo',trans:'الو',ph:'[bɔ̃ʒuʀ]'},
+    {title:'bonsoir',key:'bonsoir',trans:'شب بخیر',ph:'[bɔ̃ʒuʀ]'},
+    {title:'bonnuit',key:'bonnuit',trans:'شب بخیر',ph:'[bɔ̃ʒuʀ]'},
+    {title:'carnet',key:'carnet',trans:'دفترچه',ph:'[bɔ̃ʒuʀ]'}
+  ]
     };
     
   }
@@ -22,6 +27,37 @@ export default class V1 extends Component {
     let speak=(word)=>{
       Tts.speak(word);
    }
+
+
+
+
+
+
+   search=(txt)=>{
+      if (!txt || txt === '') {
+      this.setState({
+        vocabs: this.state.search
+      })
+      return;
+    }
+    let newData = this.state.vocabs.filter((text)=> {
+      let title=[];
+      title=text.title;
+      if(title.includes(txt.toLowerCase())){
+        text=title;
+        return text;
+      }
+    })
+    this.setState({vocabs:newData})
+    
+   }
+   
+
+
+
+
+
+
   let flag=true;
   let cats=[];
     return (
@@ -34,7 +70,7 @@ export default class V1 extends Component {
             </Left>
          <Item>
            <Icon name="ios-search" />
-           <Input placeholder="Search"/>
+           <Input onEndEditing={()=>this.setState({vocabs:this.state.search})}  onChangeText={(text)=>search(text)} placeholder="Search"/>
          </Item>
          <Button transparent>
          <Text>Search</Text>
