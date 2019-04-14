@@ -3,8 +3,9 @@ import { Container,Text,Header, Item, Icon, Input, Button, Left, Body, Card, Car
 import {FlatList,View,ListItem} from 'react-native';
 import Tts from 'react-native-tts';
 Tts.setDefaultLanguage('fr-FR');
-
+let header=null;
 export default class V1 extends Component {
+  
   constructor(props) {
     super(props);
     this.state = {
@@ -13,21 +14,27 @@ export default class V1 extends Component {
       {title:'bonnuit',key:'bonnuit',trans:'شب بخیر',ph:'[bɔ̃ʒuʀ]'},
       {title:'carnet',key:'carnet',trans:'دفترچه',ph:'[bɔ̃ʒuʀ]'}
     ],
-    search:[{title:'allo', key: 'allo',trans:'الو',ph:'[bɔ̃ʒuʀ]'},
-    {title:'bonsoir',key:'bonsoir',trans:'شب بخیر',ph:'[bɔ̃ʒuʀ]'},
-    {title:'bonnuit',key:'bonnuit',trans:'شب بخیر',ph:'[bɔ̃ʒuʀ]'},
-    {title:'carnet',key:'carnet',trans:'دفترچه',ph:'[bɔ̃ʒuʀ]'}
-  ]
+    search:[],
+    cats:[],
+    edited:false
     };
     
+    
   }
+  componentWillMount(){
+    this.setState({search:this.state.vocabs})
+  }
+  
+ 
+  
   
   render() {
 
     let speak=(word)=>{
       Tts.speak(word);
    }
-
+   
+   
 
 
 
@@ -36,7 +43,7 @@ export default class V1 extends Component {
    search=(txt)=>{
       if (!txt || txt === '') {
       this.setState({
-        vocabs: this.state.search
+        cats:[],vocabs: this.state.search,edited:true
       })
       return;
     }
@@ -45,7 +52,7 @@ export default class V1 extends Component {
       title=text.title;
       if(title.includes(txt.toLowerCase())){
         text=title;
-        return text;
+        return text.indexOf(text) > -1; 
       }
     })
     this.setState({vocabs:newData})
@@ -53,13 +60,19 @@ export default class V1 extends Component {
    }
    
 
+  endEditing=()=>{
+    
+    this.setState({edited:true})
+    this.setState({cats:[],vocabs:this.state.search})
+    
+  }
+  
+   
 
 
 
-
-
-  let flag=true;
-  let cats=[];
+ 
+ 
     return (
       <Container>
          <Header searchBar rounded>
@@ -70,7 +83,7 @@ export default class V1 extends Component {
             </Left>
          <Item>
            <Icon name="ios-search" />
-           <Input onEndEditing={()=>this.setState({vocabs:this.state.search})}  onChangeText={(text)=>search(text)} placeholder="Search"/>
+           <Input   onEndEditing={()=>endEditing()}  onChangeText={(text)=>search(text)} placeholder="Search"/>
          </Item>
          <Button transparent>
          <Text>Search</Text>
@@ -81,39 +94,35 @@ export default class V1 extends Component {
 
 
          <FlatList 
-         data={this.state.vocabs} 
-         renderItem={({item}) =>
-         {
-          
-        let title=item.title.toUpperCase();
-        let cat=title.slice(0,1);
-        let header;
-        
-        if(!cats.includes(cat))
-        {
-           header=(
-            
-            <Text style={{textAlign:'center',fontWeight:'bold',margin:10,borderBottomWidth:2,borderBottomColor:'red',}}>{cat}</Text>
-          
-          );
-          flag=false;
-          cats.push(cat);
-
-        }
-        else{
-           header=null;
-        }
+            data={this.state.vocabs} 
+             
+            renderItem={({item}) =>
+            {
+              let title=item.title.toUpperCase();
+              let cat=title.slice(0,1);
+              
+              if(!this.state.cats.includes(cat)||this.state.edited)
+              {
+                
+               
+                header=(<Text style={{textAlign:'center',fontSize:25,margin:10,borderBottomWidth:2,borderBottomColor:'red',}}>{cat}</Text>);
+                this.state.cats.push(cat);
+                
+                
+              }
+              else {
+                header=null;
+              }
+              
     
         
-           return(
-             <View>
-               {header}
+           return(    
           <Card>
-           
+           {header}
            <CardItem>
               <Body>
-              <Text>{item.title}</Text>
               
+              <Text>{item.title}</Text>
               </Body>
             </CardItem>
             <CardItem>
@@ -124,7 +133,6 @@ export default class V1 extends Component {
               </CardItem>
              <Text style={{paddingRight:10,paddingBottom:10}}>{item.trans}</Text>
            </Card> 
-           </View>
            )}}
            />
       </Container>
