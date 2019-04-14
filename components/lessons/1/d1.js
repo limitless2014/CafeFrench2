@@ -114,10 +114,11 @@ export default class D1 extends Component {
           
             </CardItem>
           <CardItem >
-            <Body style={{direction:'rtl'}}>
+            <Body style={{flexDirection:'column',justifyContent:'space-evenly',alignItems:'flex-end'}} >
             <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
           آنها به مدت 10 سال است که مشغول نوازندگی هستند. گروه موسیقی اندوشن همیشه در فستیوال موسیقی فرانکوفولیها شرکت میکنند. خبرنگار ما به ملاقات نیکلا ، استفانی و دومنیک رفته است .
           </Text>
+             
               
               <Text  style={{padding:5,fontWeight:'bold',}}>
               خبرنگار :
