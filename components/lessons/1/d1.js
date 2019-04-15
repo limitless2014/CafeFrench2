@@ -38,7 +38,7 @@ export default class D1 extends Component {
               Tous les styles musicaux sont présents. c'est la féte dans toute la ville pendent une semaine.
               </Text>
               
-               <Image style={{width:'100%'}} source={require('../../../assets/img/lessons/lesson1/d1.png')}/>
+               <Image style={{width:'100%'}} resizeMode='stretch' source={require('../../../assets/img/lessons/lesson1/d1.png')}/>
             </Body>
           </CardItem>
           </Card>
@@ -78,7 +78,7 @@ export default class D1 extends Component {
               <Text  style={{padding:5,textAlign:'justify'}}>
               ils chantent depuis plus de dix ans. Le groupe indochaine participe toujours aux Francofolies. Notre journaliste y a rencontré Nicola,Stephane et Domenique.
               </Text>
-               <Image style={{width:'100%'}} source={require('../../../assets/img/lessons/lesson1/d2.png')}/>
+               <Image style={{width:'100%'}} resizeMode='stretch' source={require('../../../assets/img/lessons/lesson1/d2.png')}/>
                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>La journaliste:</Text>
                <Text style={{padding:5,textAlign:'justify'}}>Comment avez-vous découvert la musique rock?</Text>
                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>Nicola:</Text>
@@ -193,7 +193,116 @@ export default class D1 extends Component {
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
               ما عاشقش هستیم! این حرفه ای است که ما انتخابش کردیم ولی یک حرفه سخت است برای دوام آوردن در این حرفه باید قوی باشید.
               </Text>
+            </Body>
+          </CardItem>
+          </Card>
+
+
+
+
+
+
+
+          <Card>
+          <CardItem header>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>Les Français se mettent à chanter</Text>
+            </CardItem>
+          <CardItem>
+            <Body>
+              <Text  style={{padding:5,textAlign:'justify'}}>
+              Bonne nouvelle ! Depuis quelques années, les Français découvrent le plaisir du chant, seuls ou en groupe.
+              Le chanteur de salle de bains sort de chez lui. Les chorales se développent partout, en ville et à la campagne.
+               lia chorale « Les voisins du dessus » est née il y a trois ans.
+                Jean-Claude Nardi, musicien, s'est mis à chanter avec sa voisine du dessus, Solène.
+                 Solène en a parlé à une autre voisine, Danièle... Incroyable,
+                  mais vrai ! Le chœur a déjà chanté dans un théâtre parisien et enregistré un CD.
+                   Aujourd'hui « Les voisins du dessus » sont 90. Certains viennent de province pour deux heures de répétition.
+                    Quand les relations entre les gens sont difficiles, la chanson aide à créer des liens : « Toute la journée,
+                     je suis stressé au travail et, le dimanche, je me sens seul. Alors je ne manque jamais la répétition du lundi soir »,
+                      dit Franck, informaticien. 
+              </Text>
               
+               <Image style={{width:'100%'}} resizeMode='stretch' source={require('../../../assets/img/lessons/lesson1/d3.png')}/>
+            </Body>
+          </CardItem>
+          </Card>
+          <Card>
+          <CardItem header style={{flexDirection:'row-reverse'}}>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>
+          فرانسویها شروع به آواز خواندن میکنند  
+          </Text>
+            </CardItem>
+          
+
+          <CardItem>
+            <Body>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              خبرهای خوب! طی چند سال اخیر فرانسوی ها لذت آواز خواندن را به صورت تکی یا گروهی کشف کرده اند ،
+               . کسی که در حمام آواز میخواند درحال آواز خواندن از خانه اش خارج میشود.
+                گروه های کُر در همه جا گسترش میابند در شهر و حومه شهر. گروه کر همسایه های طبقه بالا سه سال است که به وجود آمده است ، 
+                ژان کلاد نردی موزیسینی است که همراه همسایه طبقه بالایی اش (سولن) شروع به خوانندگی کردند .
+                 سولن با همسایه دیگری در این مورد حرف زد دنیل ... خارق العاده است ،
+                  اما واقعی! گروه کُر قبلاً در یک تئاتر پاریسی اجرا داشته است و یک لوح فشرده نیز رکورد کرده است. 
+                  امروزه گروه کر همسایه های طبقه بالا 90 نفر هستند . برخی از مرکز استان برای دو ساعت تمرین می آیند.
+                   زمانی که ایجاد ارتباط بین مردم سخت است ، ، آهنگ به ایجاد ارتباط بین مردم کمک کرده است.
+                    تمام طول روز ، سرکار استرس داشتم و روز یکشنبه احساس تنهایی کردم. 
+                    اگرچه هرگز تمرین دوشنبه شب را از دست نمیدهم ، نقل قول از فرانک ، متخصص کامپیوتر.
+              </Text>
+            </Body>
+          </CardItem>
+
+          </Card>
+
+
+
+
+          <Card>
+          <CardItem header>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>Le festival de Sully</Text>
+            </CardItem>
+          <CardItem>
+            <Body>
+              <Text  style={{padding:5,textAlign:'justify'}}>
+              Tous les ans, pendant les week-ends du mois 
+              de juin, le festival de Sully réunit depuis plus 
+              de 20 ans des interprètes connus qui viennent 
+              du monde entier Tous les styles y ont leur 
+              place : musique ancienne, classique ou 
+              contemporaine, opéra, jazz, chanson... Le 
+              public vient de tous les pays pour écouter 
+              l'Orchestre national de Lille ou l'orchestre du Capitole (de Toulouse), 
+              Barbara Hendricks, Ray Charles ou Claude Nougaro
+              </Text>
+               <Image style={{width:'100%'}} resizeMode='stretch' source={require('../../../assets/img/lessons/lesson1/d4.png')}/>
+            </Body>
+          </CardItem>
+          </Card>
+          <Card>
+          <CardItem header style={{flexDirection:'row-reverse'}}>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>
+          فستیوال سالی  
+          </Text>
+            </CardItem>
+              <CardItem >
+            <Body style={{flexDirection:'column',justifyContent:'space-evenly',alignItems:'flex-end'}} >
+            <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+            فستیوال بین المللی موسیقی کلاسیک که هرسال در ماه می و ژانویه در شهر sully sur loire و داخل چندین شهر دیگر برگزار میشود
+           
+          </Text>
+          </Body>
+           </CardItem>
+          <CardItem>
+            <Body>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              هر سال در طول آخر هفته های ماه ژوئن بیش از 20 سال است که فستیوال سالی با مشارکت خوانندگان شناخته شده موسیقی درام از تمام دنیا
+              برگزار میشود . تمام سبک های موسیقی جایگاه مخصوص خودشان را در آنجا دارند : موسیقی باستانی ، کلاسیک ، معاصر ، اپرا ، جاز و ...
+              عموم مردم از کشورهای مختلف می آیند تا به موسیقی ارکستر ملی لیل (شهری در فرانسه)
+              یا ارکستر ملی پایتخت (تولوز) ، باربارا چارلز ، ری چارلز یا کلاد نوگرو گوش دهند
+              </Text>
             </Body>
           </CardItem>
 
