@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container,Header,Left,Button,Icon, Body, Right, Card,CardItem,Text,View} from 'native-base';
 import { ScrollView } from 'react-native-gesture-handler';
 
-export default class G1 extends Component {
+export default class G2 extends Component {
   constructor(props) {
     super(props);
     this.state = {
