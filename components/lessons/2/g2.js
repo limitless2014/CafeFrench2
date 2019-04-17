@@ -25,39 +25,124 @@ export default class G2 extends Component {
          <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,borderRadius:50,backgroundColor:'green'}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20}}>ضمیر ربطی : چه کسی ، که</Text>
+              <Text style={{paddingRight:10,fontSize:20}}>تبدیل ضمایر مفعولی مستقیم و غیر مستقیم به شکل امری </Text>
               </CardItem>
               <CardItem  style={{flexDirection:'row-reverse'}} >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>ضمایر ربطی (چه کسی ، که) برای ربط دادن دو جمله استفاده میشوند  در این نوع جملات ضمیر qui نقش فاعل را در جمله دوم ایفا میکند
-                    و ضمیر que نقش ضمیر مفعولی مستقیم  را درجمله دوم دارد.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>Le festival réunit des artistes. Ces artistes ont du succès.</Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  فستیوال هنرمندان را دورهم جمع میکند. این هنرمندان موفق هستند  
+                   به طور کلی ضمایر مفعولی به جای مفعول در جمله می آیند در این حالت برای تبدیل ضمایر مفعولی 
+                   به امری کافی است که فاعل حذف شود سپس فعل و بعد از آن
+                   اگر ضمیر مفعولی me بود به moi و اگر te بود به toi تبدیل میشود و در انتهای جمله قرار میگیرد.
+                   بقیه ضمایر مفعولی بدون تغییر در انتهای جمله می آیند این روش برای تبدیل هر دو ضمیر مفعولی مستقیم و غیر مستقیم استفاده میشود.
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Le festival réunit des artistes qui ont du succès. </Text>
-                 
+                  Tu te regardes. Regarde-toi</Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  فستیوال هنرمندانی را دورهم جمع میکند که موفق هستند  
+                  تو به خودت نگاه میکنی . به خودت نگاه کن  
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>Le festival réunit des artistes. Les jeunes aiment beaucoup ces artistes.
-                  
-                 </Text>
-                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Le festival réunit des artistes que les jeunes aiment 
-                  beaucoup.
+                  Tu la prends.  Prends-la</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  تو آن را برمیداری . آن را بردار  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Vous nous appelez. .  Appelez-nous. </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  شما با ما تماس میگیرید . با ما تماس بگیرید  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Nous les écoutons. Écoutons-les</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  ما به آنها گوش میدهیم . بیاید به آنها گوش دهیم.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Tu me téléphones.  Téléphone-moi</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  تو به من تلفن میکنی . به من تلفن بزن.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Nous lui disons. Disons-lui</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  ما با او صحبت میکنیم . بیاید با او صحبت کنیم.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Vous leur envoyez une carte. Envoyez-leur une carte</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  ضما برای آنها یک کارت دعوت میفرستید . برای آنها یک کارت دعوت بفرستید.  
+                  </Text>
+                  
+                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                   همیشه یک خط تیره بین فعل و ضمیر قرار میگیرد
                    </Text>
+                   
+                  
+                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                   زمانی که y و en در انتهای جمله امری می آیند و فعل جمله از دسته er بود و دوم شخص بود یک s به انتهای فعل اضافه میکنیم.
+                   </Text>
+                   
+                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Aller .Vas-y</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  رفتن . به انجا برو  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Manger. Manges-en</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  خوردن . مقداری از آن را بخور.  
+                  </Text>
 
-                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>فستیوال هنرمندان را دورهم جمع میکند . جوانان خیلی این هنرمندان را دوست دارند 
+                  
+                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                    زمانی که میخواستیم جمله امری از ضمایر مفعولی مستقیم و غیر مستقیم بسازیم یک قاعده کلی وجود دارد و آن
+                    این است که ضمایر مفعولی قبل از فعل می آیند.
+                   </Text>
+                   
 
-                 </Text>
-                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                 فستیوال هنرمندانی را دورهم جمع میکند که جوانان دوست دارند
-                 </Text>
+                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Ne me regarde pas. </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  به من نگاه نکن .  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Ne l'écoutons pas.</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  به آنها گوش نکنیم.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Ne me téléphone pas.</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  به من تلفن نکن .  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Ne leur envoyez pas de carte.</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  برای آنها کارت دعوت ارسال نکن  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  N'en mange pas</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  از آن نخور.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  N'y va pas.</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                 آنجا نرو.  
+                  </Text>
                 </Body>
               </CardItem>
            </Card> 
@@ -69,171 +154,154 @@ export default class G2 extends Component {
            <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,borderRadius:50,backgroundColor:'green'}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20}}>ضمایر تاکیدی: این ... کسی ، این ... که</Text>
+              <Text style={{paddingRight:10,fontSize:20}}>جملات سوالی غیر مستقیم</Text>
               </CardItem>
               <CardItem  style={{flexDirection:'row-reverse'}} >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  از ضمایر تاکیدی برای برجسته ساختن نقش یک شخص یا شی در جمله استفاده میشود به مثالهای زیر توجه کنید.
+                <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  جملات سوالی مستقیم بدین صورت است که شخص مستقیماً از شخص دیگری سوال میپرسد مثل آیا شما اینجا زندگی میکنید ؟ 
+                  در مقابل جمله سوالی غیر مستقیم حالتی است که شخص مکالمه ای را تشریح میکند 
+                  که در آن یک شخص دیگر از دیگری سوال میکند مثل برنارد پرسید آیا او اینجا زندگی میکند. برای ساخت جملات سوالی غیر مستقیم اگر
+                  جمله سوالی مستقیم با est-ce que پرسیده شده باشد باید برای تبدیل ابتدا فاعل (سوال کننده) را می آوریم سپس فعل demande و مفعول
+                  را می آوریم در مرحله بعد کلمه si را می آوریم سپس سوال را از زبان خودمان نقل میکنیم.
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>Qui écrit les paroles : Nicola ou Dominique ?</Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  چه کسی شعرها را نوشته است : نیکلا یا دومنیک؟  
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  C'est Nicola qui écrit les paroles </Text>
-                 
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  این نیکلا است که شعرها را نوشته است  
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Quel groupe est-ce que tu je préfères ? 
-                 </Text>
-                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  چه گروه موسیقی ای را تو به من پیشنهاد میدهی؟  
-                  </Text>
-
-                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  C'est le groupe Indochine que je préfère
-                   </Text>
-
-                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                 من به شخصه گروه اندوشن را ترجیح میدهم
-                 </Text> 
-
-                </Body>
-              </CardItem>
-           </Card> 
-
-
-
-
-
-
-
-
-           <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,borderRadius:50,backgroundColor:'green'}}>
-              <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20}}>سوالی کردن با جابجایی فاعل و فعل</Text>
-              </CardItem>
-              <CardItem  style={{flexDirection:'row-reverse'}} >
-                <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1,flexDirection:'column',justifyContent:'space-evenly',alignItems:'flex-end'}}>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                   سوال کردن با جابجایی فاعل و فعل اکثر مواقع در نوشتار استفاده میشود.
-                    ما همچنین از این روش زمانی که سوالها کوتاه هستند در گفتار استفاده میکنیم.
-
-                   </Text>
-                  
                   <Text style={{padding:8,lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Aimez-vous votre métier ? </Text>
-                 
+                  BERNARD : « Est-ce que vous revenez demain ?  </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  آیا حرفه خودتان را دوست دارید؟  
-                  </Text>
-                  
-                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  از روش فوق در سوال های جامع استفاده میکنیم (برای پرسیدن سوالاتی که با بله یا نه پاسخ داده میشوند)  
+                  برنارد : آیا شما فردا برمیگردید ؟  (سوالی مستقیم)
                   </Text>
 
-                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Text style={{padding:8,lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Où trouvez-vous l'inspiration ? 
-                   </Text>
+                  Bernard demande à Chantal si elle revient le lendemain  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                    برنارد از چانتال پرسید آیا شما فردا برمیگردید ؟ (سوالی غیر مستقیم)
+                  </Text>
 
-                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                 از کجا شما الهام گرفته اید ؟
-                 </Text> 
 
-                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  نکته : زمانی که جمله سوالی مستقیم با Qu'est-ce qui یا Qu'est-ce que یا Quand est-ce que یا  Où est-ce que  
+                  یا Pourquoi یا Avec qui est-ce que  سوال پرسیده شود به ترتیب از  ce qui یا ce que یا  quand  یا où یا pourquoi
+                  یا avec qui در جمله سوالی غیر مستقیم بجای  si استفاده میکنیم.
+                  </Text>
+
+                  <Text style={{padding:8,lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Pourquoi vous appelez-vous indochine ? 
-                   </Text>
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                   چرا شما را اندوشن می نامند ؟
-                   </Text> 
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  BERNARD : « Qu'est-ce qui vous plaît ? »  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                    برنارد : چه جیزی دوست دارید ؟ (سوالی مستقیم)
+                  </Text>
+
+                  <Text style={{padding:8,lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Comment avez-vous découvert la musique rock ?  
-                   </Text>
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                   چگونه شما با موسیقی راک آشنا شدید ؟
-                   </Text> 
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                   از روش فوق در سوالات جزیی استفاده میشود (یک کلمه سوالی قبل از فعل می آید).
-                   </Text> 
+                  Bernard demande à Chantal ce qui lui plaît.  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                   برنارد از چانتال پرسید او چه چیزی را دوست دارد. (سوالی غیر مستقیم)
+                  </Text>
+
+                  <Text style={{padding:8,lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  ALICE : « Qu'est-ce que je dois faire ? »   </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  آلیس : چه کار باید بکنم ؟ (سوالی مستقیم)
+                  </Text>
+
+                  <Text style={{padding:8,lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Alice demande ce qu'elle doit faire.   </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  آلیس پرسید چه کاری باید او بکند ؟ (سوالی غیر مستقیم)
+                  </Text>
+
+                  <Text style={{padding:8,lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  BRUNO : « Quand est-ce que je peux vous revoir ?  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  برونو : چه زمانی میتوانم دوباره شما را ببینم ؟ (سوالی مستقیم)
+                  </Text>
+
+                  <Text style={{padding:8,lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Bruno demande à Ariette quand il peut la revoir. </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  برونو از آرلت پرسید چه موقع میتواند او را ملاقات کند. (سوالی غیر مستقیم)
+                  </Text>
+
+
+
+                  <Text style={{padding:8,lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  BRUNO : « Où est-ce que vous habitez ? »  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  برونو : کجا زندگی میکنید ؟ (سوالی مستقیم)
+                  </Text>
+
+                  <Text style={{padding:8,lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Bruno demande à Ariette où elle habite. </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  برونو از آرلت پرسید  او کجا زندگی میکند (سوالی غیر مستقیم).
+                  </Text>
                   
-                  <View style={{flexDirection:'row-reverse',alignItems:'center'}}>
-                  <Icon name="hand-point-left" type="FontAwesome5" style={{fontSize:15,marginRight:4}} />
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  ضمیر فاعلی قبل از فعل می آید. 
-                   </Text>
-                   </View>
-                   <View style={{flexDirection:'row-reverse',alignItems:'center'}}>
-                  <Icon name="hand-point-left" type="FontAwesome5" style={{fontSize:15,marginRight:4}} />
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                   همیشه یک خط تیره بین فعل و ضمیر شخصی آید.
-                   </Text>
-                   </View>
 
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Text style={{padding:8,lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                    Aimes-tu le jazz ?   
-                   </Text>
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                   تو موسیقی جاز را دوست داری؟
-                   </Text> 
+                  BRUNO : « Pourquoi ne parlez-vous pas ? »   </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  برونو : چرا شما صحبت نمیکنید ؟ (سوالی مستقیم)
+                  </Text>
 
-
-                   <View style={{flexDirection:'row-reverse',alignItems:'center',justifyContent:'space-around'}}>
-                  <Icon name="hand-point-left" type="FontAwesome5" style={{fontSize:15,marginRight:4,paddingLeft: 8}} />
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                   زمانی که فعل با یک حرف صدادار به اتمام میرسد و ضمیر شخصی با یک حرف صدادار شروع میشود حرف t را بین فعل و ضمیر شخصی اضافه میکنیم.
-                   </Text>
-                   </View>
-
-
-
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Text style={{padding:8,lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                    Quel temps a-t-il fait hier?   
-                   </Text>
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                   دیروز هوا چطور بود ؟
-                   </Text> 
+                  Il lui demande pourquoi elle ne parle pas. </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  برونو از آرلت پرسید چرا او صحبت نمیکند . (سوالی غیر مستقیم)
+                  </Text>
 
-
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Text style={{padding:8,lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                    Quel temps fera-t-il demain?   
-                   </Text>
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                   فردا آب و هوا چطور است ؟
-                   </Text> 
+                  BRUNO ; « Avec qui est-ce que vous travaillez ? »   </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  برونو : با چه کسی شما کار میکنید ؟ (سوالی مستقیم)
+                  </Text>
 
-
-                   <View style={{flexDirection:'row-reverse',alignItems:'center',justifyContent:'space-around'}}>
-                  <Icon name="hand-point-left" type="FontAwesome5" style={{fontSize:15,marginRight:4,paddingLeft: 8,}} />
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                   زمانی که فاعل یک اسم است ، ضمیر متناسب با فاعل را بعد از فعل قرار میدهیم.
-                   </Text>
-                   </View>
-
-
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Text style={{padding:8,lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                   Vos amis aiment-ils le rock ?    
+                  Il lui demande avec qui elle travaille.  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  برونو از آرلت پرسید با چه کسی او کار میکند. (سوالی غیر مستقیم)
+                  </Text>
+
+
+                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                   زمانی که حرف بعد از que صدادار یا h بود que تبدیل  به qu'میشود.
                    </Text>
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                   دوستان شما موسیقی را را دوست دارند؟
-                   </Text> 
+
+                   <Text style={{padding:8,lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Je ne sais pas ce qu'elle veut.</Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  من نمیدانم او چه چیزی میخواهد .
+                  </Text>
+
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                   زمانی که بعد از si ضمیر ils یا il آمد si تبدیل به s' میشود.
+                   </Text>
+
+                   <Text style={{padding:8,lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Je me demande s'il est déjà arrivé
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  من از خودم پرسیدم آیا او قبلاً رسیده است .
+                  </Text>
 
                 </Body>
               </CardItem>
            </Card> 
+
+
            </ScrollView>
          </Container>
     )
