@@ -217,14 +217,18 @@ export default class D2 extends Component {
                <Text style={{padding:5,textAlign:'justify'}}>Non. Je ne travaille pas demain. La semaine prochaine peut-être. </Text>
                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>BERNARD :</Text>
                <Text style={{padding:5,textAlign:'justify'}}>Alors, à la semaine prochaine </Text>
-
-
-
-
             </Body>
           </CardItem>
           </Card>
+
           <Card>
+          <CardItem header style={{flexDirection:'row-reverse'}}>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>
+          ناهار در آبجو فروشی
+          </Text>
+          
+            </CardItem>
           <CardItem >
             <Body style={{flexDirection:'column',justifyContent:'space-evenly',alignItems:'flex-end'}} >
               
@@ -325,18 +329,81 @@ export default class D2 extends Component {
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
               پس تا هفته آینده.
                </Text>
-
-
-
-
               </Body>
               </CardItem>
-              
             </Card>
 
 
 
-          
+            <Card>
+          <CardItem header>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>Le courrier du cœur </Text>
+            </CardItem>
+            <CardItem>
+            <Body>
+              <Text  style={{padding:5,textAlign:'justify'}}>
+              J'aime mon voisin du dessus. Il ne sait rien de mes sentiments.
+               II a 36 ans, il est informaticien. J'en ai 22 et je vais à la fac.
+               Je n'ose pas lui parler ouvertement. Qu'est-ce que je dois faire ?
+               Comment est-ce que je peux engager la conversation ? Est-ce que je ne suis pas trop jeune pour lui ?
+               Qu'est-ce qui l'intéresse ? Je ne sais rien de lui. Mes amies me donnent des conseils.
+               Annick me conseille d'inventer une histoire pour attirer son attention.
+               Françoise, elle, pense que c'est lui qui doit faire le premier pas. Mais je n'ai pas envie d'attendre... Je ne pen.
+               se qu'à lui : je suis très malheureuse. Dites-moi ce que je dois faire. 
+               ALICE 
+              </Text>
+               <Image style={{width:'100%'}} resizeMode='stretch' source={require('../../../assets/img/lessons/lesson2/d21.png')}/>
+            </Body>
+          </CardItem>
+          <CardItem>
+            <Body>
+              <Text  style={{padding:5,textAlign:'justify'}}>
+              Le journaliste répond : Votre situation est peut-être plus simple que vous le pensez.
+              Ne vous demandez pas si vous êtes trop jeune, ce qui l'intéresse...
+               Inventez plutôt un problème d'ordinateur et demandezlui de vous aider.
+                Vous pourrez lut offrir l'apéritif pour le remercier et vous verrez bien s'il vous invitera ensuite au restaurant ou au cinéma...
+              </Text>
+            </Body>
+          </CardItem>
+          </Card>
+
+
+          <Card>
+          <CardItem header style={{flexDirection:'row-reverse'}}>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>
+          نامه عاشقانه  
+          </Text>
+            </CardItem>
+          <CardItem>
+            <Body>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+               من همسایه پایینی ام را دوست دارم . او هیچ چیز درباره به احساسات من نمیداند.
+               او 36 سال سن دارد و متخصص کامپیوتر است. من 22 سال سن دارم و به دانشگاه میروم. من جرات نمیکنم آزادانه با او صحبت کنم.
+               من چه کاری باید انجام دهم ؟ چگونه میتوانم با او سر صحبت را باز کنم ؟
+               آیا من خیلی جوان برای او نیستم ؟ او از چه کسی خوشش می آید ؟ من هیچ چیز از او نمیدانم.
+               دوستان من مرا راهنمایی میکنند. آنیک به من پیشنهاد داد تا یک داستان سر هم کنم تا توجه او را جلب کنم. 
+               فرانسوا معتقد است که او باید اولین قدم را بردارد
+               من نمیخواهم صبر کنم ... من فقط به او فکر میکنم : من خیلی ناراحت هستم. به من بگو چه کاری انجام دهم؟
+              </Text>
+
+            </Body>
+          </CardItem>
+          <CardItem>
+            <Body>       
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              خبرنگار پاسخ میدهد : وضعیت شما ساده تر از آن است که تصور میکنید از خودتان نپرسید که خیلی جوان هستید یا از چه کسی خوشتان می آید.
+               به طریقی یک مشکل برای کامپیوتر خود به وجود بیاورید و از او کمک بخواهید. میتوانید به او نوشیدنی به منظور تشکر پیشنهاد دهید
+               و شما خواهید دید که او در اسرع وقت شما را به رستوران یا سینما دعوت خواهد کرد.
+              </Text>
+            </Body>
+          </CardItem>
+          </Card>
+
+
+
+
           </ScrollView>
       </Container>
     );
