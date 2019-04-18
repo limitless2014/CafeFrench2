@@ -17,10 +17,14 @@ import G1 from './components/lessons/1/g1';
 import D2 from './components/lessons/2/d2';
 import V2 from './components/lessons/2/v2';
 import G2 from './components/lessons/2/g2';
+import D3 from './components/lessons/3/d3';
+import V3 from './components/lessons/3/v3';
+import G3 from './components/lessons/3/g3';
 
 
 const rootNavigator=createStackNavigator({
    Home:{screen:Home},About:{screen:About},D1:{screen:D1},V1:{screen:V1},G1:{screen:G1},D2:{screen:D2},V2:{screen:V2},G2:{screen:G2}
+   ,D3:{screen:D3},V3:{screen:V3},G3:{screen:G3}
 },{headerMode:'none',mode:'modal'
 })
 
