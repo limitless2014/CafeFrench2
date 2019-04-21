@@ -37,53 +37,53 @@ export default class G3 extends Component {
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   Robert arrive de Provence. Nous l'avons rencontré en Provence.
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   رابرت به پرووانس می آید  و ما او را در پرووانس ملاقات خواهیم کرد
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
                   Robert arrive de Provence où nous l'avons rencontré. 
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   رابرت به پرووانس می آید جایی که ما او را ملاقات میکنیم  
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   On vous retrouve à Colmar Vous avez été comptable à Colmar.
                    </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   ما شما را در کلمار ملاقات کردیم شما در کلمار حسابدار بودید.
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
                   On vous retrouve à Colmar où vous avez été comptable. 
                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   ما شما را در کلمار ملاقات کردیم جایی که شما حسابدار بودید
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   Je me suis marié à Colmar cette année-là. J'ai travaillé à Colmar cette année-la
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   من در آن سال در کلمار ازدواج کردم. من در آن سال در کلمار کار کردم
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
                   Je me suis marié l'année où j'ai travaillé à Colmar 
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   من آن سالی که در کلمار کار میکردم ازدواج کردم.  
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   Je suis parti dans une région. Je rêvais de cette région.
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                     من آن محل را ترک کردم. من رویای آن محل را داشتم.
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
                   Je suis parti dans la région dont je rêvais
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   من محلی را ترک کردم که رویای آن را داشتم.  
                   </Text>
                 </Body>
@@ -95,11 +95,11 @@ export default class G3 extends Component {
 
 
            <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,borderRadius:50,backgroundColor:'green'}}>
+           <CardItem Header style={{borderWidth:2,borderRadius:50,backgroundColor:'green'}}>
               <Icon type="FontAwesome" name="book"/>
               <Text style={{paddingRight:10,fontSize:20}}>ضمایر اشاره</Text>
               </CardItem>
-              <CardItem  style={{flexDirection:'row-reverse'}} >
+              <CardItem  >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
                   ضمایر اشاره برای اشاره کردن به شی ، شخص و... استفاده میشوند این ضمایر به جای اسمی می آیند که میخواهیم به آن اشاره کنیم
@@ -113,7 +113,7 @@ export default class G3 extends Component {
                   <Text style={{padding:8,lineHeight:30}}> 
                   Je peux écouter un disque de jazz ?
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   من میتونم به یک موسیقی جاز گوش کنم ؟
                   </Text>
 
@@ -121,7 +121,7 @@ export default class G3 extends Component {
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
                   Écoute celui que tu veux. 
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   به هرکدام که دوست داری گوش کن.
                   </Text>
 
@@ -129,7 +129,7 @@ export default class G3 extends Component {
                   <Text style={{padding:8,lineHeight:30}}> 
                   il y a beaucoup de bonnes émissions ce soir à la télé.
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                     امشب تلویزیون برنامه های زیادی دارد.
                   </Text>
 
@@ -137,7 +137,7 @@ export default class G3 extends Component {
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
                   Regardez celles qui vous plaisent.
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                    آنهایی را تماشا کنید که دوست دارید.
                   </Text>
 
@@ -150,7 +150,7 @@ export default class G3 extends Component {
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
                   Les émissions s'adressent à ceux qui ont du temps. 
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   برنامه ها برای اشخاصی هستند که وقت دارند.
                   </Text>
 
@@ -158,7 +158,7 @@ export default class G3 extends Component {
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
                   La voix des journalistes tient compagnie à celui ou celle qui est bloqué(e) dans les embouteillages.
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   صدای خبرنگاران افرادی را که در ترافیک معطل شده اند همراهی میکند.
                   </Text>
                 </Body>

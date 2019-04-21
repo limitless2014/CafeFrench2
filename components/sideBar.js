@@ -36,7 +36,7 @@ export default class sideBar extends Component {
           <Content style={styles.content}>
           <Image style={{width:'100%'}} source={require('../assets/img/drawer.png')} resizeMode= 'stretch'/>
           <List>
-          <ListItem onPress={()=>this.props.navigate('About')}>
+          <ListItem style={{borderBottomWidth:1,borderBottomColor:'blue'}} onPress={()=>this.props.navigate('About')}>
             <Left style={{flex:1,flexDirection:'row-reverse'}}>
             <Text >درباره اپلیکیشن</Text>
             </Left>
@@ -46,7 +46,7 @@ export default class sideBar extends Component {
               </Button>
             </Right>
           </ListItem>
-          <ListItem onPress={this.onShare}>
+          <ListItem style={{borderBottomWidth:1,borderBottomColor:'blue'}} onPress={this.onShare}>
             <Left style={{flex:1,flexDirection:'row-reverse'}}>
             <Text >به اشتراک گذاری لینک اپلیکیشن</Text>
             </Left>
@@ -56,7 +56,7 @@ export default class sideBar extends Component {
               </Button>
             </Right>
           </ListItem>
-          <ListItem onPress={BackHandler.exitApp}>
+          <ListItem style={{borderBottomWidth:1,borderBottomColor:'blue'}} onPress={BackHandler.exitApp}>
             <Left style={{flex:1,flexDirection:'row-reverse'}}>
             <Text >خروج</Text>
             </Left>
