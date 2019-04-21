@@ -25,12 +25,15 @@ export default class G1 extends Component {
          <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,borderRadius:50,backgroundColor:'green'}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20}}>ضمیر ربطی : چه کسی ، که</Text>
+              <Text style={{paddingRight:10,fontSize:20}}>ضمایر موصولی Qui و Que</Text>
               </CardItem>
               <CardItem  style={{flexDirection:'row-reverse'}} >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>ضمایر ربطی (چه کسی ، که) برای ربط دادن دو جمله استفاده میشوند  در این نوع جملات ضمیر qui نقش فاعل را در جمله دوم ایفا میکند
-                    و ضمیر que نقش ضمیر مفعولی مستقیم  را درجمله دوم دارد.
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  ضمایر موصولی  برای ربط دادن دو جمله استفاده میشوند  در این نوع جملات ضمیر qui میتواند نقش فاعل را و
+                  همچنین نقش مفعول غیر مستقیم را در جمله دوم ایفا کند.
+                    و ضمیر que میتواند نقش مفعول مستقیم را در جمله بگیرد.
+                    ضمایر موصولی در زبان فارسی که معنی میشوند.
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>Le festival réunit des artistes. Ces artistes ont du succès.</Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
