@@ -23,9 +23,9 @@ export default class G2 extends Component {
          </Header>
          <ScrollView>
          <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,borderRadius:50,backgroundColor:'green'}}>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20}}>تبدیل ضمایر مفعولی مستقیم و غیر مستقیم به شکل امری </Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>تبدیل ضمایر مفعولی مستقیم و غیر مستقیم به شکل امری </Text>
               </CardItem>
               <CardItem  >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
@@ -152,9 +152,9 @@ export default class G2 extends Component {
 
 
            <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,borderRadius:50,backgroundColor:'green'}}>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20}}>جملات سوالی غیر مستقیم</Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>جملات سوالی غیر مستقیم</Text>
               </CardItem>
               <CardItem >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
