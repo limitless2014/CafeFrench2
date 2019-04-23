@@ -33,129 +33,143 @@ export default class D3 extends Component {
 
 
 
-          <Card>
+        <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
-          <Text>La Maison de la Radio </Text>
-            </CardItem>
-          <CardItem>
-            <Body>
-               <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-               Le 14 décembre 1963, le général de gaulle inaugure la Maison de la radio sur les bords de la Seine,
-               ou se trouve aujourd'hui Radio France. Radio France est l'un de plus importants réseau radio du monde.
-               C'est d'abord France Inter avec son programme, puis les radios spécialisées comme France Musique, France Culture ou
-               France Info qui donne des information toute la journée. C'est aussi Radio France Internationale (RFI) qui permet à
-               30 millions d'auditeurs de garder le contact avec la France et la langue française dans le monde entier. RFI propose
-               des émissions en FM dans les pays où les auditeurs sont les plus nombreux. 
-               </Text>
-            </Body>
-          </CardItem>
-          </Card>
-          <Card>
-          <CardItem header style={{flexDirection:'row-reverse'}}>
-          <Icon type="FontAwesome" name="coffee"/>
-          <Text>
-            ایستگاه رادیو
-          </Text>
-          
+          <Text>L'invitation</Text>
             </CardItem>
             <CardItem>
-            <Body>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              روز چهاردهم دسامبر سال 1963 ژنرال دوگل ایستگاه رادیو را در ساحل رود سن افتتاح کرد جایی که امروزه رادیوی فرانسه قرار دارد.
-              رادیوی فرانسه یکی از ایستگاه های رادیویی مهم در جهان است. اولین کانال آن فرانس انتغ با برنامه اختصاصی آن است سپس کانالهای
-              تخصصی مثل فرانس موزیک ، فرانس کالچر یا فرانس اینفو هستند که تمام روز اطلاع رسانی میکنند.
-              همچنین کانال رادیوی بین المللی فرانسه (RFI) وجوددارد که این امکان را فراهم می آورد تا 30 میلیون شنونده از سراسر
-              دنیا از کشور فرانسه و زبان فرانسوی مطلع باشند.
-              رادیوی بین المللی فرانسه برنامه های خود را بر روی موج FM در کشورهایی که شنونده های زیادی وجود دارند ارائه میدهد.
-              </Text>
-            </Body>
-          </CardItem>
-          </Card>
-
-
-
-
-
-          <Card>
-          <CardItem header>
-          <Icon type="FontAwesome" name="coffee"/>
-          <Text>La radio nous regarde </Text>
+                <Body>
+                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>PHILIPPE :</Text>
+                <Text style={{padding:5,textAlign:'justify'}}>Allô ! Jacques, c'est Philippe </Text>
+                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>JACQUES :</Text>
+                <Text style={{padding:5,textAlign:'justify'}}>Salut, ça va ? </Text>
+                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>PHILIPPE :</Text>
+                <Text style={{padding:5,textAlign:'justify'}}>Ça va bien. Je te dérange ?</Text>
+                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>JACQUES :</Text>
+                <Text style={{padding:5,textAlign:'justify'}}>Non, pas du tout. Aujourd'hui, c'est une journée calme. </Text>
+                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>PHILIPPE :</Text>
+                <Text style={{padding:5,textAlign:'justify'}}>Écoute, vendredi, c'est l'anniversaire de Régine.
+                 J'aimerais organiser une petite fête. Tu es libre, j'espère ?</Text>
+                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>JACQUES :</Text>
+                <Text style={{padding:5,textAlign:'justify'}}>Oui. Pour vendredi soir, je n'ai rien de prévu. </Text>
+                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>PHILIPPE :</Text>
+                <Text style={{padding:5,textAlign:'justify'}}>C'est parfait. Est-ce que tu pourrais m'aider ?
+                 Je voudrais préparer un buffet pour une douzaine de personnes, sans rien dire à Régine.
+                  Vous arriverez vers sept heures et quand elle rentrera, elle nous trouvera tous à la maison. Une amie,
+                   à qui j'ai déjà parlé, la retient jusqu'à sept heures, le temps de tout organiser. </Text>
+                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>JACQUES :</Text>
+                <Text style={{padding:5,textAlign:'justify'}}>C'est bien, tout ça.
+                 Mais ne compte pas sur moi pour préparer un dîner gastronomique ! </Text>
+                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>PHILIPPE :</Text>
+                <Text style={{padding:5,textAlign:'justify'}}>Mais non. Mais non ! Ce n'est pas du tout le repas que j'ai prévu.
+                 Je vais commander des plats chez un traiteur.
+                 Tu vas m'aider à mettre la table. Bon, je te laisse. </Text>
+                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>JACQUES :</Text>
+                <Text style={{padding:5,textAlign:'justify'}}>Attends, attends. Qu'est-ce que j'offre à Régine comme cadeau d'anniversaire ?
+                 Qu'est-ce qui pourrait lui faire plaisir ? </Text>
+                <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>PHILIPPE :</Text>
+                <Text style={{padding:5,textAlign:'justify'}}>Oh, je ne sais pas. Tu as toujours plein d'Idées, toi.</Text>
+                </Body>
             </CardItem>
-          <CardItem>
-            <Body>
-            <Text style={{padding:5,textAlign:'justify',fontWeight:'bold'}}>
-            La radio  peut accompagner chacun de nous à chaque heure de la journée.
-            </Text>
-               <Text style={{padding:5,textAlign:'justify',fontWeight:'bold',color:'blue'}}>AU RÉVEIL</Text>
-               <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-               Entre 6 h 30 et 9 heures, la radio nous informe sur l'actualité.
-               c'est d'abord la voix du radioréveil, qu'on arrêté pour dormir encore un peu.
-               puis viennent les information à l'heure du petit déjeuner. plus trad, c'est la voix des journalistes qui tient compagnie
-               à celui ou à celle qui se trouve bloqué en voiture, dans les embouteillages.
-               Après une nuit de sommeil, la radio nous dit que la terre ne s'est pas arette de tourner. Le début de la matinée
-               , c'est l'heure des émissions courtes parce que les auditeurs sont pressées : la toillete, le petit déjeuner, le départ
-               pour le travail. Mais de 9 heures à midi, les émissions sont plus longues et s'addressent à ceux qui ont du temps.
-               </Text>
-               <Text style={{padding:5,textAlign:'justify',fontWeight:'bold',color:'blue'}}>LE SOIR</Text>
-               <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-               pendent le retour à la maison et la préparation du repas, la radio nous informe sur les événements de la journée.
-               C'est le moment des débats politiques, mais aussi des émissions sur le cinéma, le théâtre...
-               </Text>
-               <Text style={{padding:5,textAlign:'justify',fontWeight:'bold',color:'blue'}}>LA NUIT</Text>
-               <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-               Après 21 heures, il y a moins d'auditeurs, mais ceux qui continuent à écouter sont très fidèle.
-               Reportages,dialogs avec le public, récits policiers : la radio écoute et fait rêver.
-              </Text>
-            </Body>
-          </CardItem>
           </Card>
+
+
+
+
 
           <Card>
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-          رادیو مراقب ماست
+          دعوت نامه 
           </Text>
             </CardItem>
-          <CardItem >
+          
+          <CardItem>
             <Body style={{flexDirection:'column',justifyContent:'space-evenly',alignItems:'flex-end'}} >
-              
               <Text  style={{padding:5,fontWeight:'bold',}}>
-              رادیو میتواند هرکدام از ما را در هر ساعتی از روز همراهی کند
+              فیلیپ :
               </Text>
               
-              <Text  style={{padding:5,fontWeight:'bold',color:'blue'}}>
-              زمان بیدار شدن
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              سلام ! جک فیلیپ هستم.
               </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              بین ساعت 6:30 تا ساعت 9 رادیو ما را از اخبار مطلع میکند. ابتدا صدای آلارم رادیو شروع میشود که ما آن را قطع میکنیم تا کمی 
-              بیشتر بخوابیم سپس اخبار زمان صبحانه شروع میشود کمی بعد صدای خبرنگاران می آید که کسانی را که داخل خودرویشان در ترافیک
-              گیر کرده اند را همراهی میکنند. بعد از خواب شبانه ، رادیو به ما میگوید که زمین از چرخیدن متوقف نشده است. صبح زود ساعتی است
-              که برنامه ها کوتاه میشوند به دلیل اینکه شنوندگان برای رفتن به دستشویی ، صبحانه خوردن ، سرکار رفتن عجله دارند.
-              اما از ساعت 9 تا ظهر برنامه ها طولانی تر هستند و به کسانی می پردازند که وقت بیشتری دارند.
+              <Text  style={{padding:5,fontWeight:'bold',}}>
+              جک :
               </Text>
-              <Text  style={{padding:5,fontWeight:'bold',color:'blue'}}>
-              عصر
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              سلام ، حالت چطور است ؟
               </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              هنگام برگشت به خانه و آماده کردن غذا ، رادیو ما را از وقایع روز مطلع میکند . زمانی است که مناظره های سیاسی و همچنین برنامه های سینمایی
-              تئاتر و ... در جریان هستند.
+              <Text  style={{padding:5,fontWeight:'bold',}}>
+              فیلیپ :
               </Text>
-              <Text  style={{padding:5,fontWeight:'bold',color:'blue'}}>
-              شب
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              خوب هستم ، مزاحمت هستم؟
               </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              بعد از ساعت 21 ، شنوندگان کمتری وجود دارند ، اما کسانی که به گوش دادن ادامه میدهند خیلی وفادار هستند. رپرتاژ ، گفتگو با عموم مردم
-              داستانهای پلیسی : رادیو گوش میدهد و خواب میبیند.
+              <Text  style={{padding:5,fontWeight:'bold',}}>
+              جک :
               </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              نه اصلاً و ابداً . امروز یک روز آرام است.
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',}}>
+              فیلیپ :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              گوش کن . جمعه روز تولد رژین است . میخواهم یک جشن کوچک ترتیب بدهم ، وقتت آزاد است امیدوارم که اینطور باشه ؟
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',}}>
+              جک :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              بله برای جمعه شب هیچ برنامه ریزی نکردم.
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',}}>
+              فیلیپ :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              عالیه میتونی کمکم کنی ؟ من میخام یک غذای سر دستی برای 12 نفر درست کنم. بدون اینکه هیچ چیزی به رژین بگی حدود ساعت
+              7 بیا و وقتی او برمیگردد او ما را همگی در خانه میبیند
+              یک دوست را که من قبلاً با او صحبت کرده ام او را تا ساعت 7 معطل میکند ، وقتشه که برنامه ریزی همه چیز را بکنیم.
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',}}>
+              جک :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              همه اش خوبه. ولی روی من در مورد یه شام با کیفیت حساب نکن.
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',}}>
+              فیلیپ :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              اما نه ، نه این غذایی نیست که من برنامه ریزی کردم ، من مقداری غذا از سایت سفارش میدهم . میتونی 
+              تو کمکم میکنی تا من میز را بچینم ، خوب من میروم.
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',}}>
+              جک :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              صبر کن ، صبر کن . من کادوی تولد چی برای رژین بگیرم ؟ چه چیزی خوشحالش میکند ؟
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',}}>
+              فیلیپ :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify'}}>
+              اوه ، من نمیدونم . تو خودت همیشه ایده های زیادی داری.
+              </Text>
+
               </Body>
               </CardItem>
-            </Card>
+              </Card>
 
 
 
-            <Card>
+          
+          
+
+
+          <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>Un boulanger pas comme Les autres  </Text>
