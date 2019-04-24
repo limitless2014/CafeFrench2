@@ -80,6 +80,8 @@ export default class V3 extends Component {
 
 
    search=(txt)=>{
+
+    this.setState({searchTerm:txt});
       if (!txt || txt === '') {
       this.setState({
         vocabs: this.state.search

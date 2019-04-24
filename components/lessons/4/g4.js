@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container,Header,Left,Button,Icon, Body, Right, Card,CardItem,Text,View} from 'native-base';
+import { Container,Header,Left,Button,Icon, Body, Right, Card,CardItem,Text,View, List, ListItem} from 'native-base';
 import { ScrollView } from 'react-native-gesture-handler';
 
 export default class G3 extends Component {
@@ -25,72 +25,93 @@ export default class G3 extends Component {
          <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>ضمایر موصولی Dont و Où</Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>صرف فعل : زمان حال شرطی </Text>
               </CardItem>
               <CardItem  style={{flexDirection:'row-reverse'}} >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  ضمایر موصولی ضمایری هستند که بین دو جمله قرار میگیرند و دوجمله را به هم وصل میکنند ودر فارسی به معنی که ترجمه میشوند 
-                  ضمیر موصولی Dont بعد از مفعول غیر مستقیمی که همراه با حرف اضافه de است قرار میگیرد.
-                  ضمیر موصولی où بعد از یک عبارت قیدی مکانی یا زمانی قرار میگیرد.
+                   یک جمله شرطی از دو بخش تشکیل شده است جمله شرطی و جمله نتیجه برای مثال جمله زیر را
+                  در زبان فارسی در نظر بگیرید "اگر باران ببارد من بیرون نمیروم" جمله اگر باران ببارد جمله شرطی و جمله من بیرون نمیروم جمله
+                  نتیجه است برای ساخت جمله شرطی در زمان حال ابتدا ریشه زمان آینده فعل را از جمله جدا میکنیم (برای بدست آوردن ریشه زمان آینده
+                  به کافه فرنچ 1 مراجعه شود) و پسوندهای زمان ماضی بعید ( ais , ais , ait , ions , iez , aient)
+                  را به ریشه آینده فعل اضافه میکنیم و در ضمن هیچ استثانایی وجود ندارد برای مثال فعل aimer را در نظر بگیرید
+                  ریشه آینده آن aimer است حال برای ساخت جمله حال شرطی کافی است پسوند ais را به انتهای آن اضافه کنیم .
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  Robert arrive de Provence. Nous l'avons rencontré en Provence.
+                  
+                </Body>
+              </CardItem>
+           </Card> 
+           <Card>
+             <CardItem style={{flexDirection:'row',backgroundColor:'lightgreen'}}>
+               
+               
+                    <Body style={{flexDirection:'column',}}>
+                    <Text style={{fontWeight:'bold'}}>مصدر زمان حال</Text>
+                    <Text>aimer</Text>
+                    <Text>être</Text>
+                    <Text>aller</Text>
+                    <Text>venir</Text>
+                    <Text>faire</Text>
+                    <Text>vouloir</Text>
+                    </Body>
+                    <Body style={{flexDirection:'column'}}>
+                    <Text style={{fontWeight:'bold'}}>مصدر زمان آینده</Text>
+                    <Text>j'aimerai</Text>
+                    <Text>tu seras</Text>
+                    <Text>il ira</Text>
+                    <Text>nous viendrons </Text>
+                    <Text>vous ferez</Text>
+                    <Text>ils voudront</Text>
+                    </Body>
+                    <Body style={{flexDirection:'column'}}>
+                    <Text style={{fontWeight:'bold'}}>زمان حال شرطی</Text>
+                    <Text>j'aimerais</Text>
+                    <Text>tu serais</Text>
+                    <Text>il/elle irait</Text>
+                    <Text>nous viendrions</Text>
+                    <Text>vous feriez </Text>
+                    <Text>ils voudraient</Text>
+                    </Body>
+             </CardItem>
+           </Card>
+
+
+           <Card>
+              <CardItem >
+                <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                   از زمان حال شرطی برای موارد زیر استفاده میکنیم
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  رابرت به پرووانس می آید  و ما او را در پرووانس ملاقات خواهیم کرد
+                   یک در خواست مودبانه :
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Robert arrive de Provence où nous l'avons rencontré. 
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  رابرت به پرووانس می آید جایی که ما او را ملاقات میکنیم  
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  On vous retrouve à Colmar Vous avez été comptable à Colmar.
-                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  ما شما را در کلمار ملاقات کردیم شما در کلمار حسابدار بودید.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  On vous retrouve à Colmar où vous avez été comptable. 
-                 </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  ما شما را در کلمار ملاقات کردیم جایی که شما حسابدار بودید
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  Je me suis marié à Colmar cette année-là. J'ai travaillé à Colmar cette année-la
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Tu pourrais m'aider ?
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من در آن سال در کلمار ازدواج کردم. من در آن سال در کلمار کار کردم
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Je me suis marié l'année où j'ai travaillé à Colmar 
+                   میتونید بهم کمک کنید؟
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من آن سالی که در کلمار کار میکردم ازدواج کردم.  
+                   بیان کردن یک آرزو:
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  Je suis parti dans une région. Je rêvais de cette région.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                    من آن محل را ترک کردم. من رویای آن محل را داشتم.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Je suis parti dans la région dont je rêvais
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  J'aimerais voyager.
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من محلی را ترک کردم که رویای آن را داشتم.  
+                  من آرزو دارم به مسافرت بروم.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                   بیان کردن یک احتمال:
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Un foulard, ça lui ferait plaisir ?
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  یک روسری ، اون رو خوشحال میکنه ؟
                   </Text>
                 </Body>
               </CardItem>
            </Card> 
-
-
 
 
 
