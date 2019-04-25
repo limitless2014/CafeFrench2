@@ -1,17 +1,23 @@
 import React, { Component } from 'react';
 import { Container,Header,Left,Button,Icon, Body, Right, Card,CardItem,Text,View, List, ListItem} from 'native-base';
 import { ScrollView } from 'react-native-gesture-handler';
+import {Animated,Dimensions} from 'react-native'
+
+
 
 export default class G3 extends Component {
   constructor(props) {
     super(props);
     this.state = {
     };
+   
+    
   }
+
 
   render() {
     return (
-      <Container>
+      <Container >
          <Header>
            <Left >
            <Button onPress={()=>this.props.navigation.goBack()} transparent>
@@ -21,7 +27,7 @@ export default class G3 extends Component {
             <Body/>
             <Right/>
          </Header>
-         <ScrollView>
+         <ScrollView >
          <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
@@ -118,74 +124,159 @@ export default class G3 extends Component {
            <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>ضمایر اشاره</Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>نقل قول غیر مستقیم بخش دوم : تطابق زمانی</Text>
               </CardItem>
               <CardItem  >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  ضمایر اشاره برای اشاره کردن به شی ، شخص و... استفاده میشوند این ضمایر به جای اسمی می آیند که میخواهیم به آن اشاره کنیم
-                  ضمایر اشاره از نظر جنس (مفرد، مونث و خنثی)، از نظر شمار (مفرد و جمع) و شکل (ساده یا مرکب) به انواع مختلفی تقسیم می‌شوند
-                  ضمایر ساده مثل celle ، celui و ... از یک بخش تشکیل شده اند گروه دیگری از ضمایر اشاره ، ضمایر اشاره مرکب هستند 
-                  که از دو بخش تشکیل شده اند بخش اول همان ضمیر ساده است و بخش دوم ضمیر موصولی است به طور کلی
-                  اگر اشاره به شی ای کردیم از que بعد از ضمیر اشاره استفاده میکنیم و اگر اشاره به شخصی کردیم از ضمیر موصولی qui استفاده
-                  میکنیم ضمایر اشاره به 4 دسته مفرد مذکر (celui) ، جمع مذکر (ceux) ، مفرد مونث (celle) ، جمع مونث (celles) تقسیم میشوند که
-                  باید با توجه به اسم مورد اشاره ضمیر متناسب را به کار برد.
-                  </Text>
-                  <Text style={{padding:8,lineHeight:30}}> 
-                  Je peux écouter un disque de jazz ?
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من میتونم به یک موسیقی جاز گوش کنم ؟
-                  </Text>
-
-                  <Text style={{padding:8,lineHeight:30}}> 
-                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Écoute celui que tu veux. 
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  به هرکدام که دوست داری گوش کن.
-                  </Text>
-
-
-                  <Text style={{padding:8,lineHeight:30}}> 
-                  il y a beaucoup de bonnes émissions ce soir à la télé.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                    امشب تلویزیون برنامه های زیادی دارد.
-                  </Text>
-
-                  <Text style={{padding:8,lineHeight:30}}> 
-                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Regardez celles qui vous plaisent.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                   آنهایی را تماشا کنید که دوست دارید.
+                  زمانی که بخواهیم جمله ای را که شخصی به ما گفته به شخص دیگری بگوییم از نقل قول غیر مستقیم استفاده میکنیم
+                  مثال 
+                   Antoine : Est-ce que christine m'aime encore ? آنتوان : آیا کریستین هنوز مرا دوست دارد
+                   این جمله ، جمله ای است که توسط شخصی دیگر گفته شده است جمله ای که ما نقل میکنیم به این صورت است
+                   Antoine se demande si christine l'aime encore. آنتوان پرسید آیا کریستین هنوز او را دوست دارد
+                   در جمله نقل شده قبلی چون زمان وقوع سوال در زمان حال است زمان فعل se demande نیز زمان حال است وتغییری نمیکند.
+                   و زمان فعل جمله نقل شده که در اینجا aimer است نیز چون در زمان حال صرف شده تغییری نمیکند
+                   مثال بعدی جمله ای است که در زمان حال گفته شده ولی سوال در مورد زمان آینده است 
+                   Antoine : Est-ce que christine reviendra ?
+                   آنتوان : آیا کریستین برخواهد گشت ؟
+                   جمله گفته  شده بالا در زمان حال است اما فعل آن در زمان آینده است به جمله نقل شده توجه کنید 
+                   Antoine se demande si christine reviendra. آنتوان پرسید آیا کریستین بازخواهد گشت .
+                   در این جمله نقل شده نیز همانند حالت جمله قبل عمل میکنیم و با این تفاوت که اگر فعل جمله گفته شده که
+                   در اینجا فعل reviendra است در
+                   زمان آینده بود فعل جمله نقل شده نیز در زمان آینده باید صرف شود. اما اگر سوال در زمان گذشته ساده یا گذشته استمراری پرسیده شده باشد
+                   و فعل جمله سوال شده در زمان حال باشد فعل se demande در زمان گذشته ساده یا گذشته استمراری (imparfait)
+                   صرف میشود و فعل جمله  باید مطابق با زمان ماضی نقلی صرف شود. مثال 
+                   Antoine: Est-ce que Christine m'aime encore ? 
+                   آنتوان : آیا کریستین هنوز مرا دوست دارد ؟ (سوال در زمان گذشته پرسیده شده مثلاً دیروز پرسیده شده) برای
+                   تبدیل این جمله به صورت زیر عمل میکنیم
+                   Antoine se demandait/s'est demandé si Christine l'aimait encore.
+                   آنتوان پرسید آیا کریستین او را هنوز دوستش داشت
+                   در حالت بعدی فعل اصلی جمله گفته شده در زمان آینده است در این حالت فعل se demande مثل حالت قبلی در زمان گذشته ساده یا
+                   گذشته استمراری صرف میشود ولی فعل اصلی جمله در زمان شرطی صرف میشود مثال :
+                   Antoine: Est-ce que Christine reviendra ?
+                   آنتوان : آیا کریستین باز خواهد گشت ؟ (سوال در زمان گذشته پرسیده شده)
+                   جمله نقل شده به این صورت است 
+                   Antoine se demandait/s'est demandé si Christine reviendrait.
+                   آنتوان پرسیده بود آیا کریستین برخواهد گشت.
                   </Text>
 
 
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                   نکته : گاهی اوقات به جای les gens qui/que از ceux qui/que استفاده میکنیم.
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold',backgroundColor:'red'}}> 
+                   نکته : زمان جمله پیرو در جمله نقل شده از زمان فعل اصلی در جمله گفته شده پیروی میکند.
                    </Text>
 
-                  <Text style={{padding:8,lineHeight:30}}> 
-                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Les émissions s'adressent à ceux qui ont du temps. 
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  برنامه ها برای اشخاصی هستند که وقت دارند.
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold',backgroundColor:'red'}}>
+                  نکته : از زمان شرطی برای بیان آینده در گذشته استفاده میکنیم (جمله آخر)
                   </Text>
 
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  La voix des journalistes tient compagnie à celui ou celle qui est bloqué(e) dans les embouteillages.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  صدای خبرنگاران افرادی را که در ترافیک معطل شده اند همراهی میکند.
-                  </Text>
+                   
                 </Body>
               </CardItem>
            </Card> 
 
+
+
+           <Card>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+              <Icon type="FontAwesome" name="book"/>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>ضمایر موصولی مرکب : A qui , Auquel , pour qui , pour lequel ,avec qui</Text>
+              </CardItem>
+              <CardItem  >
+                <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
+                <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                ضمایر موصولی به منظور وصل کردن دو جمله به یکدیگر استفاده میشوند و در زبان فارسی 
+                به معنای که ترجمه میشوند ضمایر موصولی به 2 دسته ساده و مرکب تقسیم میشوند از دسته ساده 
+                میتوان ضمیر qui و que را مثال زد اما ضمایر موصولی مرکب از دو قسمت تشکیل شده اند قسمت اول حرف اضافه و قسمت دوم همان ضمایر موصولی ساده میباشد
+                مثل A qui , Auquel , ....
+                ضمایر موصولی در کل از نظر جنسیت (مذکر، مونث و خنثی) و شمار (مفرد و جمع) با اسمی که جاگزین آن می‌شود، تطابق پیدا می‌کنند مثال
+                </Text>
+
+
+                <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  Les amis sont d'accord. J'ai écrit à ces amis.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  دوستان حالشان خوب است. من به دوستانم نامه نوشتم  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Les amis à qui j'ai écrit sont d'accord. 
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                   دوستانی که من به آنها نامه نوشتم حالشان خوب است.
+                  </Text>
+
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                   Les amis auxquels j'ai écrit sont d'accord.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                   دوستانی که من به آنها نامه نوشتم حالشان خوب است
+                  </Text>
+                   
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold',backgroundColor:'red'}}> 
+                   نکته : حروف اضافه  À, pour, avec, par, sur,...+ qui فقط برای اشخاص بکار میروند.
+                   </Text>
+                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                   J'ai un cours auquel je dois assister.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  من یک کلاس دارم که باید در آن حضور پیدا کنم.  
+                  </Text>
+
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  C'est une amie pour qui/pour laquelle j'ai beaucoup d'estime.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  این دوستی است که من برای او احترام زیادی قائل هستم.
+                  </Text>
+
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold',backgroundColor:'red'}}> 
+                   نکته : حروف اضافه pour , avec , en , sur + lequel , laquelle , lesquels , lesquelles برای اشیا و ایده ها بکار میروند
+                   و همچنین احتمال دارد که برای اشخاص  بکار روند.
+                   </Text>
+                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                   J'ai un cours. Je dois assister à ce cours.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  من یک کلاس دارم . من باید در این کلاسها حضور داشته باشم.
+                  </Text>
+
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  J'ai un cours auquel je dois assister.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                   من کلاسی دارم که باید در آن حضور پیدا کنم.
+                  </Text>
+
+
+
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  Les lettres venaient de France. J'ai répondu à ces lettres.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  نامه ها از فرانسه آمدند. من به این نامه ها جواب داده ام.
+                  </Text>
+
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Les lettres auxquelles j'ai répondu venaient de France.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                   نامه هایی که من جواب دادم از فرانسه آمده بودند.
+                  </Text>
+
+
+
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold',backgroundColor:'red'}}> 
+                   نکته : À + lequel = auquel, à laquelle, auxquels, auxquelles 
+                   باید توجه داشت که از auquel برای مفرد مذکر و auxqueles برای جمع مذکر استفاده میشود و همچنین زمانی که
+                   جنسیت مونث بود از  à laquelle برای حالت مفرد و از auxquelles برای حالت جمع استفاده میشود.
+                   </Text>
+                </Body>
+              </CardItem>
+           </Card> 
 
            </ScrollView>
          </Container>
