@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {StyleSheet,Image,BackHandler,Share} from 'react-native';
-import {Container,Content,List,ListItem,Left,Right,Text, Button, Icon} from 'native-base';
+import {StyleSheet,Image,BackHandler,Share,Linking} from 'react-native';
+import {Container,Content,List,ListItem,Left,Right,Text, Button, Icon, Body, Footer} from 'native-base';
 
 
 export default class sideBar extends Component {
@@ -67,7 +67,23 @@ export default class sideBar extends Component {
             </Right>
           </ListItem>
         </List>
+
+        
           </Content>
+         
+          <Footer style={{alignItems:'center',justifyContent:'space-around',backgroundColor:'white'}}>
+            
+            
+            <Icon type="FontAwesome" name="instagram" style={{color:'red'}} onPress={()=>Linking.openURL("https://www.instagram.com/limitless2014/")}/>
+            
+            <Icon type="FontAwesome" name="whatsapp"  onPress={()=>Linking.openURL("https://api.whatsapp.com/send?phone=989167359331")} style={{color:'green'}}/>
+           
+            <Icon type="FontAwesome" name="telegram" onPress={()=>Linking.openURL("https://t.me/limitless2014")}   />
+            
+          </Footer>
+          
+
+
       </Container>
     )
   }
@@ -80,6 +96,7 @@ const styles=StyleSheet.create({
     },
     content:{
       width:'100%',
+        flexDirection:'column'
       
     }
 })
