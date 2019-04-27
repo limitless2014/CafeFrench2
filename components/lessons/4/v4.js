@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
-import { Container,Text,Header, Item, Icon, Input, Button, Left, Body, Card, CardItem } from 'native-base';
+import { Container,Text,Header, Item, Icon, Input, Button, Left, Body, Card, CardItem,StyleProvider } from 'native-base';
 import {FlatList} from 'react-native';
 import Tts from 'react-native-tts';
+
+import getTheme from '../../../native-base-theme/components';
+import material from '../../../native-base-theme/variables/platform';
+
+
+
 Tts.setDefaultLanguage('fr-FR');
 let header=null;
 
@@ -116,6 +122,7 @@ export default class V3 extends Component {
  
     return (
       <Container>
+         <StyleProvider style={getTheme(material)} >
          <Header searchBar rounded>
            <Left >
            <Button onPress={()=>this.props.navigation.goBack()} transparent>
@@ -130,7 +137,7 @@ export default class V3 extends Component {
          <Text>Search</Text>
          </Button>
          </Header>
-
+         </StyleProvider>
 
 
 

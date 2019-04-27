@@ -7,11 +7,25 @@
  */
 
 import React, {Component} from 'react';
-import { Container, Header, Title, Button, Left, Right, Body,Icon,Drawer,Text, Card, CardItem, Thumbnail,Badge   } from 'native-base';
+import { Container, Header, Title, Button, Left, Right, Body,Icon,Drawer,Text, Card, CardItem,Badge,StyleProvider  } from 'native-base';
 import {View,Image,Dimensions,ImageBackground} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
-import SideBar from './sideBar';
+import SideBar from '../containers/sideBarContainer';
 import Carousel,{ Pagination } from 'react-native-snap-carousel';
+
+
+import getTheme from '../native-base-theme/components';
+import material from '../native-base-theme/variables/platform';
+
+import {Provider} from 'react-redux';
+import {createStore} from 'redux';
+import cafeFrenchReducers from '../reducers/index';
+let store=createStore(cafeFrenchReducers);
+
+
+
+
+
 
 const {width} = Dimensions.get('window');
 
@@ -105,6 +119,7 @@ class Home extends Component {
  
 get pagination () {
   const { entries, activeSlide } = this.state;
+   
   return (
       <Pagination
       
@@ -132,7 +147,11 @@ get pagination () {
 
   render() {
     const {navigate}=this.props.navigation;
+    console.log('Redux app state is',store.getState())
+    let swichstate=store.getState().switchValue.switchValue;
+    
     return (
+      <Provider store={store}>
       <Drawer
       ref={(ref)=>this.drawer=ref}
       content={<SideBar navigate={navigate}/>}
@@ -140,6 +159,7 @@ get pagination () {
       onClose={()=>this.closeDrawer()}
       >
       <Container>
+        <StyleProvider style={getTheme(material)} >
         <Header>
           <Left style={{flex:1}}/>
           <Body style={{flex:1,justifyContent: 'center', alignItems: 'center'}}>
@@ -151,6 +171,7 @@ get pagination () {
               </Button>
             </Right>
         </Header>
+        </StyleProvider>
         <ImageBackground resizeMode="stretch" style={{width:'100%',height:'100%'}} source={require('../assets/img/book.jpg')}>
         <View style={{height:'90%'}}>
             <Carousel 
@@ -163,9 +184,11 @@ get pagination () {
             />
             { this.pagination }
             </View>
+            
             </ImageBackground>
       </Container>
       </Drawer>
+      </Provider>
     );
   }
 }

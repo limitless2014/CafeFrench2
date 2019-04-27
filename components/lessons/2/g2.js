@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import { Container,Header,Left,Button,Icon, Body, Right, Card,CardItem,Text,View} from 'native-base';
+import { Container,Header,Left,Button,Icon, Body, Right, Card,CardItem,Text,StyleProvider} from 'native-base';
 import { ScrollView } from 'react-native-gesture-handler';
+import getTheme from '../../../native-base-theme/components';
+import material from '../../../native-base-theme/variables/platform';
+
+
 
 export default class G2 extends Component {
   constructor(props) {
@@ -12,6 +16,7 @@ export default class G2 extends Component {
   render() {
     return (
       <Container>
+        <StyleProvider androidStatusBarColor='#000' style={getTheme(material)} >
          <Header>
            <Left >
            <Button onPress={()=>this.props.navigation.goBack()} transparent>
@@ -21,6 +26,7 @@ export default class G2 extends Component {
             <Body/>
             <Right/>
          </Header>
+         </StyleProvider>
          <ScrollView>
          <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>

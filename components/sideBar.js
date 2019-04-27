@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
 import {StyleSheet,Image,BackHandler,Share,Linking} from 'react-native';
-import {Container,Content,List,ListItem,Left,Right,Text, Button, Icon, Body, Footer} from 'native-base';
+import {Container,Content,List,ListItem,Left,Right,Text, Button, Icon, Footer,Switch} from 'native-base';
 
 
-export default class sideBar extends Component {
+
+
+export default class SideBar extends Component {
+  
+  state={
+    toggleswich:this.props.switchValue
+  }
+
+
 
   onShare = async () => {
     try {
@@ -26,11 +34,20 @@ export default class sideBar extends Component {
     }
   };
 
+toggleHandler=(amount)=>{
+  console.log('value from swich button',amount)
+  let value=this.state.toggleswich;
+  this.setState({...this.state,toggleswich:amount})
+  this.props.onChangeSwitchValue(amount);
+
+}
+
 
 
 
 
   render() {
+    
     return (
       <Container style={styles.containerStyle}>
           <Content style={styles.content}>
@@ -56,8 +73,26 @@ export default class sideBar extends Component {
               </Button>
             </Right>
           </ListItem>
-          <ListItem style={{borderBottomWidth:1,borderBottomColor:'blue'}} onPress={BackHandler.exitApp}>
-            <Left style={{flex:1,flexDirection:'row-reverse'}}>
+          <ListItem style={{borderBottomWidth:1,borderBottomColor:'blue'}}>
+            <Left style={{flex:1,flexDirection:'row'}}>
+            
+            <Switch  onValueChange={(value)=>this.toggleHandler(value)} value={this.state.toggleswich} style={{flex:1}}/>
+
+
+            <Text style={{flex:1}} >حالت تیره</Text>
+            </Left>
+         
+            
+            
+            <Right >
+              <Button transparent>
+                <Icon type="MaterialCommunityIcons" name="brightness-2"/>
+              </Button>
+              
+            </Right>
+          </ListItem>
+          <ListItem style={{borderBottomWidth:1,borderBottomColor:'blue'}} onPress={()=>BackHandler.exitApp()}>
+          <Left style={{flex:1,flexDirection:'row-reverse'}}>
             <Text >خروج</Text>
             </Left>
             <Right>
