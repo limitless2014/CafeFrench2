@@ -23,13 +23,18 @@ import G3 from './components/lessons/3/g3';
 import D4 from './components/lessons/4/d4';
 import V4 from './components/lessons/4/v4';
 import G4 from './components/lessons/4/g4';
+
+import D5 from './components/lessons/5/d5';
+import V5 from './components/lessons/5/v5';
+import G5 from './components/lessons/5/g5';
 import StackViewStyleInterpolator from 'react-navigation-stack/dist/views/StackView/StackViewStyleInterpolator';
+
 
 
 const rootNavigator=createStackNavigator({
    Home:{screen:Home},About:{screen:About},D1:{screen:D1},V1:{screen:V1},G1:{screen:G1},D2:{screen:D2},V2:{screen:V2},G2:{screen:G2}
    ,D3:{screen:D3},V3:{screen:V3},G3:{screen:G3}
-   ,D4:{screen:D4},V4:{screen:V4},G4:{screen:G4}
+   ,D5:{screen:D5},V5:{screen:V5},G5:{screen:G5}
 },{headerMode:'none',mode:'modal',transitionConfig: () => ({
   
    screenInterpolator: (sceneProps) => {

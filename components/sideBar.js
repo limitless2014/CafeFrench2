@@ -7,10 +7,6 @@ import {Container,Content,List,ListItem,Left,Right,Text, Button, Icon, Footer,Sw
 
 export default class SideBar extends Component {
   
-  state={
-    toggleswich:this.props.switchValue
-  }
-
 
 
   onShare = async () => {
@@ -39,6 +35,7 @@ toggleHandler=(amount)=>{
   let value=this.state.toggleswich;
   this.setState({...this.state,toggleswich:amount})
   this.props.onChangeSwitchValue(amount);
+  this.props.swichvalue();
 
 }
 
@@ -71,24 +68,6 @@ toggleHandler=(amount)=>{
               <Button transparent>
                 <Icon type="Entypo" name="share"/>
               </Button>
-            </Right>
-          </ListItem>
-          <ListItem style={{borderBottomWidth:1,borderBottomColor:'blue'}}>
-            <Left style={{flex:1,flexDirection:'row'}}>
-            
-            <Switch  onValueChange={(value)=>this.toggleHandler(value)} value={this.state.toggleswich} style={{flex:1}}/>
-
-
-            <Text style={{flex:1}} >حالت تیره</Text>
-            </Left>
-         
-            
-            
-            <Right >
-              <Button transparent>
-                <Icon type="MaterialCommunityIcons" name="brightness-2"/>
-              </Button>
-              
             </Right>
           </ListItem>
           <ListItem style={{borderBottomWidth:1,borderBottomColor:'blue'}} onPress={()=>BackHandler.exitApp()}>
