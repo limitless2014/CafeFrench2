@@ -16,6 +16,7 @@ import Carousel,{ Pagination } from 'react-native-snap-carousel';
 
 import getTheme from '../native-base-theme/components';
 import material from '../native-base-theme/variables/platform';
+import { ScrollView } from 'react-native-gesture-handler';
 
 
 
@@ -152,32 +153,7 @@ class Home extends Component {
     );
 }
  
-get pagination () {
-  const { entries, activeSlide } = this.state;
-   
-  return (
-      <Pagination
-      
-        dotsLength={entries.length}
-        activeDotIndex={activeSlide}
-        containerStyle={{  }}
-        dotStyle={{
-            width: 10,
-            height: 10,
-            borderRadius: 5,
-            marginHorizontal: 8,
-            backgroundColor: 'rgba(255, 255, 255, 0.92)'
-        }}
-        inactiveDotStyle={{
-            // Define styles for inactive dots here
-           
-            
-        }}
-        inactiveDotOpacity={0.4}
-        inactiveDotScale={0.6}
-      />
-  );
-}
+
 
 
 
@@ -223,7 +199,8 @@ get pagination () {
               itemWidth={width*80/100}
               onSnapToItem={(index) => this.setState({ activeSlide: index }) }
             />
-            { this.pagination }
+
+            
             </View>
            
             </ImageBackground>

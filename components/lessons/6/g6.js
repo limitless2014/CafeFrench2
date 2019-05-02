@@ -33,20 +33,22 @@ export default class G3 extends Component {
          <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>جملات شرطی (قسمت اول): SI + زمان حال </Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}> جملات شرطی نوع (قسمت دوم) si + گذشته ناتمام (گذشته استمراری) </Text>
               </CardItem>
               <CardItem  style={{flexDirection:'row-reverse'}} >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                   جمله شرطی نوع اول حالتی را بیان میکند که اگر فعلی انجام شود نتیجه آن فعل دیگری است مثلاً
-                   اگر باران ببارد من بیرون نمیروم 
-                   ، فعلی که در زمان حال است و در جمله شرطی وجود دارد بیانگر حالتی است که عملی یا محتمل است.
-                   در زبان فرانسوی جملات شرطی نوع اول 3 ساختار دارند
-                   ساختار اول بدین صورت است که حرف اضافه si در ابتدای جمله می آید بعد از آن فعل اصلی جمله در زمان حال صرف میشود و جمله 
-                   نتیجه نیز در زمان حال صرف میشود ، ساختار دوم بدین صورت است که حرف اضافه si در ابتدای جمله می آید بعد از آن
-                   فعل اصلی جمله در زمان حال و فعل جمله نتیجه در زمان آینده صرف میشود.
-                   ساختار سوم بدین صورت است که حرف اضافه si در ابتدای جمله می آید و سپس فعل اصلی جمله در زمان حال و
-                   فعل جمله نتیجه به صورت امری صرف میشود به مثالهای زیر توجه کنید.
+                   جملات شرطی نوع دوم با استفاده از این فرمول ساخته میشوند :
+                   فعل در زمان شرطی حال + فعل در زمان گذشته استمراری + si 
+                   جملا شرطی نوع دوم دو دسته هستند دسته اول 
+                   جملاتی هستند که در زمان آینده بیان میشوند و در آینده احتمال کمی دارد که به وقوع بپیوندند
+                   مثال S’il y avait du soleil demain, nous irions nous promener en forêt. 
+                   اگر فردا آفتابی باشد برای گردش کردن به جنگل خواهیم رفت.
+                   دسته دوم جملاتی هستند که در زمان حال بیان می‌شوند و امکان ندارد که به وقوع بپیوندند
+                   مثال Si nous avions un chalet à la montagne, nous ferions du ski plus souvent.
+                   اگر یک کلبه در کوهستان داشتیم بیشتر اسکی می‌رفتیم. (اکنون نداریم و نمی‌رویم)
+                   توجه کنید که هر دو دسته جملات شرطی نوع دوم با فرمول یکسان ساخته میشوند و تفاوت آنها فقط در معنی است.
+                   به مثالهای کتاب توجه کنید.
                   </Text>
                   
                 </Body>
@@ -57,82 +59,27 @@ export default class G3 extends Component {
               <CardItem >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                   
+                
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Si j'accepte la promotion , il faut déménager.
+                  Si tu étais à ma place, tu trouverais une solution (mais tu n'es pas à ma place). 
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                   اگر من ترفیع را قبول کنم ، باید نقل مکان کنیم. (ساختار اول)
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Si on a un jardin, on pourra avoir un chien.
+                  اگر تو جای من بودی ، تو یک راه حل پیدا میکردی (اما تو جای من نیستی).
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  اگر ما یک باغ داشته باشیم ، ما میتوانیم یک سگ داشته باشیم(ساختار دوم).
+                  جمله فوق جز دسته دسته دوم می باشد به دلیل اینکه امکان وقوع آن وجود ندارد.
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Si tu n'aimes pas Paris, change de métier.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  اگر تو پاریس را دوست نداشته باشی ، شغلت را عوض کن (ساختار سوم).
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold',backgroundColor:'red'}}> 
-                   نکته : هرگز در جمله اول بعد از حرف اضافه si فعل در زمان آینده صرف نمیشود 
-                   </Text>
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold',backgroundColor:'red'}}> 
-                   نکته : نباید حرف اضافه si را که در جمله شرطی است با جمله سوالی غیر مستقیم اشتباه بگیریم همیشه در جمله شرطی حرف اضافه
-                   si در ابتدای جمله می آید ، و در جملات سوالی غیر مستقیم بین دو جمله می آید.
-                   </Text>
                    <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                   S'il fait beau demain, je ferai une promenade. 
+                   Si nous connaissions ses copains, on le comprendrait mieux (mais on ne connaît personne). 
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  اگر فردا هوا خوب باشد ، من به پیاده روی میروم (جمله شرطی)
-                  </Text>
-
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Je me demande s'il fera beau demain. 
+                  اگر ما دوستان او را میشناختیم ، ما او را بهتر میشناختیم (ولی ما هیچ کسی را نمیشناسیم).
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من پرسیدم اگر فردا آفتابی است (جمله سوالی غیر مستقیم).
-                  </Text>
-
-                </Body>
-              </CardItem>
-           </Card> 
-
-
-
-           <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
-              <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>ساختار Quelque Chose + مصدر ، Rien A + مصدر</Text>
-              </CardItem>
-              <CardItem  >
-                <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
-                <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  از ساختار فعل داشتن + اسم + حرف اضافه à + مصدر برای بیان یک التزام استفاده میشود.
-                  </Text>
-
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  J'ai une leçon à apprendre ( je dois apprendre une leçon). 
+                  جمله فوق جز دسته اول میباشد به دلیل اینکه احتمال کمی وجود دارد که میتوانست عملی بشود.
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من یک درس دارم که باید یاد بگیرم (من باید یک درس را یاد بگیرم). (بیان التزام)
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Elle n'a pas beaucoup de travail à faire.  
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  او کار زیادی برای انجام دادن ندارد.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Il a une lettre à écrire.  
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  او یک نامه دارد که بنویسد.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  در این ساختار به جای اسم مکرراً از کلمه Quelque Chose یا rien استفاده میشود.
+                  در جملات شرطی نوع دوم هرگز بعد از si فعل در زمان حال شرطی صرف نمیشود.
                   </Text>
                 </Body>
               </CardItem>
@@ -143,74 +90,77 @@ export default class G3 extends Component {
            <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>هماهنگی : Quand...Et Que ... ، Parce Que...Et Que...</Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>نقل قول مستقیم (قسمت دوم)  : نقل قول در گذشته و مطابقت زمانی</Text>
               </CardItem>
               <CardItem  >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                به طور کلی زمانی که دو جمله پایه و پیرو را بهم وصلی میکنیم با کلمه et یا ou را بهم وصل میکنیم
-                ما parce que ، quand و dès que را تکرار نمیکنیم بجای آن از que استفاده میکنیم. به مثالهای زیر توجه کنید.
+                  برای نقل قول مستقیم از شخصی اگر شخص در زمان حال سخن بگوید مثلاً 
+                  Pourquoi tu ne mets pas ton blouson ? 
+                  پدر : برای چه تو ژاکتت را نمیپوشی ؟ 
+                  برای نقل کردن آن ،فعل جمله گفته شده را (mets) به زمان گذشته ناتمام تبدیل میکنیم مثال : 
+                  Le père a demandé à Marie pourquoi elle ne mettait pas son blouson
+                  پدر پرسید چرا او لباسش را نپوشیده بود.
+                  از حالت فوق برای بیان یک واقعیت در زمان حال استفاده میکنیم.
+                  در حالتی که شخص گوینده در مورد زمان آینده صحبت کند مثلاً
+                  Bon, d'accord, je le porterai jusqu'à Noël
+                  خب ، ایرادی ندارد ، من آن را تا عید کریسمس خواهم پوشید.
+                  برای نقل کردن این جمله ، فعل جمله گفته شده که در اینجا porterai است را
+                  به زمان حال شرطی تبدیل میکنیم مثال :
+                  Marie a répondu qu'elle le porterait jusqu'à Noël. 
+                  ماری جواب داد که او آن را تا عید کریسمس خواهد پوشید.
+                  از حالت فوق برای بیان یک واقعیت در آینده استفاده میکیم.
+                  </Text>
+                </Body>
+              </CardItem>
+           </Card> 
+
+
+
+           <Card>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+              <Icon type="FontAwesome" name="book"/>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>ضمیر قیدی en به همراه یک ضمیر شخصی مفعولی</Text>
+              </CardItem>
+              <CardItem  >
+                <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
+                <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                ضمیر قیدی en به طور معمول جایگزین اسم هایی در جمله می شود که یک عبارت نشان دهنده مقدار برای آن ها وجود داشته باشد
+                و ضمیر شخصی مفعولی  همانطور که از نامش مشخص است جای مفعول در جمله را می گیرد. 
+                این دو ضمیر اگر باهم همراه شوند همیشه ضمیر en بعد از ضمایر شخصی (me , te , lui , nous , vous , leur) قرار میگیرد.
+                و قبل از ضمیر قیدی en اگر ضمایر شخصی مفعولی te , me قرار گیرند تبدیل به t' , m' میشوند.
                 </Text>
 
 
                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                 Quand on est jeune et qu'on veut travailler on n'a pas le choix  
+                Tu as déjà un blouson. Je ne vais pas t'en racheter un. Je t'en offrirai un nouveau à Noël.   
                 </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  زمانی که ما جوان هستیم و میخواهیم کارکنیم ما چاره دیگری نداریم.  
+                  تو یک ژاکت داری . من قصد ندارم یکی دیگه برات بخرم . من یکی از آن برای عید کریسمس برات میگیرم.  
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Plus tard, parce qu'on a des enfants et qu'on ne veut pas être trop loin du collège 
+                  Vous voulez du café ? - Oh oui, donnez-m'en une tasse, s'il vous plaît. 
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                   بعداً ، چون ما فرزندانی داریم و نمی خواهیم خیلی از کالج دور باشیم.
+                   شما قهوه میل دارید ؟ اوه بله ، یک فنجان از آن لطفاً به من بدهید.
                   </Text>
 
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  Dès qu'on est à la retraite et qu'on pourrait enfin se retirer à la campagne...   
+                  Et votre ami anglais en prend aussi ?    
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                   از زمانی که ما وارد بازنشستگی میشویم و میتوانیم بازنشستگی مان را در حومه بگذرانیم ...
+                  و دوست انگلیسی شما نیز یک لیوان از آن میل دارد ؟
                   </Text>
-                   
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
+                  Non. Ne lui en donnez pas, il n'aime pas ça.    
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  نه . به او از آن ندهید ، او دوست ندارد.
+                  </Text>
                   
-                </Body>
-              </CardItem>
-           </Card> 
-
-
-
-
-           <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
-              <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>نقل قول مستقیم (قسمت اول) زمان حال</Text>
-              </CardItem>
-              <CardItem  >
-                <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
-                <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                برای نقل قول مستقیم در زمان حال کافی است که جمله شخص گوینده را در داخل گیومه قرار دهیم و فعلی را که معرفی کننده شخص گوینده است
-                (demander , expliquer , raconter , répéter , affirmer...) را متناسب با گوینده صرف میکنیم و میتوانیم این جمله را قبل 
-                یا بعد از جمله نقل شده  قرار دهیم. اگر جمله معرفی کننده شخص گوینده بعد از جمله نقل شده بیاید
-                جای فاعل و فعل را عوض میکنیم.
-                </Text>
-
-
-                <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                Les Parisiens qui déménagent en province répètent : « La vie est plus douce ici qu'à Paris. »  
-                </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  پاریسی هایی که به پرووانس نقل مکان میکنند میگویند : « زندگی در اینجا نسبت به پاریس با نشاط تر است »
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                  <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
-                  « La vie est plus douce ici qu'à Paris », répètent les Parisiens qui déménagent en province.  
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  « زندگی در اینجا نسبت به پاریس با نشاط تر است  » پاریسی هایی که به پرووانس نقل مکان کرده اند میگویند
-                  </Text>
                 </Body>
               </CardItem>
            </Card> 
