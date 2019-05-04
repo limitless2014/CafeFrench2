@@ -16,7 +16,7 @@ import Carousel,{ Pagination } from 'react-native-snap-carousel';
 
 import getTheme from '../native-base-theme/components';
 import material from '../native-base-theme/variables/platform';
-import { formatStackTrace } from 'jest-message-util';
+
 
 
 
@@ -202,7 +202,7 @@ class Home extends Component {
               showsHorizontalScrollIndicator={true}
               removeClippedSubviews={true}
               enableMomentum={true}
-              
+              decelerationRate={"fast"}
               
             />
 
