@@ -64,7 +64,7 @@ export default class V3 extends Component {
       {title:'partager',key:'partager',trans:'به اشتراک گذاشتن',ph:'[paʀtaʒe]'},
       {title:'paysage',key:'paysage',trans:'منظره ، چشم انداز',ph:'[peizaʒ]'},
       {title:'pédestre',key:'pédestre',trans:'پیاده ، پا',ph:'[pedɛstʀ]'},
-      {title:'peine',key:'peine',trans:'ناراحتی ، غمگینی',ph:'[pɛn]'},
+      {title:'peine',key:'peine',trans:'ناراحتی ، غمگینی ، به ندرت',ph:'[pɛn]'},
       {title:'physique',key:'physique',trans:'جسمی ، بدنی ، فیزیکی',ph:'[fizik]'},
       {title:'pittoresque',key:'pittoresque',trans:'زیبا ، خوش منظره',ph:'[pitɔʀɛsk]'},
       {title:'plein (en ...)',key:'plein',trans:'در وسط ، میانه',ph:'[plɛn]'},

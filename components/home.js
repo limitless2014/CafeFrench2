@@ -16,7 +16,7 @@ import Carousel,{ Pagination } from 'react-native-snap-carousel';
 
 import getTheme from '../native-base-theme/components';
 import material from '../native-base-theme/variables/platform';
-import { ScrollView } from 'react-native-gesture-handler';
+import { formatStackTrace } from 'jest-message-util';
 
 
 
@@ -112,7 +112,7 @@ class Home extends Component {
   }
 
 
-  
+ 
   _renderItem=({item, index})=> {
     return (
      
@@ -152,6 +152,7 @@ class Home extends Component {
      
     );
 }
+  
  
 
 
@@ -198,6 +199,11 @@ class Home extends Component {
               sliderWidth={width}
               itemWidth={width*80/100}
               onSnapToItem={(index) => this.setState({ activeSlide: index }) }
+              showsHorizontalScrollIndicator={true}
+              removeClippedSubviews={true}
+              enableMomentum={true}
+              
+              
             />
 
             
