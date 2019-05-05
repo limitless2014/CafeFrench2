@@ -35,6 +35,9 @@ const {width} = Dimensions.get('window');
 class Home extends Component {
      
     constructor(props){
+
+
+
       super(props);
       this.state=
       {
@@ -91,12 +94,15 @@ class Home extends Component {
       
       ],
       activeSlide:0,
-     
+      
       }
       this.navigate=this.props.navigation.navigate;
       
 
     }
+
+
+
 
 
    closeDrawer=()=>{
@@ -197,7 +203,7 @@ class Home extends Component {
               data={this.state.entries}
               renderItem={this._renderItem}
               sliderWidth={width}
-              itemWidth={width*80/100}
+              itemWidth={ width*80/100 }
               onSnapToItem={(index) => this.setState({ activeSlide: index }) }
               showsHorizontalScrollIndicator={true}
               removeClippedSubviews={true}
