@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import { Container, Header, Title, Button, Left, Right, Body,Icon,Drawer,Text, Card, CardItem,Badge,StyleProvider  } from 'native-base';
+import { Container, Header, Title, Button, Left, Right, Body,Icon,Drawer,Text, Card, CardItem,Badge,StyleProvider, Footer  } from 'native-base';
 import {View,Image,Dimensions,ImageBackground} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 import SideBar from './sideBar';
@@ -122,7 +122,7 @@ class Home extends Component {
   _renderItem=({item, index})=> {
     return (
      
-      <Card style={{elevation:4,height:'100%',}}>
+      <Card style={{height:'85%',marginTop:'10%'}}>
      <CardItem>
        <Left>
          <Badge>
@@ -137,22 +137,29 @@ class Home extends Component {
      <CardItem cardBody>
      <Image blurRadius={3} resizeMode="stretch" source={item.image} style={{height:200,flex:1}}/>
      </CardItem>
+     
      <CardItem style={{justifyContent:'center',alignItems:'center'}}>
+    
        <Button onPress={()=>this.navigate('D'.concat(index+1))} rounded  primary>
        <Text>Dialogs</Text>
        </Button>
+      
      </CardItem>
      <CardItem style={{justifyContent:'center',alignItems:'center'}}>
+     
        <Button onPress={()=>this.navigate('V'.concat(index+1))} rounded  danger>
        <Text>Vocabulary</Text>
        </Button>
+       
      </CardItem>
      <CardItem style={{justifyContent:'center',alignItems:'center'}}>
+    
        <Button onPress={()=>this.navigate('G'.concat(index+1))} rounded  success>
        <Text>Grammer</Text>
        </Button>
        
      </CardItem>
+     
      </Card>
      
      
