@@ -273,34 +273,112 @@ export default class D3 extends Component {
               </Card>
 
 
-              <Card>
+        <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
-          <Text>Vous avez la parole  </Text>
+          <Text>Micro-trottoir : Les Français et le cinéma </Text>
             </CardItem>
             <CardItem>
                 <Body>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                Elle a choisi... :
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                Anne-Sophie, 34 ans, chef du service de publicité 
+                LA JOURNALISTE :
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                « Je travaille dans un groupe de presse. Le même depuis sept ans. Je gagne bien ma 
-                vie. Il y a six mois, le service de publicité d'une radio m'a proposé un poste de direc
-                teur commercial et un salaire supérieur de 50 % à celui que j'ai actuellement. Je 
-                n'ai pas réfléchi longtemps ; j'ai dit non. D'abord, j'ai une fille de 6 ans, je viens de 
-                me remarier et je voudrais un autre enfant. Impossible, si je passais directrice, avec 
-                de nouvelles responsabilités. Là, j'ai un travail qui me plaît, j'en ai fini avec le stress 
-                des débuts. Je connais très bien mon métier, je m'entends bien avec mes collègues, 
-                et surtout j'ai du temps. Qu'est-ce que j'aurais gagné si j'avais accepté ? J'aurais loué 
-                un appartement plus grand, j'aurais remplacé ma vieille voiture par une Twingo, 
-                j'aurais envoyé ma fille aux sports d'hiver... Justement, cette année, elle n'y est pas 
-                allée. À Pâques, elle est partie à la campagne avec sa grand-mère. Et comme j'avais 
-                du temps, je l'ai accompagnée. Non, je ne regrette rien... » 
+                Je suis sur les grands boulevards. Les gens font la queue devant les cinémas. Monsieur, pourquoi allez-vous au cinéma ? 
                 </Text>
-                <Image style={{width:'100%'}} resizeMode='stretch' source={require('../../../assets/img/lessons/lesson8/d83.png')}/>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                PERSONNE A :
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Les loisirs, pour moi, c'est le cinéma. Je vais au cinéma pour rire, pour pleurer, pour partager mes sentiments avec des inconnus, avec des gens comme moi.
+                 Je m'étonne toujours que beaucoup préfèrent rester assis seuls devant la télévision.   
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                LA JOURNALISTE :
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Et vous ? 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                PERSONNE B :
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                C'est la sortie idéale quand on est avec des copains, mais j'aime la télé aussi. C'est moins cher.  
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                LA JOURNALISTE :
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                C'est parce que le cinéma est trop cher que les gens y vont de moins en moins ? 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                PERSONNE C :
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Je ne crois pas que ce soit la raison, et aujourd'hui, avec toutes les réductions, le cinéma ne coûte pas trop cher. 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                LA JOURNALISTE : 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Madame, à votre avis, pourquoi est-ce qu'on va moins au cinéma qu'avant ? 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                PERSONNE D :
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Peut-être par paresse. Avec la télévision et le magnétoscope,
+                 c'est beaucoup plus simple : il n'y a pas d'horaire, il y a beaucoup plus de choix... Personnellement,
+                  je préfère le cinéma, l'ambiance de la salle, la lumière qui s'éteint la musique,
+                   les premières images sur l'écran. C'est magique. Et pendant deux heures, j'oublie tout. 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                LA JOURNALISTE :
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Et vous ? 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                PERSONNE E :
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                J'adore les films comiques, et je regrette que les gens n'aillent pas plus souvent voir les nouveaux films.
+                 Ça leur ferait du bien, ils seraient moins tristes. À la télé, ce n'est pas pareil,
+                  et on ne s'amuse pas autant. Il faut que j'aille au cinéma au moins une fois par mois. 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                LA JOURNALISTE :
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Est-ce qu'il est important pour vous qu'un film soit français ? 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                PERSONNE F : 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Avant tout, il est important que le film soit bon ! J'aime bien le cinéma français,
+                 bien sûr, et nous avons de grands acteurs, mais j'aime aussi les films américains ou italiens, par exemple. 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                LA JOURNALISTE :
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                En tout cas. si la télévision se porte bien, le cinéma n'est pas mort !
+                 C'était Sophie, en direct des grands boulevards. À vous les studios. 
+                </Text>
+                
+
+
+
+
+
+
+
+
+
+
+
+
                 </Body>
             </CardItem>
           </Card>
@@ -309,30 +387,97 @@ export default class D3 extends Component {
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-          نوبت شماست مه صحبت کنید
+          صدای مردم : فرانسوی ها و سینما
           </Text>
             </CardItem>
           
           <CardItem>
             <Body >
-              <Text  style={{direction:"rtl",padding:5,fontWeight:'bold',alignSelf:'flex-end',lineHeight:30,textAlign:'justify'}}>
-              او انتخاب کرده است ...
+            <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              خبرنگار :
               </Text>
-              <Text  style={{direction:"rtl",padding:5,fontWeight:'bold',alignSelf:'flex-end',lineHeight:30,textAlign:'justify'}}>
-              آن سوفی ، 34 ساله ، سرپرست بخش تبلیغات
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+              من در گراند بولوار (بلواری در پاریس) هستم . مردم دم در سینماها صف کشیده اند. آقا شما چرا به سینما میروید ؟
               </Text>
-              <Text  style={{direction:"rtl",padding:5,alignSelf:'flex-end',lineHeight:30,textAlign:'justify'}}>
-              من در یک گروه مطبوعاتی کار میکنم ، بمدت 7 سال است. من به خوبی بر زندگی ام فائق شده ام ، 6 ماه است که سرپرست بخش
-              تبلیغات یک رادیو به من پیشنهاد پست مدیریت فروش و افزایش حقوق 50 درصدی ، حقوق فعلی ام را داده است .
-              من خیلی به آن فکر نکردم : من نه گفتم، اولاً من یک دختر شش ساله دارم ، من تازه ازدواج مجدد
-              کرده ام و میخواهم یک فرزند دیگر داشته باشم.
-              غیر ممکن است ،اگر من مدیر باشم مسئولیت های جدیدی دارم . آنجا ، من شغلی دارم که آن را دوست دارم.
-              من استرس های روز اول کاری را ندارم ، من به خوبی شغلم را میدانم. من با همکارانم به خوبی کنار می آیم ، و مخصوصاً اینکه زمان
-              بیشتری دارم. چگونه میتوانستم موفق بشوم اگر آن را میپذیرفتم ؟ من یک آپارتمان بزرگتر اجاره میکردم ، 
-              ماشین قدیمی ام را با یک توینگو (یک مدل هاچ بک از رنو) تعویض میکردم.
-              دخترم را به ورزش های زمستانی میفرستادم ، دقیقاً همین امسال او نرفته است.
-              عید پاک ، او به همراه مادربزرگش به حومه شهر رفته است. و هروقت من وقت داشته باشم او را همراهی میکنم. نه من هیچ چیزی
-              را از دست نمیدهم.
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              شخص اول :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+              تفریح من سینما است . من به سینما میروم تا بخندم ، تا گریه کنم ، تا احساساتم را با غریبه ها به اشتراک بگذارم.
+              ، تا احساساتم را با افرادی مثل خودم به اشتراک بگذارم
+              در عجبم که بسیاری از مردم همیشه ترجیح میدهند تا به تنهایی پای تلویزیون بنشینند.
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              خبرنگار :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+              و نظر شما در باره این موضوع چیست ؟
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              شخص دوم :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+              جای ایده آلی برای بیرون رفتن به همراه دوستان است . ولی من تلویزیون را نیز دوست دارم. کم هزینه تر است.
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              خبرنگار :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+              آیا بدلیل اینکه سینما خیلی گران است مردم کمتر و کمتر به آنجا میروند ؟
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              شخص سوم :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+              من فکر نمیکنم که به این دلیل است. و امروزه با تمام کاهش قیمتهایی که انجام میشود. سینما خیلی گران نیست.
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              خبرنگار :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+              خانم ، به نظر شما چرا ما کمتر نسبت به قبل به سینما میرویم ؟
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              شخص چهارم :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+              میتونه ناشی از تنبلی ما باشه ، با تلویزیون و دستگاه ضبط ویدیو خیلی راحت تر است :
+              برنامه زمانی وجود ندارد. انتخاب های بسیار بیشتری وجود دارد ... شخصاً سینما را ترجیح میدهم ، جو سالن سینما ، نورپردازی،
+              موسیقی ، اولین تصاویری که اکران میشود. جادویی است و بعد از 2 ساعت همه چیز را فراموش میکنم.
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              خبرنگار :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+              و نظر شما در باره این موضوع چیست ؟
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              شخص پنجم :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+              من عاشق فیلمهای کمدی هستم ، من از این که مردم اغلب به سینما نمیروند تا فیلمهای جدید را ببینند احساس تاسف میکنم.
+              این کار حال آنها را خوب میکند ، ناراحتیشان کمتر میشود. تلویزیون مثل سینما نیست . ما را به اندازه سینما سرگرم نمیکند.
+              من باید دست کم ماهی یکبار به سینما بروم.
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              خبرنگار :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+              آیا برای شما مهم است که فیلم فرانسوی باشد ؟
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              شخص ششم :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+              اول از همه ، این مهم است که فیلم خوب باشد ! من سینمای فرانسه را خیلی دوست دارم. مطمئناً ، ما بازیگران بزرگی داریم
+              ولی من  برای مثال فیلمهای آمریکایی و ایتالیایی را نیز دوست دارم.
+              </Text>
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              خبرنگار :
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+              در هرصورت ، اگر تلویزیون کارش  را خوب انجام دهد ، سینما از بین نمیرود! سوفی هستم به صورت زنده از گراند بولوار .
+              به استودیو برمیگردیم.
               </Text>
               </Body>
             </CardItem>
