@@ -38,6 +38,9 @@ import G8 from './components/lessons/8/g8';
 import D9 from './components/lessons/9/d9';
 import V9 from './components/lessons/9/v9';
 import G9 from './components/lessons/9/g9';
+import D10 from './components/lessons/10/d10';
+import V10 from './components/lessons/10/v10';
+import G10 from './components/lessons/10/g10';
 import StackViewStyleInterpolator from 'react-navigation-stack/dist/views/StackView/StackViewStyleInterpolator';
 
 
@@ -53,6 +56,7 @@ const rootNavigator=createStackNavigator({
     D7:{screen:D7},V7:{screen:V7},G7:{screen:G7},
     D8:{screen:D8},V8:{screen:V8},G8:{screen:G8},
     D9:{screen:D9},V9:{screen:V9},G9:{screen:G9},
+    D10:{screen:D10},V10:{screen:V10},G10:{screen:G10},
 },{headerMode:'none',mode:'modal',transitionConfig: () => ({
   
    screenInterpolator: (sceneProps) => {
