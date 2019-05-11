@@ -35,7 +35,7 @@ export default class D3 extends Component {
 
 
 
-
+       
         <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
@@ -86,7 +86,7 @@ export default class D3 extends Component {
                 </Body>
             </CardItem>
           </Card>
-
+        
 
 
 
