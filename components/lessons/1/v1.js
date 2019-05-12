@@ -76,7 +76,7 @@ export default class V1 extends Component {
     
     
   }
-  componentWillMount(){
+  componentDidMount(){
     this.setState({search:this.state.vocabs})
   }
 

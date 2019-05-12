@@ -99,7 +99,7 @@ export default class V3 extends Component {
     
     
   }
-  componentWillMount(){
+  componentDidMount(){
     this.setState({search:this.state.vocabs})
   }
 

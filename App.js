@@ -11,6 +11,7 @@ import React, {Component} from 'react';
 import {createStackNavigator,createAppContainer} from 'react-navigation';
 import Home from './components/home';
 import About from './components/About';
+import List from './components/List';
 import D1 from './components/lessons/1/d1';
 import V1 from './components/lessons/1/v1';
 import G1 from './components/lessons/1/g1';
@@ -49,7 +50,7 @@ import StackViewStyleInterpolator from 'react-navigation-stack/dist/views/StackV
 
 
 const rootNavigator=createStackNavigator({
-   Home:{screen:Home},About:{screen:About},
+   Home:{screen:Home},About:{screen:About},List:{screen:List},
     D1:{screen:D1},V1:{screen:V1},G1:{screen:G1},
     D2:{screen:D2},V2:{screen:V2},G2:{screen:G2},
     D3:{screen:D3},V3:{screen:V3},G3:{screen:G3},

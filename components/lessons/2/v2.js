@@ -27,8 +27,6 @@ export default class V2 extends Component {
       {title:'aujourd’hui',key:'aujourd’hui',trans:'امروز',ph:'[oʒuʀdɥi]'},
       {title:'besoin de',key:'besoin de',trans:'احتیاج داشتن به',ph:'[bəzwɛ̃ də]',cat:'B'},
       {title:'brasserie',key:'brasserie',trans:'آبجو فروشی',ph:'[bʀasʀi]'},
-     
-
       {title:'cœur',key:'cœur',trans:'قلب',ph:'[kœʀ]',cat:'C'},
       {title:'côté ',key:'côté ',trans:'ًکنار ، بغل',ph:'[kɔt]'},
       {title:' dommage',key:' dommage',trans:'حیف',ph:'[dɔmaʒ]',cat:'D'},
@@ -74,7 +72,7 @@ export default class V2 extends Component {
     
     
   }
-  componentWillMount(){
+  componentDidMount(){
     this.setState({search:this.state.vocabs})
   }
 

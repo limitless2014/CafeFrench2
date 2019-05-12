@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {StyleSheet,Image,BackHandler,Share,Linking} from 'react-native';
-import {Container,Content,List,ListItem,Left,Right,Text, Button, Icon, Footer,Switch} from 'native-base';
+import {Container,Content,List,ListItem,Left,Right,Text, Button, Icon, Footer} from 'native-base';
 
 
 
@@ -50,13 +50,13 @@ toggleHandler=(amount)=>{
           <Content style={styles.content}>
           <Image style={{width:'100%'}} source={require('../assets/img/drawer.png')} resizeMode= 'stretch'/>
           <List>
-          <ListItem style={{borderBottomWidth:1,borderBottomColor:'blue'}} onPress={()=>this.props.navigate('About')}>
+          <ListItem style={{borderBottomWidth:1,borderBottomColor:'blue'}} onPress={()=>this.props.navigate('List')}>
             <Left style={{flex:1,flexDirection:'row-reverse'}}>
-            <Text >درباره اپلیکیشن</Text>
+            <Text >لیست دروس</Text>
             </Left>
             <Right>
               <Button transparent>
-                <Icon type="Entypo" name="info"/>
+                <Icon type="Entypo" name="list"/>
               </Button>
             </Right>
           </ListItem>
@@ -67,6 +67,16 @@ toggleHandler=(amount)=>{
             <Right>
               <Button transparent>
                 <Icon type="Entypo" name="share"/>
+              </Button>
+            </Right>
+          </ListItem>
+          <ListItem style={{borderBottomWidth:1,borderBottomColor:'blue'}} onPress={()=>this.props.navigate('About')}>
+            <Left style={{flex:1,flexDirection:'row-reverse'}}>
+            <Text >درباره اپلیکیشن</Text>
+            </Left>
+            <Right>
+              <Button transparent>
+                <Icon type="Entypo" name="info"/>
               </Button>
             </Right>
           </ListItem>
