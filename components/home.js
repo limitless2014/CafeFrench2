@@ -25,7 +25,7 @@ import material from '../native-base-theme/variables/platform';
 
 
 const {width} = Dimensions.get('window');
-
+const {height}=Dimensions.get('window');
 
 
 
@@ -122,7 +122,7 @@ class Home extends Component {
   _renderItem=({item, index})=> {
     return (
      
-      <Card style={{height:'85%',marginTop:'10%'}}>
+      <Card style={{height:height}}>
      <CardItem>
        <Left>
          <Badge>
@@ -138,27 +138,27 @@ class Home extends Component {
      <Image blurRadius={3} resizeMode="stretch" source={item.image} style={{height:200,flex:1}}/>
      </CardItem>
      
-     <CardItem style={{justifyContent:'center',alignItems:'center'}}>
+     
     
-       <Button onPress={()=>this.navigate('D'.concat(index+1))} rounded  primary>
+       <Button style={{alignSelf:'center',marginTop:10}} onPress={()=>this.navigate('D'.concat(index+1))} rounded  primary>
        <Text>Dialogs</Text>
        </Button>
       
-     </CardItem>
-     <CardItem style={{justifyContent:'center',alignItems:'center'}}>
      
-       <Button onPress={()=>this.navigate('V'.concat(index+1))} rounded  danger>
+     
+     
+       <Button style={{alignSelf:'center',marginTop:10}} onPress={()=>this.navigate('V'.concat(index+1))} rounded  danger>
        <Text>Vocabulary</Text>
        </Button>
        
-     </CardItem>
-     <CardItem style={{justifyContent:'center',alignItems:'center'}}>
+     
+     
     
-       <Button onPress={()=>this.navigate('G'.concat(index+1))} rounded  success>
+       <Button style={{alignSelf:'center',marginTop:10,marginBottom:10}} onPress={()=>this.navigate('G'.concat(index+1))} rounded  success>
        <Text>Grammer</Text>
        </Button>
        
-     </CardItem>
+    
      
      </Card>
      

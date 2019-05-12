@@ -39,49 +39,53 @@ export default class D3 extends Component {
         <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
-          <Text>Parlez de vos problèmes</Text>
+          <Text>Les sondages : pourquoi et comment ? </Text>
             </CardItem>
             <CardItem>
                 <Body>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',color:'green'}}>
-                Dire non à la dépression 
+                
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,color:'green',alignSelf:'center'}}>
+                LES SONDAGES SERVENT-ILS A QUELQUE CHOSE ?
                 </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Un des secrets du bonheur, c'est de ne pas se laisser abattre par ses problèmes.
-                 Il faut oser râler, rouspéter pour s'en débarrasser.
-                 Seulement, si l'on se plaint sans arrêt, on dérange tout le monde. On se sent alors mal aimé,
-                  incompris, malheureux ; on tombe dans la morosité. Comment donc se plaindre, et à qui ? 
-                </Text>
-                <Image style={{width:'100%'}} resizeMode='stretch' source={require('../../../assets/img/lessons/lesson10/d102.png')}/>
+               
 
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',color:'green'}}>
-                Trouver une oreille amie. 
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                La réponse est oui.  
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Se plaindre complique souvent les choses, tout simplement parce qu'on ne peut pas toujours justifier son ras-le-bol.
-                 Si vous voulez qu'un ami vous écoute, dites-lui, par exemple ; « Je sais que tu n'y peux rien,
-                  je ne sais pas très bien moimême ce qui ne va pas.
-                   Mais j'ai vraiment besoin de t'en parler et cela me fait du bien que tu m'écoutes. »
-                    Votre confident saura à quoi s'en tenir. Vous ne trouverez peut-être pas la solution de tous vos problèmes,
-                     mais ils ne vous feront plus peur ! 
+                De quoi parlerait-on à la radio, à la télé, dans les journaux, s'il n'y avait pas de sondages ?
+                 Mais soyons sérieux ! Prenons deux exemples. 
+                 Pour organiser leur saison, les professionnels du tourisme doivent savoir dans quelle proportion les Français passeront
+                  leurs vacances à la mer, à la montagne ou tout simplement chez eux. De même, la veille des grands weekends,
+                   bien qu'il soit impossible d'éviter complètement les embouteillages,
+                    on peut donner de bons conseils aux automobilistes quand on sait à quel moment de la journée ils ont l'intention de partir.
+                     Ce sont toujours des sondages qui fournissent ces informations utiles. 
                 </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',color:'green'}}>
-                Apprendre à se plaindre. 
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Savez-vous comment vous êtes quand vous rouspétez ?
-                 Dès que vous vous sentez morose, courez crier votre ras-le-bol devant votre glace.
-                  Si vous répétez des « j'en ai marre » à n'en plus finir, vous comprendrez que les autres n'ont pas envie de vous écouter ! 
-                 Ne craquez pas et entraînez-vous : passez du dramatique au comique.
-                  Ce travail d'acteur vous fera un bien fou, surtout si vous arrivez à rire de votre image dans la glace !  
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',color:'green'}}>
-                Ne pas se confier à n'importe qui  
+                <Image style={{width:'100%'}} resizeMode='stretch' source={require('../../../assets/img/lessons/lesson11/d111.png')}/>
+
+               
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                Comment réalise-t-on un sondage ?   
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Le choix du confident est très déhcat. Repérez les faux frères : ils vous écoutent avec une adorable gentillesse...
-                 puis utilisent vos confidences pour mieux vous ridiculiser.
-                  Avec ces gens-là, pas d'hésitation : ne parlez que de la pluie et du beau temps ! 
+                En politique, par exemple : on veut savoir quel est l'homme politique préféré des Français.
+                 On sélectionne 1ООО personnes représentatives de la population française et on les Interroge par téléphone.
+                 On regroupe ensuite les réponses. Si 45 % des personnes interrogées disent qu'elles préfèrent monsieur Martin,
+                 on peut en déduire qu'environ 45 % de l'ensemble de la population française préfère monsieur Martin.
+                 Si, quelques semaines après, monsieur Martin passe de 45 % à 44 %, on peut dire qu'il reste stable :
+                 la différence est trop faible pour qu'on puisse voir s'il baisse ou non. Mais,
+                 s'il passe de 45 % à 35 %, on peut dire qu'il chute dans les sondages. 
+                 Cependant, il ne faut pas croire que les sondages puissent vraiment résoudre tous les problèmes.
+                 Ils donnent une indication sur l'opinion des gens à un moment donné,
+                 mais ce n'est pas toujours une image fidèle de la réalité. En effet, 1 ООО personnes interrogées,
+                 même si on les a bien choisies, ne peuvent pas répondre pour 60 millions de Français.
+                 De plus, les sondés peuvent changer d'avis et ils ne disent 
+                 pas toujours la vérité, bien que les réponses soient anonymes.
+                 Pour qu'un sondage fournisse des données fiables, il ne suffit pas de poser les bonnes questions et d'interroger
+                 un échantillon de personnes représentatif. il faut surtout savoir interpréter les réponses.
+                 On peut tout faire dire aux chiffres : ainsi, avant des élections,
+                 un parti de droite et un parti de gauche verront tous les deux dans un même 
+                 sondage la confirmation de leur politique .
                 </Text>
                 </Body>
             </CardItem>
@@ -95,50 +99,48 @@ export default class D3 extends Component {
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-           از مشکلاتتان بگویید
+           نظر سنجی ها : چرا و چگونه ؟
           </Text>
             </CardItem>
           
           <CardItem>
             <Body >
               
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end',color:'green'}}>
-              به افسردگی نه بگویید
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'center',color:'green'}}>
+              آیا نظر سنجی ها برای چیزی استفاده میشوند (کاربردی دارند)؟
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
+              جواب بله است.
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              یکی از رازهای خوشبختی ، این است که تسلیم مشکلات نشویم. باید جرات شکایت ، اعتراض را داشته باشیم تا از مشکلات خلاص شویم.
-              فقط اگر ما مداوم از آن مشکل شکایت کنیم باعث مزاحمت برای همه میشویم.
-              ما احساس بی محبتی میکنیم ، دچار سو تفاهم میشویم ، غمگین میشویم. ما دچار یاس و نا امیدی میشویم.
-              پس چگونه اعتراض کنیم و به چه کسی ؟
+               یک نفر از چه چیزی در رادیو ، تلویزیون ، روزنامه ها صحبت میکرد ، اگر نظر سنجی ای نبود؟
+               جداً ! دو مثال را در نظر بگیرید. حرفه ای های گردشگری برای مدیریت کردن فصل شان باید بدانند که در کدام بخش
+               فرانسه تعطیلاتشان را بگذرانند در دریا ، در کوهستان یا خیلی ساده تر در خانه خودشان. همینطور در آستانه تعطیلات آخر هفته
+               طولانی. اگر چه اجتناب از ترافیک کاملاً غیر ممکن است  زمانی که بدانیم
+               موتور سواران در چه زمانی از روز قصد حرکت را دارند ما میتوانیم آنها را بهتر راهنمایی کنیم .
+               این نظرسنجی ها هستند که این اطلاعات سودمند را به ما میدهند. 
               </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end',color:'green'}}>
-              یک دوست دلسوز پیدا کنید
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              شکایت کردن گاهی اوقات برخی مسائل را پیچیده میکند ، به طور ساده تر ما همیشه نمیتوانیم
-              بیزاری مان را از آن مسئله توجیه کنیم. اگر میخواهید یک دوست به شما گوش کند به او بگویید مثلاً :
-              من میدونم که تو نمیتونی این مشکل رو حل کنی ، من خودم هم نمیدونم مشکل چیه ولی من واقعاً 
-              به صحبت کردن با تو درباره این مشکل نیاز دارم و همین که به من گوش کنی به من حس خوبی میدهد.
-              حس اعتماد به نفش شما میداند که چه بگویید. شما ممکن است قادر نباشید تا برای همه مشکلات خود راه حل پیدا کنید ولی
-              آنها بیشتر از این شما را نگران نمیکنند!
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end',color:'green'}}>
-              یاد بگیرید که شکایت کنید
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
+              چگونه نتایج نظر سنجی را بدست آوریم ؟
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              آیا میدانید زمانی که غر میزنید چگونه هستید ؟ زمانی که حس کردید غمگین هستید به سمت آینه بروید
-              و دلیل بیزاری خود را جلوی آینه تان داد بزنید.
-              اگر این جمله را مدام تکرار کنید من دیگه تحمل ندارم ، شما متوجه میشوید که دیگران نمیخواهند به شما گوش کنند!
-              قلبتان را نشکنید با خودتان تمرین کنید : از حالت دراماتیک به کمدی سویچ کنید.
-              این بازیگری شما را دیوانه میکند ، به خصوص  زمانی که چهره خود را در آینه ببیند میخندید!
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end',color:'green'}}>
-              برای کسی که مهم نیست سفره دل خود را باز نکنید
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              حس اعتماد بسیار حساس است : دوست را از دشمن تشخیص دهید : آنها با یک مهربانی ستودنی به شما گوش میدهند
-              سپس از صحبتهای شما برای مسخره کردن بهتر شما استفاده میکنند ، به محض مواجه شدن با این نوع افراد تردید نکنید :
-              نگویید چون باران میبارد هوا خوب است! (از روی ظاهر افراد تصمیم نگیرید).
+               در سیاست ، برای مثال : ما میخواهیم بدانیم چه کسی سیاستمدار محبوب فرانسوی ها است.
+               هزار شخص را به نمایندگی از جمعیت فرانسویها انتخاب میکنیم و از آنها با تلفن سوال میپرسیم
+               سپس جوابها را دسته بندی میکنیم اگر 45 درصد افراد مصاحبه شونده بگویند که آقای مارتین را ترجیح میدهند.
+               ما میتوانیم نتیجه بگیریم که حدود 45 درصد از جمعیت کل فرانسویها آقای مارتین را ترجیح میدهند.
+               اگر چند هفته بعد آقای مارتین از 45 درصد به 44 درصد تنزل کند ما میتوانیم بگوییم که محبوبیت او ثابت مانده است:
+               تغییرات بسیار کم هستند که ما متوجه شویم. ولی اگر از 45 درصد به 35 درصد تغییر کند.
+               ما میتوانیم بگوییم که او در نظر سنجی ها سقوط کرده است.
+               به هرحال نباید باور داشته باشیم که نظر سنجی ها میتوانند تمام مشکلات را حل کنند. آنها اشاره ای به
+               نظرات مردم در زمان انجام نظر سنجی میکنند ولی همیشه  یک تصویر از واقعیت نیستند.
+               در واقع هزار نفری که مورد مصاحبه قرار گرفتند حتی اگر به خوبی انتخاب شوند
+               بازهم نمیتوانند به نمایندگی از 60 میلیون فرانسوی پاسخ بدهند. علاوه بر این نظر سنجی ها میتوانند
+               نظرات را عوض کنند و همیشه واقعیت را بیان نمیکنند.
+               اگرچه جواب ها به صورت ناشناس هستند ، برای اینکه یک نظر سنجی داده های حساس را فراهم کند .
+               این کافی نیست که سوال صحیح بپرسیم و از نمونه بارزی از افراد نظر سنجی کنیم.
+               این مهم است که بدانیم چگونه جوابها را تفسیر کنیم.
+               ما میتوانیم همه چیز را بر اساس اعداد بگوییم : پس از ، قبل از انتخابات ، حزب راست و چپ هردوی آنها تاییدیه سیاست هایشان
+               را در یک نظر سنجی خواهند دید.
               </Text>
               </Body>
               </CardItem>
@@ -148,71 +150,74 @@ export default class D3 extends Component {
         <Card>
           <CardItem header>
              <Icon type="FontAwesome" name="coffee"/>
-             <Text>Si on prenait un café ?</Text>
+             <Text>Les sondages et vous</Text>
           </CardItem>
-          <CardItem>
+          <CardItem style={{backgroundColor:'green'}}>
             <Body> 
  
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LISE :
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Bonjour, Barbara. Comment ça va ?   
+                Chère lectrice, cher lecteur, Aidez-nous à mieux vous connaître en répondant aux questions suivantes. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                BARBARA : 
+                1. Trouvez-vous les sondages :  
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Ça ne va pas du tout. J'en ai ras-le-bol de me lever à six heures tous les matins,
-                 de prendre le bus, puis le métro pour aller travailler dans un bureau où tout m'énerve.
-                  Le chef est en train de divorcer et il est insupportable.
-                   Ma collègue ne parle que de ses problèmes avec ses enfants.
-                    J'ai un nouvel ordinateur depuis lundi, et je n'arrive pas encore à bien travailler avec !
+                indispensables
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                plutôt utiles 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                plutôt inutiles 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                sans opinion 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LISE : 
+                2. Si on vous le demandait, répondriez-vous aux questions d'un sondage ?   
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Eh ben, c'est normal que tu sois sur les nerfs,
-                 mais essaie d'oublier tout ça. Ton chef est souvent en déplacement.
-                  Dans quinze jours, tu seras tellement contente de ton nouvel ordinateur que
-                   tu te demanderas comment tu as pu travailler sans lui jusqu'à présent.
-                    Et puis, tu es peut-être un peu fatiguée : il est temps que tu prennes des vacances ! 
+                oui, bien sûr 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                cela dépend du sujet 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                non, en aucun cas  
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                sans opinion 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                BARBARA : 
+                3. Préférez-vous être interrogé :    
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Excuse-moi, mais je n'en peux plus ! Tu penses peut-être que j'exagère, mais ça me fait du bien de parler de tout ça avec toi. 
+                par courrier  
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                par téléptnone 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                dans la rue 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                sans opinion 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LISE : 
+                4. Qu'est-ce qui est le plus important, pour vous, dans un sondage ?    
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Je te comprends, mais enfin... Ton boulot n'est pas mal, même s'il n'est pas génial,
-                 et tu savais ce qui t'attendait quand tu as décidé d'aller habiter en banlieue.
-                  Tu aurais dû y penser avant de déménager. 
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                BARBARA : 
+                les questions posées   
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                C'est drôle que tu me dises ça maintenant :
-                 quand je craignais de mal supporter mon déménagement en banlieue,
-                  c'est bien toi qui me parlais de la campagne, du plaisir de lire son journal dans les transports en commun... 
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LISE : 
+                les personnes interrogées  
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Tu es injuste. Tu pourrais au moins reconnaître que la banlieue est plus agréable que Paris pour les enfants,
-                 pour faire les courses, se promener... 
+                l'interprétation des réponses 
                 </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                BARBARA : 
-                </Text>
+                
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Mmm ! Bof... On pourrait peut-être parler d'autre chose. Si on prenait un café ?   
+                Merci de nous avoir répondu. Vous pourrez lire les résultats de ce sondage dans notre numéro d'été.   
                 </Text>
                 
             </Body>
@@ -229,69 +234,204 @@ export default class D3 extends Component {
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-          چطوره یک قهوه بخوریم ؟
+          شما و نظرسنجی
+          </Text>
+            </CardItem>
+          
+          <CardItem style={{backgroundColor:'green'}}>
+            <Body >
+              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
+              خواننده عزیز (مرد ،زن) با پاسخ دادن به سوالات بعدی به ما کمک کنید تا شما را بهتر بشناسیم .
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+              1. شما چگونه نظر سنجی را میبینید ؟
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              ضروری
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              کاملاً مفید
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              کاملاً غیر مفید
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              نظری ندارم
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+              2. اگر ما از شما بخواهیم به سوالات یک نظر سنجی پاسخ دهید ؟
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              بله ، البته
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              بستگی به موضوع دارد
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              نه ، به هیچ وجه
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              نظری ندارم
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+              3.  ترجیح میدهید از چه طریقی با شما مصاحبه شود ؟
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              با ایمیل
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              با تلفن
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              در خیابان
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              نظری ندارم
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+              4. در یک نظر سنجی چه چیزی برای شما خیلی مهم است ؟
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              سوالاتی که پرسیده میشوند
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              مصاحبه شوندگان
+              </Text>
+              <Text  style={{padding:5,alignSelf:'flex-end',textAlign:'justify',lineHeight:30}}>
+              تفسیر پاسخ ها
+              </Text>
+              
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+              مرسی از اینکه پاسخ دادید ، شما میتوانید نتایج این نظر سنجی را در نسخه تابستانی مجله مشاهده کنید.
+              </Text>
+              </Body>
+              </CardItem>
+              </Card>
+
+
+
+
+
+              <Card>
+          <CardItem header>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>Les Français et la télévision </Text>
+            </CardItem>
+            <CardItem>
+                <Body>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                On vit vingt ans de plus qu'en 1890. On travaille deux fois moins. Pourtant, chacun se plaint d'être toujours débordé !
+                 Notre premier voleur de temps est la télévision. En France, elle est présente dans plus de 95 % des foyers et nous 
+                retient en moyenne près de quatre heures par jour contre deux heures il y a dix ans.  
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                Notre journaliste a posé la même question à quatre personnes différentes. 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                LE JOURNALISTE :  
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Combien de temps est-ce que vous passez devant la télé ? Quelles sont vos émissions préférées ? 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                PERSONNE A :   
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Je regarde la télé une heure et demie ou deux heures par jour environ. Le soir, à 8 heures, je regarde 
+                les infos. Ensuite je fais la vaisselle pendant la pub et la météo. Puis, vers 9 heures, je cherche une émission 
+                qui m'intéresse. J'aime surtout les reportages, les films sur les animaux.  
+                </Text>  
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                PERSONNE B :   
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Moi, je n'aime que les films. Le reste ne m'intéresse pas. Alors, selon le programme, je passe de deux à 
+                trois heures devant la télé.  
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                PERSONNE C :   
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Je déteste passer la soirée devant la télé, mais je regarde quand même les informations. Je trouve que 
+                les émissions sont nulles. Je préfère lire ou sortir.   
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                PERSONNE D :   
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Maintenant que je suis à la retraite, je passe beaucoup de temps devant la télé 
+                Je zappe et je finis toujours par trouver une émission qui me plaît. J'aime les films comiques et je regarde 
+                tous les matchs de foot. Malgré tout, je lis régulèrement le journal et je fais une partie d'échecs tous les soirs. 
+                </Text>
+                </Body>
+            </CardItem>
+          </Card>
+        
+
+
+
+
+          <Card>
+          <CardItem header style={{flexDirection:'row-reverse'}}>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>
+           فرانسویها و تلویزیون
           </Text>
             </CardItem>
           
           <CardItem>
             <Body >
-              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
-              لیز :
+              
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+              ما 20 سال بیشتر نسبت به کسانی که در سال 1890 زندگی میکردند ، زندگی میکنیم. دو برابر کمتر کار میکنیم.
+              اما با این حال هرکدام از ما از اینکه همیشه زیر بار عظیمی از مشکلات هستیم شکایت میکنیم!
+              اولین دزد زمان ما تلویزیون است. در فرانسه تلویزیون در میان بیش از 95 درصد از خانوارها حضور دارد
+              و حداقل به طور متوسط 4 ساعت از وقت ما را در روز میگیرد در حالی که 10 سال قبل 2 ساعت از وقت ما را میگرفت.
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
+              خبرنگار ما همین سوالات را از چهار شخص مختلف پرسیده است.
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
+               خبرنگار :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-              سلام باربارا ، حالت چطوره ؟
+              شما چه مقدار از وقتتون را جلوی تلویزیون سپری میکنید ؟ برنامه های مورد علاقه شما چه هستند ؟
               </Text>
-              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
-              باربارا :
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
+               شخص اول :
               </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              حالم اصلاً خوب است . من خسته شدم از بس ساعت 6 صبح بیدار بشم و سوار اتوبوس بشم . بعدش
-              با مترو برای کارکردن به اداره ای میروم که همه روی اعصابم راه میرن . رئیس در شرف طلاق گرفتن است او غیر قابل تحمل است.
-              همکارم فقط از مشکلاتش با بچه هایش با من حرف میزند. من از روز دوشنبه یک کامپیوتر جدید دارم و هنوز نمیتونم
-              خوب باهاش کار کنم! 
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+               من تلویزیون را حدود یک ساعت و نیم تا 2 ساعت در روز تماشا میکنم. شبها ساعت 8 اخبار را میبینم.
+               سپس زمانی که آگهی پخش میشود یا برنامه آب و هوا پخش میشود ظرفها را میشویم بعد از آن
+               در حدود ساعت 9 به دنبال برنامه مورد علاقه ام میگردم. من مخصوصاً برنامه های گزارشی یا مستند ها را دوست دارم.
               </Text>
-              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
-              لیز :
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
+               شخص دوم :
               </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              خب ، عادیه که تو عصبی هستی. ولی سعی کن که همه چی رو فراموش کنی. رئیس تو اغلب مواقع جابجا میشود. ظرف 15 روز
-              تو از کامپیوتر جدیدت خیلی خوشحال خواهی شد به طوری که از خودت میپرسی که چطور توانسته ای بدون این کامپیوتر تا الان
-              کارکنی. بعدش ممکنه یکم خسته بشی : اون موقع باید به تعطیلات بری!
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+               من  فقط فیلمها را دوست دارم . از بقیه برنامه ها خوشم نمی آید. طبق برنامه زمانی ام من 2 تا 3 ساعت را جلوی تلویزیون
+               سپری میکنم.
               </Text>
-              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
-              باربارا :
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
+               شخص سوم :
               </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              ببخشید. اما من بیشتر از این نمیتونم! تو ممکنه فکر کنی که من اغراق میکنم. ولی من وقتی در مورد
-              همه اینها باهات صحبت میکنم حس خوبی بهم دست میده.
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+               من از اینکه شبها را جلوی تلویزیون سپری کنم متنفرم ولی با این وجود اخبار را تماشا میکنم.
+               من فکر میکنم که برنامه ها هیچ اثری ندارند. من ترجیح میدهم کتاب بخوانم یا بیرون بروم.
               </Text>
-              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
-              لیز :
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
+               شخص چهارم :
               </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               من تو را درک میکنم ولی در نهایت ... شغل تو بد نیست حتی اگر عالی نیست و تو میدونستی که چه چیزی در انتظارت است
-               زمانی که تصمیم گرفتی بروی در حومه شهر زندگی  ، بایستی قبل از اینکه جابجا بشوی  به آن فکر میکردی.
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+               حالا که من بازنشسته شده ام ، من وقت زیادی را صرف تماشای تلویزیون میکنم.
+               من همیشه در حال کانال عوض کردن هستم و در نهایت همیشه برنامه مورد علاقه ام را پیدا میکنم. 
+               من فیلمهای کمدی را دوست دارم و همیشه مسابقات فوتبال را تماشا میکنم. با این وجود من به صورت منظم
+               روزنامه میخوانم و هر شب یک دست شطرنج بازی میکنم.
               </Text>
-              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
-              باربارا :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               حرفی که الان به من میزنی خنده داره : زمانی که من میترسیدم از اینکه نتونم با جابجایی به حومه شهر کنار بیام
-               این دقیقاً تو بودی که از حومه شهر ، از لذت روزنامه خواندن درون وسایل حمل و نقل عمومی با من صحبت میکردی ...
-              </Text>
-              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
-              لیز :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              تو منصف نیستی. تو حداقل میتونستی تشخیص بدهی که حومه شهر دلپذیر تر از 
-              پاریس برای بچه ها، برای خرید کردن ، برای پیاده روی کردن است.
-              </Text>
-              <Text  style={{padding:5,fontWeight:'bold',alignSelf:'flex-end'}}>
-              باربارا :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              ممم! نمیدونم ... میتونیم درمورد چیز دیگری صحبت کنیم. چطوره یک قهوه دیگه بخوریم؟
-              </Text>
+
+
+
+
               </Body>
               </CardItem>
               </Card>

@@ -34,113 +34,59 @@ export default class G3 extends Component {
          <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>کاربردهای جملات شرطی </Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>قیدهای با پسوند -ment </Text>
               </CardItem>
               <CardItem  style={{flexDirection:'row-reverse'}} >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                 
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  از زمان حال شرطی برای بیان موارد زیر استفاده میکنیم :
+                  قیدها همانطور که از اسم آنها مشخص است کلماتی یا عباراتی هستند که چگونگی انجام یک فعل یا  عبارت را بیان میکنند
+                  برای مثال من به سرعت میروم کلمه به سرعت در اینجا قید است و حالت فعل که رفتن است را بیان میکند.
+                  در زبان فرانسوی برای ساخت قید از یک صفت قاعده کلی به این صورت است که صفت را در حالت مونث در نظر میگیریم و پسوند 
+                  -ment را به انتهای آن اضافه میکنیم تا قید آن ساخته شود.
+                  شکل مونث صفات بی قاعده است و باید حفظ شود برای مثال صفت complet در حالت مذکر است و شکل مونث آن
+                  complete میباشد از مقایسه این دو میتوان نتیجه گرفت برخی صفات در حالت مذکر و مونث تنها یک حرف e
+                  با همدیگر تفاوت دارند. برخی دیگر صفات مثل simple حالت مذکر و مونث آنها یکی است.
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-                  انتقاد از وضعیت کنونی
+                  
+
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  On ne peut pas éviter complètement les embouteillages.   
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  ما نمیتوانیم به طور کامل از ترافیک اجتناب کنیم.
+                  </Text>
+                  
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Beaucoup de Français passent leurs vacances tout simplement chez eux.  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  بسیاری از فرانسویها تعطیلاتشان را به صورت خیلی ساده در خانه خودشان سپری میکنند.
                   </Text>
 
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Tu pourrais au moins reconnaître que la banlieue est 
-                  agréable (mais tu ne le fais pas) !   
+                  Je lis régulièrement le journal.   
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  تو میتونستی حداقل تشخیص بدهی که حومه بهتر است (ولی تشخیص نمیدهی)!
+                  من به صورت منظم روزنامه میخوانم.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                  استثنا : زمانی که صفت مذکر با یک حرف صدا دار خاتمه می یابد پسوند -ment را به انتهای آن اضافه میکنیم
+                  تا قید آن ساخته شود مثل صفات poli , vrai , absolu که به ترتیب قیدهای آنها poliment , vraiment , absolument میباشد.
+                  </Text>
+
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                  استثنا : زمانی که صفت با پسوند -ent پایان میابد برای ساخت قید باید پسوند -emment را
+                  جایگزین پسوند ent کرد مثل صفات fréquent , récent , excellent که به ترتیب قیدهای آنها fréquemment , récemment , excellemment
+                  </Text>
+                   
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                  استثنا : زمانی که صفت به پسوند -ant ختم میشود برای ساخت قید کافی است پسوند ant را با پسوند
+                  amment جایگزین کنیم برای مثال قید صفت های suffisant , abondant به ترتیب suffisamment , abondamment میباشد.
                   </Text>
                   
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-                  ابراز پشیمانی  (تاسف )از وضعیت کنونی :
-                  </Text>
-
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Je resterais bien plus longtemps (mais je ne peux pas, malheureusement). 
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من بیشتر از این می ماندم (اما من نمیتوانم ، متاسفانه)
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  از گذشته شرطی برای بیان این موارد استفاده میکنیم:
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-                  برای انتقاد از وضعیتی در گذشته:
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Tu aurais dû y penser avant de déménager (mais tu ne l'as pas fait) !  
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  تو باید قبل از اینکه جابجا میشدی به ان فکر میکردی (اما تو این کار را انجام ندادی).
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-                  ابراز پشیمانی (تاسف) درمورد وضعیتی در گذشته:
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  J'aurais dû rester une semaine de plus (mais je ne l'ai pas fait) !   
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من باید یک هفته بیشتر می ماندم (ولی این کار را نکردم).
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  از جملات شرطی برای حالات زیر نیز استفاده میشود :
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-                  برای بیان نتیجه یک حالت فرضی که احتمال وقوع آن کم یا غیر ممکن است.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Si j'habitais en banlieue, je pourrais lire mon journal dans le bus.   
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  اگر من در حومه شهر زندگی میکردم ، من میتوانستم داخل اتوبوس کتابم را بخوانم.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Si je t'avais écouté(e), je serais resté(e) à Paris.    
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  اگر من به تو گوش میدادم ، من در پاریس می ماندم.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-                  برای بیان یک آرزو(خواسته) ، یک درخواست مودبانه :
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Est-ce que tu pourrais m'aider ?     
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  آیا میتونید به من کمک کنید ؟
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  J'aimerais prendre un mois de vacances.     
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من میخواهم یک ماه تعطیلات بروم.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-                  مشاوره دادن ، پیشنهاد دادن :
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Tu devrais prendre des vacances.      
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  تو بهتره که به تعطیلات بروی.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  On pourrait peut-être parler d'autre chose.       
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  شاید بتونیم درمورد چیز دیگه ای صحبت کنیم.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-                  بیان آینده در گذشته :
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Henri se demandait quand Christine reviendrait        
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  هنری پرسید کریستین کی برمیگردد. (در زمان گذشته از آینده سوال پرسید)
+                  نکته : قیدها همیشه ثابت هستند و تغییر نمیکنند.
                   </Text>
                 </Body>
               </CardItem>
@@ -151,52 +97,41 @@ export default class G3 extends Component {
            <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>صرف فعل : افعال با پسوند indre</Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>قیدها</Text>
               </CardItem>
               <CardItem  >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                 افعال با پسوند indre مثل craindre به معنی ترسیدن و éteindre به معنی خاموش کردن جز افعال بی قاعده هستند
-                 ولی قواعد صرف کردن آنها مشابه همدیگر است اگر قبل از این افعال ضمیر قیدی en آمد باید از شکل حال آنها استفاد کرد
-                 شکل حال فعل craindre ، craignant است و شکل حال فعل éteindre ، éteignant میباشد. 
+                  قیدهای کمیت و کیفیت : Beaucoup , trop , plus , autant , bien , mal بعد از صرف فعل 
+                  و قبل از شکل گذشته فعل قرار میگیرند.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Elle joue bien au tennis.    
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                   صرف فعل در زمان حال  فعل craindre و éteindre به این صورت است که ریشه آنها که  cr و ét است را در نظر میگیریم و
-                   پسوندهای ains , ains , aint , ons , ez , ent را به ریشه فعل craindre که cr است اضافه میکنیم تا زمان حال آن ساخته شود.
-                   برای فعل éteindre پسوندهای eins , eins , eint , ons , ez , ent را به انتهای ریشه فعل که ét است اضافه میکنیم تا
-                   زمان حال آن ساخته شود.
+                  او به خوبی تنیس بازی میکند.
                   </Text>
-                  
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  برای صرف این افعال در زمان گذشته چون هردوی انها جز افعال حرکتی نیستند با فعل avoir صرف میشوند.
-                  برای ساخت زمان گذشته فعل craindre که ریشه آن cr است پسوند aint را برای تمام ضمایر شخصی استفاده کنیم.
-                  برای ساخت زمان گذشته فعل éteindre به ریشه آن که ét است پسوند eint را برای تمام ضمایر شخصی استفاده میکنیم.
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Elle a bien joué, elle a gagné le match.     
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  باید توجه داشت که شکل امری فقط برای دوم شخص مفرد(تو) ، دوم شخص جمع(شما) ، اول شخص جمع(ما) صرف میشود 
-                  برای ساخت شکل امری فعل craindre در اول شخص مفرد کافی است تا به ریشه آن cr پسوند ains را اضافه کنیم.
-                  برای ساخت شکل امری فعل éteindre در اول شخص مفرد کافی است به ریشه آن ét پسوند eins را اضافه کنیم.
-                  برای ساخت شکل امری دوم شخص جمع و اول شخص جمع کافی است به مصدر این افعال که  craign و éteign است 
-                  پسوند ons برای اول شخص جمع و ez را برای دوم شخص جمع به انتهای ریشه حال آنها اضافه کنیم تا شکل امری 
-                  آنها ساخته شود.
+                  او به خوبی بازی کرد ، او مسابقه را برنده شده است.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                   قیدهای زمانی و مکانی مثل : maintenant , demain , tard , ici , là-bas , partout ,... و همچنین
+                   قیدهای با پسوند ment به طور کلی بعد از فعل قرار میگیرند.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Elles sont arrivées ici très tard.      
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                   برای ساخت زمان گذشته ناتمام افعال craindre و éteindre کافی است به مصدر این افعال که 
-                   craign و éteign است پسوندهای گذشته ناتمام (ais , ais , ait , ions , iez , aient) را اضافه کنیم تا شکل گذشته ناتمام
-                   آنها ساخته شود.
+                  آنها خیلی دیر به اینجا رسیدند.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Elles se sont promenées tranquillement.       
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                   برای ساخت زمان حال شرطی این افعال کافی است e انتهای افعال craindre و éteindre را حذف کنیم
-                   تا مصدر شرطی آنها بدست آید توجه کنید چیزی به نام مصدر شرطی وجود ندارد صرفاً برای یادگیر بهتر از این روش استفاده
-                   میکنیم. و پسوندهای زمان گذشته ناتمام را به ریشه شرطی آنها اضافه میکنیم تا زمان شرطی حال آنها ساخته شود.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                   برای ساخت زمان آینده این افعال ریشه آنها را با حذف e آخر فعل craindre و éteindre بدست می آوریم 
-                   و پسوندهای rai , ras , ra , rons , rez , ront را به انتهای ریشه اضافه میکنیم تا زمان اینده ساخته شود.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                   برای ساخت وجه التزامی این افعال کافی است به ریشه آنها که eteign و craign است پسوندهای e , es , e , ions , iez , ent
-                   را اضافه کنیم.
+                  آنها به آرامی قدم میزنند.
                   </Text>
                 </Body>
               </CardItem>
@@ -208,44 +143,55 @@ export default class G3 extends Component {
            <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>کاربردهای مصدر</Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>عبارت های متضاد</Text>
               </CardItem>
               <CardItem  >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                 <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                 مصدر میتواند در جایگاه فاعل جمله ، مفعول یا فعل اصلی یک جمله بیاید :
+                 برای بیان دو جمله که با هم در تضاد هستند از ساختار bien que + وجه التزامی یا قیدها
+                 میتوانیم استفاده کنیم.
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Se plaindre complique souvent les choses. Il faut oser râler. Ne pas se confier à n'importe qui.      
+                  Bien qu'il soit impossible d'éviter les embouteillages, 
+                  on peut donner des conseils aux automobilistes. 
+                  (= Il est impossible d'éviter les embouteillages mais cela 
+                  n'empêche pas de donner des conseils aux automobilistes.)       
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  شکایت کردن میتواند مسائل را گاهی اوقات پیچیده کند . باید جرات گله کردن را داشته باشیم. نباید به شخصی که برای او اهمیتی
-                  ندارد شکایت کنیم.
+                  اگر چه اجتناب از ترافیک کاملاً غیر ممکن است ، زمانی که بدانیم
+                  موتور سواران در چه زمانی از روز قصد حرکت را دارند ما میتوانیم آنها را بهتر راهنمایی کنیم .
+                  (= این غیر ممکن است که از ترافیک اجتناب کنیم ولی این امر مانع از راهنمایی کردن موتورسوارن نمیشود)
+                  </Text>
+                  
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Les gens ne disent pas toujours la vérité, bien que les réponses soient anonymes. 
+                  (= Les réponses sont anonymes. Pourtant les gens ne disent pas toujours ia vérité.)        
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                 جمله فوق از 3 قسمت تشکیل شده در قسمت اول مصدر se plaindre در جایگاه فاعل است .
-                 در قسمت دوم مصدر raler در جایگاه فعل اصلی جمله است.
-                 در قسمت سوم مصدر se confier در جایگاه مفعول است.
+                  مردم همیشه حقیقت را بیان نمیکنند ، اگرچه جواب ها به صورت ناشناس هستند. 
+                  (= جوابها ناشناس هستند. اما مردم همیشه واقعیت را بیان نمیکنند.)
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  در حالت منفی ne pas قبل از مصدر می آید و برای ne jamais , ne plus , ne rien نیز همین روش برقرار است.
+                 قیدها یک اصلاحیه یا اطلاعات تکمیلی درمورد اطلاعات اولیه به ما میدهند.
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Ne jamais arriver en retard à son travail, ne plus avoir de problèmes d'argent, ne rien faire de la journée.       
+                  Je déteste la télé, mais je regarde quand même les informations.         
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  هرگز با تاخیر سرکار نرو ، از این به بعد مشکلات مالی نداشته باش ، هیچ کاری در طول روز انجام نده.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  زمانی که از ne pas استفاده میکنیم و بعد از آن یک مصدر استفاده میکنیم ما فقط اطلاعاتی را در مورد مصدری که منفی است میدهیم.
+                  من از تلویزیون متنفرم ولی  با این وجود اخبار را تماشا میکنم.
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Je lui ai demandé de ne pas m'attendre = Je lui ai dit : « Ne m'attends pas. »       
+                  Les sondages donnent des informations utiles cependant, il ne faut pas croire qu'ils puissent résoudre tous les problèmes.         
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من از او خواستم که منتظر من نماند = من به او گفتم : منتظر من نمان.
+                  نظر سنجی ها اطلاعات مفیدی به ما میدهند اما به هر حال نباید باور داشته باشیم که آنها میتوانند تمام مشکلات ما را حل کنند.
                   </Text>
-
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Je passe beaucoup de temps devant la télé. Malgré tout, je lis régulièrement le journal.         
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  من اغلب اوقاتم را صرف تماشای تلویزیون میکنم. اما با این حال به طور منظم روزنامه میخوانم.
+                  </Text>
                 </Body>
               </CardItem>
            </Card> 
