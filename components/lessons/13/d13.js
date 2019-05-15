@@ -39,36 +39,47 @@ export default class D3 extends Component {
         <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
-          <Text>La France ne s'est pas faite en un jour... </Text>
+          <Text>Un an dans le Grand Nord </Text>
             </CardItem>
             <CardItem>
                 <Body>
                 
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                L'histoire de France, pour la plupart des Français, c'est Vercingétorix, Clovis, Charlemagne,
-                 Jeanne d'Arc et de nombreux rois, mais bien peu savent a quoi la France ressemblait dans ces temps lointains. 
-                 À partir du xvIIIe siècle, la France prend peu à peu sa forme actuelle,
-                  mais c'est un pays où le français est parlé par une petite partie de la population seulement :
-                   dans le Sud, on parle occitan, et dans les régions périphériques, on parle breton, flamand, allemand, italien,
-                    catalan, basque. La France est divisée en provinces relativement autonomes qui gardent leurs traditions.
+                Ma fille Montaine avait 20 mois, un âge où il est important d'être avec ses parents.
+                 Nous sommes partis au début de l'été, pour nous adapter progressivement au froid. 
+                 Nous avons fait la première partie du voyage à cheval. Nous avons parcouru 700 km entre juin et août. Montaine,
+                  très sensible à nos émotions, était inquiète quand nous l'étions. Sinon, elle prenait un grand plaisir à ce voyage.
+                   Elle chantait, dormait sur mon dos, s'amusait à reconnaître les animaux, parlait à Otchum, notre chien. 
                 </Text>
-                <Image style={{width:'100%'}} resizeMode='stretch' source={require('../../../assets/img/lessons/lesson12/d121.png')}/>
+                <Image style={{width:'100%'}} resizeMode='stretch' source={require('../../../assets/img/lessons/lesson13/d131.png')}/>
 
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                La révolution de 1789 change tout : le territoire national est divisé en départements, l'autonomie des provinces est 
-                supprimée, on essaie de remplacer les langues régionales par le français,
-                 mais les populations sont très attachées à leur langue. Ce n'est qu'à la fin du xixe siècle,
-                  avec l'enseignement obligatoire, que l'emploi du français se généraUse dans tout le pays. 
+                Au cours d'un voyage précédent, Nicolas avait déjà repéré le lieu de ses rêves :
+                 les bords du lac Thukada, entouré de glaciers superbes et de forêts magnifiques. Le village le plus proche était à 200 km.
+                  Nous avons d'abord campé là six semaines, le temps pour Nicolas de construire une cabane de 30 m2.
+                   Un hydravion a transporté les vitres de la fenêtre, les chiens et un traîneau.
+                    C'est dans cette cabane que nous avons passé une partie de l'hiver Vivre, jour après jour, tous les trois ensemble,
+                     a été un immense bonheur Montaine voulait participer à tout :
+                      elle ramassait du bois quand le feu s'éteignait, péchait avec Nicolas... Chaque jour,
+                       nous partions dans les montagnes pour observer les animaux.
+                        Elle regardait des livres d'images, jouait avec Otchum,
+                         vivant avec lui une véritable histoire d'amour Notre seule peur était les ours. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Au xxe siècle, la France se transforme profondément :
-                 l'administration se modernise, le français est la seule langue de la République,
-                  l'industrie, l'agriculture et le commerce se développent. Le centralisme domine toute la vie française :
-                   tout se décide à Paris où on donne les ordres qui seront exécutés en province. À la fin du xxe siècle,
-                    avec la création de l'Union européenne, la France a trouvé un meilleur équilibre entre la capitale et la province.
-                     Cette harmonisation a permis la création de régions administratives (correspondant souvent aux anciennes provinces) qui
-                      possèdent une certaine autonomie : c'est ainsi que les langues régionales sont de nouveau enseignées en France après avoir
-                       été souvent interdites à l'école. 
+                Après quelques mois, nous sommes repartis vers le sud.
+                 Nous avancions de 10 à 80 km par jour, sur les fleuves et les rivières pris par les glaces ou à travers la forêt.
+                  Montaine n'a jamais eu froid. Couchée à l'arrière du traîneau, elle dormait trois à quatre heures par jour mais,
+                   pour nous, les journées étaient épuisantes. Nous tirions, poussions le traîneau. Nous tombions souvent.
+                    Nous craignions que la glace ne cède. Mon pire souvenir ? Le jour où nous avons vu un trou d'eau, à cent mètres du traîneau.
+                     Nicolas a essayé de ralentir mais les chiens n'obéissaient pas.
+                      J'ai attrapé Montaine, l'ai jetée dans la neige avant de m'y jeter aussi.
+                       Le traîneau s'est renversé, par miracle, à deux mètres de l'eau.  
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Le soir, il fallait deux heures pour installer notre camp. Nicolas montait la tente pendant que je déchargeais le traîneau.
+                 Montaine s'énervait parce qu'on ne s'occupait pas d'elle. Cette deuxième partie 
+                de l'aventure a duré six mois. J'ai bien sûr connu des moments de découragement,
+                 des moments où j'ai pleuré de froid, mais je n'ai jamais rien regretté.
                 </Text>
                 </Body>
             </CardItem>
@@ -82,7 +93,7 @@ export default class D3 extends Component {
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-           فرانسه در یک روز ساخته نشده است ...
+           یکسال در نیمکره شمالی
           </Text>
             </CardItem>
           
@@ -90,27 +101,37 @@ export default class D3 extends Component {
             <Body >
               
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               تاریخ فرانسه برای اکثریت فرانسویها وِرسینگِتوریکس (فرمانده قبیله آورن) ، کلوویس (پادشاه فرانکهای سالی) ، شارلمانی (امپراتور
-               فرانکهای) ، ژان دارک (قهرمان ملی فرانسه) و بسیاری از پادشاهان دیگر است ، ولی تعداد کمی از مردم
-               میدانند که فرانسه در زمانهای قدیم چگونه بوده است.
-               از قرن هجدهم به بعد فرانسه به صورت تدریجی شکل امروزی اش را گرفت ، ولی کشوری بود که زبان فرانسوی
-               تنها در بخش کوچکی از جمعیت آن صحبت میشد : در جنوب به زبان اکسیتان (زبان رومی) تکلم میشود
-               و در مناطق اطراف زبان برتونی ، فلاندرز ، آلمانی ، ایتالیایی ، کاتالان ، باسکی تکلم میشود
-               . فرانسه به بخش های نسبتاً مستقلی (خودمختاری) تقسیم شده است که سنت های خودشان را حفظ کرده اند.
+               دختر من مانتین 20 ماه داشت ، سنی که  با والدین بودن مهم است.
+               ما در اوایل تابستان راهی شدیم ، برای اینکه به تدریج به سرما عادت کنیم قسمت اول سفرمان را با اسب انجام دادیم.
+               ما 700 کیلومتر از ماه ژون تا اوت پیاده روی کردیم. مانتین به عواطف و احساسات ما بسیار حساس بود زمانی که ما نگران بودیم
+               او هم نگران بود. در مواقع دیگر او از این سفر بسیار لذت میبرد. او آواز میخواند ، زمانی که روی کول من بود خوابش میبرد
+               ، از شناختن حیوانات لذت میبرد ، با اتشوم (سگ ما) حرف میزد.
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               انقلاب سال 1789 همه چیز را تغییر داد سرزمین ملی به بخشها تقسیم شد ، استقلال استانها ناپدید شده است.
-               ما سعی میکنیم که فرانسوی را جایگزین زبانهای محلی کنیم ، ولی مردم بومی وابسته به زبانشان هستند.
-               در پایان قرن نوزدهم و با اجباری شدن آموزش و پرورش بود که از استفاده از زبان فرانسوی در همه کشورها گسترش یافت.
+               در سفر قبلی ما ، نیکلاس محل رویایی اش را پیدا کرده بود : سواحل دریاچه توکادا که توسط یخچال های طبیعی عالی و جنگل های
+               با شکوه احاطه شده است. نزدیکترین دهکده 200 کیلومتر فاصله داشت. ما ابتدا به مدت 6 هفته آنجا کمپ زدیم تا نیکلاس
+               یک کلبه 30 متر مربعی را آنجا بسازد. یک هواپیمای دریایی پنجره ها و شیشه ها، سگها و یک سورتمه را به آنجا منتقل کرد.
+               ما در این کلبه بخشی از زمستان را گذراندیم. هرسه نفر ما روزی پس از روز دیگری را باهم زندگی کردیم ، یک شادی وصف ناپذیری بود.
+               مانتین میخواست در همه چیز مشارکت کند : زمانی که آتش خاموش شد او مشغول جمع آوری مقداری چوب بود.
+               با نیکلاس ماهیگیری میکرد ... هرروز ما به کوهستان میرفتیم تا حیوانات را تماشا کنیم. او به عکسهای کتابها نگاه میکرد ، با اوشوم
+               بازی میکرد ، زندگی کردن با او یک داستان عاشقانه واقعی بود. تنها نگرانی ما خرسها بودند.
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               در قرن بیستم فرانسه به طور وسیعی تغییر شکل داد است :
-               دولت مدرنیزه شد ، زبان فرانسوی تنها زبان جمهوری فرانسه است ، صنعت ، کشاورزی و تجارت توسعه یافت.
-               مرکزگرایی بر تمام زندگی فرانسویها سیطره پیدا کرد : همه تصمیمات در پاریس گرفته میشوند ، پاریس جایی است که دستورات 
-               به استانها برای اجرا داده میشوند. در اواخر قرن بیستم با تشکیل اتحادیه اروپا ، فرانسه به یک تعادل بهتر بین
-               پایتخت و استانها دست یافت . این هماهنگی (هارمونی) اجاز داد تا مناطق مدیریتی (اغلب مطابق با استانهای قدیمی)
-               یک خودمختاری کامل را بدست آورند.
-               بنابراین زبانهای محلی اخیراً در فرانسه آموزش داده میشوند بعد از اینکه بارها آموزش آنها در مدرسه ممنوع شده بود.
+              بعد از چندماه ، ما به سمت جنوب دوباره عازم شدیم. ما روزی 10 تا 80 کیلومتر پیش روی میکردیم ، در شریانها و رودخانه های
+              پوشیده از یخ یا از میان جنگل. مانتین هرگز دچار سرماخوردگی نشد. او سوار بر پشت سورتمه بود ، 
+              روزی سه یا چهار ساعت میخوابید ، روزها برای ما طاقت فرسا بودند ، ما سورتمه را میکشیدیم و هل میدادیم.
+              گاهی اوقات به زمین میخوردیم. ما نگران بودیم که یخ درهم نشکند ، بدترین خاطره ام ؟ روزی بود که ما یک چاله آب
+              در 100 متری سورتمه دیدیم. نیکلاس سعی کرد که سرعت سورتمه را کم کند ولی سگها اطاعت نمیکردند.
+              مانتین را بغلم گرفتم و قبل از اینکه خودم را در برف پرتاب کنم او را پرتاب کردم.
+              سورتمه به طور معجزه آسایی در فاصله 2 متری آب واژگون شد.
+              </Text>
+
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+              عصرها 2 ساعت طول میکشید تا کمپ را برپا کنیم. نیکلاس زمانی که من بار را از سورتمه داشتم خالی میکردم چادر را  برپا کرد.
+              مانتین از اینکه ما او را سرگرم نکردیم اذیت شد.
+              قسمت دوم ماجراجویی ما 6 ماه طول کشید.
+              مطمئناً من لحظات ناامیدی یا لحظاتی را که از سرما گریه میکردم را تجربه کردم ، 
+              ولی من از هیچ چیزی پشیمان نیستم.
               </Text>
                
               </Body>
@@ -124,112 +145,89 @@ export default class D3 extends Component {
               <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
-          <Text>Au commissariat </Text>
+          <Text>Un entretien avec Diane </Text>
             </CardItem>
             <CardItem>
                 <Body>
                 
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DANIEL B. :  
+                LE JOURNALISTE :  
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Bonjour monsieur, je voudrais faire une déclaration de perte. 
+                Avant de partir, vous n 'aviez pas peur du froid, de la solitude ? 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE POLICIER :    
+                DIANE :     
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Bon, asseyez-vous, je vous écoute. 
+                J'y pensais, bien sûr, mais j'avais confiance en Nicolas.
+                 C'est un passionné du Grand Nord, il y voyage depuis quinze ans et son expérience me rassurait.  
                 </Text>  
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DANIEL B. :   
+                LE JOURNALISTE :   
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Voilà, ce matin, j'ai pris le métro vers huit heures à Vanves, je suis descendu à Montparnasse.
-                 Je me suis aperçu que je n'avais plus ma mallette en arrivant au bureau.
-                  J'ai tout de suite téléphoné à la RATFP mais personne n'avait rapporté de mallette.
-                   Je suis vraiment ennuyé parce que j'avais tous mes papiers dedans et que je dois partir après-demain pour l'étranger.   
+                Comment votre famille, vos amis, ont-ils réagi quand vous avez annoncé votre projet ?    
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE POLICIER :    
+                DIANE :     
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Qu'est-ce que vous aviez exactement dans votre mallette ? 
+                Mes parents étaient inquiets et ils nous ont invités à bien réfléchir. Quant à nos amis, ils nous prenaient pour des fous.
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DANIEL B. :   
+                LE JOURNALISTE :   
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Eh bien, mon portefeuille avec mes papiers d'identité, un livre, des notes, mon carnet d'adresses... et mes clés. 
+                Est-ce qu'il ne fallait pas un peu d'Inconscience pour entreprendre ce voyage ? 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE POLICIER :    
+                DIANE :    
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Alors, vous n'avez plus de papiers d'identité ?  
+                Vous savez, ce n'est pas une idée aussi folle qu'on pourrait le croire ! Ce projet,
+                 Nicolas m'en avait déjà parlé longtemps auparavant. Juste avant la naissance de Montaine,
+                  il était allé chez les nomades de Sibérie voir comment ils voyageaient avec leurs enfants.
+                   Pour la première partie du voyage, à cheval, nous avons fait fabriquer une selle biplace pour Montaine et moi.
+                    Nous nous sommes entraînées pendant plusieurs mois à deux. Monlaine adorait ça !  
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DANIEL B. :     
+                LE JOURNALISTE :     
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Non, et c'est bien ça qui m'ennuie. De plus, je suis étranger, plus précisément, je suis suisse.  
+                Vous avez consulté des médecins ?   
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE POLICIER :    
+                DIANE :    
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Il va falloir que vous alliez à votre consulat avec une copie de votre déclaration de perte.
-                 On vous fera des papiers provisoires. Vous aviez de l'argent ? 
+                Bien sûr, j'en ai consulté plusieurs. Aucun n'a élé dissuasif.
+                 On m'a dit que le grand froid tuait microbes el virus. Effectivement, Montaine n'a jamais été malade. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DANIEL B. :    
+                LE JOURNALISTE :    
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Oh ! pas grand-chose, heureusement ! 150,200 francs au maximum. Des francs français ! 
+                Est-ce qu'il vous est arrivé de regretter les avantages de la ville ?  
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE POLICIER :    
+                DIANE :    
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Est-ce qu'on peut vous joindre par téléphone dans la journée ?  
+                Non. Je vivais dans un autre monde qui m'a beaucoup apporté.   
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DANIEL B. :     
+                LE JOURNALISTE :     
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Bien sûr. Au 01 44 90 70 82, je voulais dire au 01 44 90 70 82.  
+                Et aujourd'hui, vous vous sentez différente ?   
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE POLICIER :    
+                DIANE :   
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                C'est votre numéro direct ?  
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DANIEL B. :    
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Non, ce n'est pas le mien. C'est le numéro de la secrétaire.
-                 Normalement, je travaille à Fribourg. Mais elle est au courant.  
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE POLICIER :    
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                De toute façon, le sien ou le vôtre, pour nous, c'est la même chose.
-                 L'important, c'est que nous ayons un numéro à Paris. Dès que nous saurons quelque chose, nous vous appellerons.   
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DANIEL B. :     
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Merci bien. Au revoir, monsieur. 
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE POLICIER :    
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                À votre service.   
+                Oui, je ne regarde plus les choses comme avant. Maintenant,
+                 je donne moins d'importance aux petits inconvénients de la vie de tous les jours, je suis plus sereine. 
                 </Text>
                 </Body>
             </CardItem>
@@ -243,7 +241,7 @@ export default class D3 extends Component {
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-           در ایستگاه پلیس (کلانتری)
+           مصاحبه ای با دایان
           </Text>
             </CardItem>
           
@@ -251,105 +249,81 @@ export default class D3 extends Component {
             <Body >
  
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               دانیل ب :
+              خبرنگار :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               سلام آقا. من میخواهم گزارش مفقودی بدهم.
+                قبل از حرکت کردن ، شما از سرما ، تنهایی ترسی نداشتید ؟
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               پلیس :
+              دایان :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               بسیارخب ، بنشینید ، من به شما گوش میدهم.
+                البته که من به آن فکر میکردم ولی من از نیکلاس مطمئن بودم . او مشتاق شمالگان هست . او 15 سال است که به آنجا سفر میکند و
+                تجربه او دوباره به من اطمینان خاطر داد.
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              دانیل ب :
+              خبرنگار :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-              داستان از این قراره ، امروز صبح من حدود ساعت 8 سوار متروی شهر وانو شدم و در مونپارناس (اسم منطقه ای در پاریس) از قطار
-              پیاده شدم. در حال رفتن به اداره بودم که متوجه شدم کیف سامسونتم همراهم نیست.
-              من سریع زنگ زدم به شرکت حمل و نقل عمومی مترو. اما هیچکس گزارش پیداشدن کیف سامسونت من را نداده بود.
-              من خیلی نگران شدم چون تمام مدارکم داخل کیفم بود و من باید پس فردا به خارج از کشور بروم.
+              چگونه خانواده شما ، دوستان شما زمانی که شما پروژه خودتان را اعلام کردید واکنش نشان دادند ؟
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               پلیس :
+              دایان :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               دقیقاً داخل کیف شما چه چیزی وجود داشت ؟
+               والدین من نگران بودند و از ما خواستند تا به دقت در این مورد فکر کنیم. اما دوستان ما ، ما را دیوانه فرض کردند.
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              دانیل ب :
+              خبرنگار :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                خب ، کیف پولم به همراه مدارک شناسایی ام ، یک کتاب ، تعدادی یادداشت ، دفترچه تلفن ام ... و کلیدهایم.
+                 آیا نباید کمی بی پروا بود تا این سفر را دست کم گرفت ؟
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               پلیس :
+              دایان :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               پس شما الان مدارک شناسایی ندارید ؟
+               میدونید ، این ایده آنقدرها هم که تصور میکنید دیوانه وار نبود ! نیکلاس در مورد این پروژه خیلی قبل با من صحبت کرده بود.
+               درست قبل از تولد مانتین او پیش عشایر (خانه به دوش های)سیبری رفته بود تا ببیند آنها چگونه با بچه ها سفر میکنند.
+               برای قسمت اول سفرمان با اسب ، ما یک صندلی دوتایی برای من و مانتین ساختیم. ما به مدت چندین ماه با همدیگر آموزش دیدیم ، 
+               مانتین عاشق این کار بود.
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              دانیل ب :
+              خبرنگار :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               نه ، من به همین خاطر خیلی نگرانم. علاوه بر اینها من خارجی هستم ، به طور دقیق تر من سوئیسی هستم.
+               شما با چند پزشک مشورت کرده بودید ؟
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               پلیس :
+               دایان :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               شما باید به کنسولگری کشورتان با یک کپی از گزارش مفقودی مراجعه کنید.
-               ما به شما مدارک موقتی میدهیم ، شما پول دارید ؟
+               البته ، من چندین بار با آنها مشورت کرده بودم. هیچ عامل بازدارنده ای وجود نداشت. به من گفته شده بود که سرما
+               میکروبها و ویروسها را از بین میبرد ، به طور موثری مانتین هرگز مریض نشد.
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              دانیل ب :
+              خبرنگار :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               اوه نه خیلی زیاد خوشبختانه 150 تا 200 فرانک ماکزیمم دارم. فرانک فرانسه!
+                آیا در طول سفرتان دلتنگ مزیتهای شهر شده اید ؟
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               پلیس :
+               دایان :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               آیا ما با تلفن میتوانیم در طول روز به شما دسترسی داشته باشیم ؟
+               نه من در یک دنیای دیگری زندگی میکردم که مزیتهای زیادی به من داد.
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              دانیل ب :
+              خبرنگار :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               البته با 01 44 90 70 82 من میخواستم بگویم با شماره تلفن 01 44 90 70 82
+               و امروز ، شما به طور متفاوتی حس میکنید ؟
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               پلیس :
+               دایان :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               این شماره مستقیم شماست ؟
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              دانیل ب :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               نه این شماره من نیست. این شماره منشی ام است. من معمولاً در فرایبورگ کار میکنم ولی او همیشه پاسخگو است.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               پلیس :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               به هرحال ، مال او یا شما ، هردو یکی هستند ، مهم این است که ما شماره دفتر پاریش شما را داشته باشیم. هروقت که ما چیز جدیدی
-               بفهمیم با شما تماس خواهیم گرفت.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              دانیل ب :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               خیلی ممنون خداحافظ آقا.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               پلیس :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                خدمتگذار شما هستم.
+               بله ، من نسبت به قبل به چیزهای بیشتری توجه میکنم. اکنون من اهمیت کمتری به مشکلات روزمره زندگی میدهم. من آرام تر هستم.
               </Text>
               </Body>
               </CardItem>
