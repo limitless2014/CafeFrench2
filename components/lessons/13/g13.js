@@ -138,6 +138,67 @@ export default class G3 extends Component {
 
 
 
+           <Card>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+              <Icon type="FontAwesome" name="book"/>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>جملات پیرو مقایسه ای</Text>
+              </CardItem>
+              <CardItem  >
+                <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
+                <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  بخش دوم یک جمله مقایسه ای میتواند یک جمله پیرو باشد.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Elle n'est pas aussi folle qu'on pourrait le croire.      
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  او آنقدرها هم دیوانه نیست که تو تصور میکنی.
+                  </Text>
+                  
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  ساختار جملات پیرو مقایسه ای زمانی که یک صفت مورد
+                  مقایسه قرار میگیرد بدین صورت است که ابتدا یکی از صفات تفضیلی plus , aussi , pas aussi , moins 
+                  را می آوریم سپس  صفت را قرار میدهیم و در انتها ضمیر موصولی que و بقیه جمله پیرو را استفاده میکنیم. مثال :
+                  </Text>
+        
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Alain est beaucoup plus grand que je (le) croyais.      
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آلن خیلی بزرگتر از اون چیزی هست که فکر میکردم.
+                  </Text>
+
+ 
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  مقایسه میتواند در مورد یک فعل باشد در این حالت ساختار جملات پیرو مقایسه ای بدین صورت است که
+                  ابتدا فعل را قرار میدهیم سپس صفت تفضیلی plus/davantage یا autant/pas autant یا moins را قرار میدهیم و در انتها
+                  ضمیر موصولی que و بقیه جمله پیرو را قرار میدهیم. مثال :
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Catherine travaille moins qu'elle (le) dit     
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  کاترین کمتر از آن چیزی که میگوید کار میکند.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  اگر مقایسه در مورد یک اسم بود ساختار جملات پیرو مقایسه ای بدین صورت است که
+                  ابتدا صفت تفضیلی plus/davantage de یا autant/pas autant de یا moins de را می آوریم سپس اسم و در انتهای ضمیر 
+                  موصولی que و بقیه جمله پیرو را قرار میدهیم. مثال:
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  il n'y a pas autant d'habitants qu'on (l')imagine. 
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آنقدر جمعیت اینجا نیست که ما تصور میکنیم.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  نکته : استفاده از ضمیر le در تمام جملات قبلی اختیاری است .
+                  </Text>
+                </Body>
+              </CardItem>
+           </Card> 
+
+
            
            </ScrollView>
          </Container>
