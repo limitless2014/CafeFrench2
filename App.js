@@ -51,6 +51,9 @@ import G12 from './components/lessons/12/g12';
 import D13 from './components/lessons/13/d13';
 import V13 from './components/lessons/13/v13';
 import G13 from './components/lessons/13/g13';
+import D14 from './components/lessons/14/d14';
+import V14 from './components/lessons/14/v14';
+import G14 from './components/lessons/14/g14';
 import StackViewStyleInterpolator from 'react-navigation-stack/dist/views/StackView/StackViewStyleInterpolator';
 
 
@@ -70,6 +73,7 @@ const rootNavigator=createStackNavigator({
     D11:{screen:D11},V11:{screen:V11},G11:{screen:G11},
     D12:{screen:D12},V12:{screen:V12},G12:{screen:G12},
     D13:{screen:D13},V13:{screen:V13},G13:{screen:G13},
+    D14:{screen:D14},V14:{screen:V14},G14:{screen:G14},
 },{headerMode:'none',mode:'modal',transitionConfig: () => ({
   
    screenInterpolator: (sceneProps) => {
