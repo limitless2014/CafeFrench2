@@ -35,117 +35,10 @@ export default class D3 extends Component {
 
 
 
-       
         <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
-          <Text>Un an dans le Grand Nord </Text>
-            </CardItem>
-            <CardItem>
-                <Body>
-                
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Ma fille Montaine avait 20 mois, un âge où il est important d'être avec ses parents.
-                 Nous sommes partis au début de l'été, pour nous adapter progressivement au froid. 
-                 Nous avons fait la première partie du voyage à cheval. Nous avons parcouru 700 km entre juin et août. Montaine,
-                  très sensible à nos émotions, était inquiète quand nous l'étions. Sinon, elle prenait un grand plaisir à ce voyage.
-                   Elle chantait, dormait sur mon dos, s'amusait à reconnaître les animaux, parlait à Otchum, notre chien. 
-                </Text>
-                <Image style={{width:'100%'}} resizeMode='stretch' source={require('../../../assets/img/lessons/lesson13/d131.png')}/>
-
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Au cours d'un voyage précédent, Nicolas avait déjà repéré le lieu de ses rêves :
-                 les bords du lac Thukada, entouré de glaciers superbes et de forêts magnifiques. Le village le plus proche était à 200 km.
-                  Nous avons d'abord campé là six semaines, le temps pour Nicolas de construire une cabane de 30 m2.
-                   Un hydravion a transporté les vitres de la fenêtre, les chiens et un traîneau.
-                    C'est dans cette cabane que nous avons passé une partie de l'hiver Vivre, jour après jour, tous les trois ensemble,
-                     a été un immense bonheur Montaine voulait participer à tout :
-                      elle ramassait du bois quand le feu s'éteignait, péchait avec Nicolas... Chaque jour,
-                       nous partions dans les montagnes pour observer les animaux.
-                        Elle regardait des livres d'images, jouait avec Otchum,
-                         vivant avec lui une véritable histoire d'amour Notre seule peur était les ours. 
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Après quelques mois, nous sommes repartis vers le sud.
-                 Nous avancions de 10 à 80 km par jour, sur les fleuves et les rivières pris par les glaces ou à travers la forêt.
-                  Montaine n'a jamais eu froid. Couchée à l'arrière du traîneau, elle dormait trois à quatre heures par jour mais,
-                   pour nous, les journées étaient épuisantes. Nous tirions, poussions le traîneau. Nous tombions souvent.
-                    Nous craignions que la glace ne cède. Mon pire souvenir ? Le jour où nous avons vu un trou d'eau, à cent mètres du traîneau.
-                     Nicolas a essayé de ralentir mais les chiens n'obéissaient pas.
-                      J'ai attrapé Montaine, l'ai jetée dans la neige avant de m'y jeter aussi.
-                       Le traîneau s'est renversé, par miracle, à deux mètres de l'eau.  
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Le soir, il fallait deux heures pour installer notre camp. Nicolas montait la tente pendant que je déchargeais le traîneau.
-                 Montaine s'énervait parce qu'on ne s'occupait pas d'elle. Cette deuxième partie 
-                de l'aventure a duré six mois. J'ai bien sûr connu des moments de découragement,
-                 des moments où j'ai pleuré de froid, mais je n'ai jamais rien regretté.
-                </Text>
-                </Body>
-            </CardItem>
-          </Card>
-        
-
-
-
-
-          <Card>
-          <CardItem header style={{flexDirection:'row-reverse'}}>
-          <Icon type="FontAwesome" name="coffee"/>
-          <Text>
-           یکسال در نیمکره شمالی
-          </Text>
-            </CardItem>
-          
-          <CardItem>
-            <Body >
-              
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               دختر من مانتین 20 ماه داشت ، سنی که  با والدین بودن مهم است.
-               ما در اوایل تابستان راهی شدیم ، برای اینکه به تدریج به سرما عادت کنیم قسمت اول سفرمان را با اسب انجام دادیم.
-               ما 700 کیلومتر از ماه ژون تا اوت پیاده روی کردیم. مانتین به عواطف و احساسات ما بسیار حساس بود زمانی که ما نگران بودیم
-               او هم نگران بود. در مواقع دیگر او از این سفر بسیار لذت میبرد. او آواز میخواند ، زمانی که روی کول من بود خوابش میبرد
-               ، از شناختن حیوانات لذت میبرد ، با اتشوم (سگ ما) حرف میزد.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               در سفر قبلی ما ، نیکلاس محل رویایی اش را پیدا کرده بود : سواحل دریاچه توکادا که توسط یخچال های طبیعی عالی و جنگل های
-               با شکوه احاطه شده است. نزدیکترین دهکده 200 کیلومتر فاصله داشت. ما ابتدا به مدت 6 هفته آنجا کمپ زدیم تا نیکلاس
-               یک کلبه 30 متر مربعی را آنجا بسازد. یک هواپیمای دریایی پنجره ها و شیشه ها، سگها و یک سورتمه را به آنجا منتقل کرد.
-               ما در این کلبه بخشی از زمستان را گذراندیم. هرسه نفر ما روزی پس از روز دیگری را باهم زندگی کردیم ، یک شادی وصف ناپذیری بود.
-               مانتین میخواست در همه چیز مشارکت کند : زمانی که آتش خاموش شد او مشغول جمع آوری مقداری چوب بود.
-               با نیکلاس ماهیگیری میکرد ... هرروز ما به کوهستان میرفتیم تا حیوانات را تماشا کنیم. او به عکسهای کتابها نگاه میکرد ، با اوشوم
-               بازی میکرد ، زندگی کردن با او یک داستان عاشقانه واقعی بود. تنها نگرانی ما خرسها بودند.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              بعد از چندماه ، ما به سمت جنوب دوباره عازم شدیم. ما روزی 10 تا 80 کیلومتر پیش روی میکردیم ، در شریانها و رودخانه های
-              پوشیده از یخ یا از میان جنگل. مانتین هرگز دچار سرماخوردگی نشد. او سوار بر پشت سورتمه بود ، 
-              روزی سه یا چهار ساعت میخوابید ، روزها برای ما طاقت فرسا بودند ، ما سورتمه را میکشیدیم و هل میدادیم.
-              گاهی اوقات به زمین میخوردیم. ما نگران بودیم که یخ درهم نشکند ، بدترین خاطره ام ؟ روزی بود که ما یک چاله آب
-              در 100 متری سورتمه دیدیم. نیکلاس سعی کرد که سرعت سورتمه را کم کند ولی سگها اطاعت نمیکردند.
-              مانتین را بغلم گرفتم و قبل از اینکه خودم را در برف پرتاب کنم او را پرتاب کردم.
-              سورتمه به طور معجزه آسایی در فاصله 2 متری آب واژگون شد.
-              </Text>
-
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-              عصرها 2 ساعت طول میکشید تا کمپ را برپا کنیم. نیکلاس زمانی که من بار را از سورتمه داشتم خالی میکردم چادر را  برپا کرد.
-              مانتین از اینکه ما او را سرگرم نکردیم اذیت شد.
-              قسمت دوم ماجراجویی ما 6 ماه طول کشید.
-              مطمئناً من لحظات ناامیدی یا لحظاتی را که از سرما گریه میکردم را تجربه کردم ، 
-              ولی من از هیچ چیزی پشیمان نیستم.
-              </Text>
-               
-              </Body>
-              </CardItem>
-              </Card>
-
-
-        
-
-
-              <Card>
-          <CardItem header>
-          <Icon type="FontAwesome" name="coffee"/>
-          <Text>Un entretien avec Diane </Text>
+          <Text>Des bords du Rhin au Sahara </Text>
             </CardItem>
             <CardItem>
                 <Body>
@@ -154,80 +47,65 @@ export default class D3 extends Component {
                 LE JOURNALISTE :  
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Avant de partir, vous n 'aviez pas peur du froid, de la solitude ? 
+                Quand je vous vois entourée de vos amis, j'ai l'impression que votre 
+                monde est ici. Et pourtant, vous repartez pour le Sahara. Pourquoi ?  
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DIANE :     
+                ELISABETH SAUER :     
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                J'y pensais, bien sûr, mais j'avais confiance en Nicolas.
-                 C'est un passionné du Grand Nord, il y voyage depuis quinze ans et son expérience me rassurait.  
+                Ici, j'ai des amis, ou plutôt des connaissances.
+                 C'est vrai, ici je peux sortir, m'amuser, mais, comment dire,
+                  j'ai l'Impression que toutes ces activités m'etourdissent,
+                   qu'elles m'empêchent de vivre parce qu'elles cachent la vraie vie.  
                 </Text>  
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
                 LE JOURNALISTE :   
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Comment votre famille, vos amis, ont-ils réagi quand vous avez annoncé votre projet ?    
+                Vous recherchez la solitude ?    
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DIANE :     
+                ELISABETH SAUER :     
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Mes parents étaient inquiets et ils nous ont invités à bien réfléchir. Quant à nos amis, ils nous prenaient pour des fous.
+                Ce n'est pas ça. Dans le désert, je ne suis pratiquement jamais seule.
+                 Ce que je veux dire, c'est que je veux être moi-même, faire des choses peut-être simples,
+                  mais des choses que j'ai choisi de faire, sans que des amis, la publicité ou la mode, ne m'aient poussée à les faire.
+                   Et je veux pouvoir aimer les gens pour ce qu'ils sont, pour ce qu'ils font, et non pas pour ce qu'ils ont. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
                 LE JOURNALISTE :   
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Est-ce qu'il ne fallait pas un peu d'Inconscience pour entreprendre ce voyage ? 
+                Vous fuyez la société de consommation ?  
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DIANE :    
+                ELISABETH SAUER :  
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Vous savez, ce n'est pas une idée aussi folle qu'on pourrait le croire ! Ce projet,
-                 Nicolas m'en avait déjà parlé longtemps auparavant. Juste avant la naissance de Montaine,
-                  il était allé chez les nomades de Sibérie voir comment ils voyageaient avec leurs enfants.
-                   Pour la première partie du voyage, à cheval, nous avons fait fabriquer une selle biplace pour Montaine et moi.
-                    Nous nous sommes entraînées pendant plusieurs mois à deux. Monlaine adorait ça !  
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE JOURNALISTE :     
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Vous avez consulté des médecins ?   
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DIANE :    
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Bien sûr, j'en ai consulté plusieurs. Aucun n'a élé dissuasif.
-                 On m'a dit que le grand froid tuait microbes el virus. Effectivement, Montaine n'a jamais été malade. 
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE JOURNALISTE :    
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Est-ce qu'il vous est arrivé de regretter les avantages de la ville ?  
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DIANE :    
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Non. Je vivais dans un autre monde qui m'a beaucoup apporté.   
+                Je ne dirais pas ça puisque j'en profile, même quand je suis en plein désert :
+                 mon sac à dos, mes chaussures, par exemple sont des produits de celle société.
+                  Pourquoi refuserais-je tout confort ? Disons que je recherche un monde naturel,
+                   authentique, pour avoir des rapports humains plus francs. Bien que nous ne parlions pas beaucoup,
+                    mes meilleures amies sont les femmes du désert. Vous savez que je fais de la peinture.
+                     Regardez mes couleurs. C'est le Sahara qui me les a données. Je ne les aurais pas trouvées ailleurs. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
                 LE JOURNALISTE :     
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Et aujourd'hui, vous vous sentez différente ?   
+                Depuis quand êtes-vous à la recherche de cette « authenticité » ?  
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                DIANE :   
+                ELISABETH SAUER :    
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Oui, je ne regarde plus les choses comme avant. Maintenant,
-                 je donne moins d'importance aux petits inconvénients de la vie de tous les jours, je suis plus sereine. 
+                Depuis toujours. Je n'ai pas connu mon père qui est mort avant ma naissance,
+                 et ma mère m'a élevée seule en ne me laissant pratiquement pas de liberté.
+                  Je crois que c'est par réaction que je rêvais d'aventures, que je voulais être libre,
+                   que je ne voulais plus rester une petite gamine et - c'est une image - plus jouer seulement à la poupée.
+                    Je tenais à montrer à tout le monde que je vivrais ma vie comme je le voudrais. 
                 </Text>
                 </Body>
             </CardItem>
@@ -241,7 +119,7 @@ export default class D3 extends Component {
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-           مصاحبه ای با دایان
+           از سواحل رودخانه راین (رودخانه ای در کشور آلمان) تا ساهارا (بیابانی در قاره افریقا)
           </Text>
             </CardItem>
           
@@ -252,83 +130,244 @@ export default class D3 extends Component {
               خبرنگار :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                قبل از حرکت کردن ، شما از سرما ، تنهایی ترسی نداشتید ؟
+                هنگامی که شما را دیدم که توسط دوستانتان احاطه شده بودید ، حس کردم که دنیای شما همینجاست ، اما شما راهی ساهارا هستید چرا؟
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              دایان :
+              الیزابت سائر :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                البته که من به آن فکر میکردم ولی من از نیکلاس مطمئن بودم . او مشتاق شمالگان هست . او 15 سال است که به آنجا سفر میکند و
-                تجربه او دوباره به من اطمینان خاطر داد.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              خبرنگار :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-              چگونه خانواده شما ، دوستان شما زمانی که شما پروژه خودتان را اعلام کردید واکنش نشان دادند ؟
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              دایان :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               والدین من نگران بودند و از ما خواستند تا به دقت در این مورد فکر کنیم. اما دوستان ما ، ما را دیوانه فرض کردند.
+               اینجا ، من دوستان یا آشنایان بیشتری دارم. این درسته که من اینجا میتونم بیرون بروم ، خودم را سرگرم کنم
+               اما چطور بگم ، من حس میکنم که تمام این فعالیتها مرا گیج میکنند ، که آنها مانع زندگی کردن من میشوند بدلیل اینکه حقیقت زندگی
+               را مخفی میکنند.
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
               خبرنگار :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                 آیا نباید کمی بی پروا بود تا این سفر را دست کم گرفت ؟
+              شما به دنبال تنهایی هستید ؟
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              دایان :
+              الیزابت سائر :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               میدونید ، این ایده آنقدرها هم که تصور میکنید دیوانه وار نبود ! نیکلاس در مورد این پروژه خیلی قبل با من صحبت کرده بود.
-               درست قبل از تولد مانتین او پیش عشایر (خانه به دوش های)سیبری رفته بود تا ببیند آنها چگونه با بچه ها سفر میکنند.
-               برای قسمت اول سفرمان با اسب ، ما یک صندلی دوتایی برای من و مانتین ساختیم. ما به مدت چندین ماه با همدیگر آموزش دیدیم ، 
-               مانتین عاشق این کار بود.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              خبرنگار :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               شما با چند پزشک مشورت کرده بودید ؟
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               دایان :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               البته ، من چندین بار با آنها مشورت کرده بودم. هیچ عامل بازدارنده ای وجود نداشت. به من گفته شده بود که سرما
-               میکروبها و ویروسها را از بین میبرد ، به طور موثری مانتین هرگز مریض نشد.
+                این درست نیست. در بیابان من تقریباً هیچ وقت تنها نیستم. منظورم اینه که میخواهم خودم باشم.
+                کارهای ساده ای را ممکنه انجام بدهم ، اما کارهایی را انجام میدهم که خودم انتخاب کرده ام ، بدون دوستان ، تبلیغات یا مد
+                  که مرا مجبور به انجام این کارها کنند. و من میخواهم بتوانم مردم را برای آنچه که هستند، آن چیزی که انجام میدهند
+                   دوست داشته باشم و نه برای اینکه چه چیزی دارند.
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
               خبرنگار :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                آیا در طول سفرتان دلتنگ مزیتهای شهر شده اید ؟
+                آیا از جامعه مصرف کننده محور فراری هستید ؟
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               دایان :
+              الیزابت سائر :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               نه من در یک دنیای دیگری زندگی میکردم که مزیتهای زیادی به من داد.
+               من این را نمیگویم چون از آن سود میبرم ، حتی زمانی که در بیابان هستم :
+               برای مثال کوله پشتی من ، کفشهایم محصول این جامعه هستند. چرا من تمام این ابزار راحتی را پس بزنم ؟
+               بیایید اینطور بگوییم که من به دنبال یک دنیای طبیعی ، اصیل میگردم تا روابط انسانی صادقانه تری داشته باشم.
+               اگرچه ما زیاد صحبت نمیکنیم ، بهترین دوستانم زنان صحرا هستند. شما میدانید که من نقاشی میکنم.
+               به رنگهای نقاشی ام نگاه کنید این ساهارا است که به من آنها را داده است.
+               من هیچ جای دیگری نمیتوانستم آنها را پیدا کنم.
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
               خبرنگار :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               و امروز ، شما به طور متفاوتی حس میکنید ؟
+               از چه زمانی بدنبال این اصالت بودید ؟
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               دایان :
+               الیزابت سائر :
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               بله ، من نسبت به قبل به چیزهای بیشتری توجه میکنم. اکنون من اهمیت کمتری به مشکلات روزمره زندگی میدهم. من آرام تر هستم.
+                همیشه ، من از پدرم که قبل از تولد من مرده است شناختی ندارم و مادرم مرا به تنهایی بزرگ کرد و عملاً هیچ آزادی به من نداد.
+                من فکر میکنم که این عکس العمل بود که باعث شد رویای ماجراجویی ، آزاد بودن را داشته باشم ، که من نمیخواستم بیشتر از این 
+                یک دختر کوچک بمانم و این تنها یک تصور است که من دیگر تنها با عروسکهایم بازی کنم.
+                من میخواستم به همه نشان دهم که من هرجور که دوست دارم زندگی میکنم
               </Text>
               </Body>
               </CardItem>
               </Card>
 
+
+
+
+
+
+       
+        <Card>
+          <CardItem header>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>Biographie</Text>
+            </CardItem>
+            <CardItem>
+                <Body>
+                
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Elisabeth Sauer est née le 17 mars 1945 en Suisse, à côté de Bâle. Sa 
+                mère est française, d'origine alsacienne. Elle n'a pas connu son père, 
+                allemand, mort en 1944. Elle a passé toute son enfance dans la région de BâIe,
+                 séjournant très souvent chez ses oncles et tantes français, à Mulhouse. Elle est parfaitement bilingue,
+                  allemand et français, mais elle a toujours considéré le français comme sa langue.
+                   Après des études secondaires sans problèmes,
+                    elle a passé son diplôme de traductrice-interprète en français-allemand pour « avoir de quoi gagner sa vie ». 
+                </Text>
+
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Très tôt attirée par le désert, le Sahara en particulier, elle a eu la chance d'y accompagner un groupe comme interprète.
+                 Depuis, elle s'est initiée à l'arabe. Vivant au début de traductions pour des entreprises suisses,
+                  allemandes ou françaises, elle s'est aujourd'hui spécialisée dans la traduction de livres d'art et de livres sur le Sahara.
+                   Curieusement, elle a refusé de traduire un livre sur les femmes touaregs,
+                    sans doute par respect pour une culture qu'elle admire.  
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Depuis quelques années, Elisabeth Sauer fait de la peinture.
+                 Elle essaie d'exprimer la couleur qu'elle dit tenir du désert lui-même.
+                  Elle présente aujourd'hui ses dernières œuvres inspirées de récents voyages.
+                   Femme engagée, elle a créé un petit cercle d'amis dans le but d'aider les femmes dans la zone saharienne.
+                    Le produit des ventes de ses peintures doit financer son action au Sahara.   
+                </Text>
+                
+                </Body>
+            </CardItem>
+          </Card>
+        
+
+
+
+
+          <Card>
+          <CardItem header style={{flexDirection:'row-reverse'}}>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>
+           زندگی نامه (بیوگرافی)
+          </Text>
+            </CardItem>
+          
+          <CardItem>
+            <Body >
+              
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+               الیزابت سائر متولد هفدهم مارس 1945 در سوئیس است ، در حوالی شهر بال (سومین شهر پرجمعیت سوئیس).
+               مادرش فرانسوی است و اصلاتاً آلزایسی (استانی در فرانسه) . او پدر آلمانی اش را که در سال 1944 فوت کرد نمیشناخت.
+               او تمام دوران کودکی اش را در منطقه بال گذراند ، او اغلب اوقات  در خانه عموهای(دایی های) و عمه های (خاله های) فرانسوی اش
+               در شهر مولوز(در استان آلزایس) اقامت داشت. او یک دوزبانه بی نقص است ، آلمانی و فرانسوی را روان صحبت میکند
+               ولی همیشه فرانسوی را به عنوان زبان اصلیش در نظر میگیرد.
+               پس از گذراندن بی دردسر دوران متوسطه اش ، او دیپلم مترجمی - مفسری زبان فرانسه به آلمانی را گرفت "به اندازه ای که زندگی اش را بگذراند".
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+                خیلی زود او مجذوب صحرا شد ، بخصوص منطقه ساهارا ، او این شانس را داشت که بعنوان مترجم یک گروه را همراهی کند.
+                از آن زمان او شروع به یادگیری مفاهیم اولیه زبان عربی کرد.
+                اوایل مخارج زندگی اش را از ترجمه کردن برای شرکتهای سوئیسی ، آلمانی یا فرانسوی میگذراند ، او امروزه در ترجمه کتابهای هنری ، کتابهایی در مورد
+                ساهارا تخصص دارد. به طرز شگفت انگیزی او ترجمه کتابی در مورد زنان قبیله طوارق را رد کرده است بدون شک این کارش به این دلیل بوده است
+                که این کتاب بی احترامی به فرهنگی بوده است که او آن را تحسین میکند.
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+               در سالهای اخیر الیزابت سائر مشغول به نقاشی بوده است. او سعی میکند تا مفاهیم رنگهایی را منتقل کند که او می گفت خود بیابان آنها را دربردارد.
+               او امروزه آخرین آثار هنری اش را با الهام از سفرهای اخیرش ارائه میکند.
+               او زنی متعهد(پایبند) به کارش است ، او به منظور کمک کردن به زنانی که در منطقه ساهارا هستند یک
+               حلقه (گروه) کوچکی از دوستان ایجاد کرده است. درآمد حاصل از فروش نقاشی هایش پشتیبان مالی جنبش او در ساهارا هستند.
+              </Text>
+              </Body>
+              </CardItem>
+              </Card>
+
+
+
+
+              <Card>
+          <CardItem header>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>Carnet de voyage</Text>
+            </CardItem>
+            <CardItem>
+                <Body>
+                
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                Le 25 décembre, avant le petit déjeuner 
+                </Text>
+
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Ce matin, j'éprouve des sentiments contradictoires ! C'est le premier Noël que je passe loin de ma mère,
+                 loin de chez moi, loin de mon village, loin de l'hiver Sans messe de minuit, sans sapin, sans bougies, sans chants de Noël,
+                  sans cadeaux à donner ou à recevoir. Hier soir, après notre dîner, quand je me suis coiffée et habillée « comme si je 
+                  sortais », tout le monde a compris qu'il se passait quelque chose d'important pour moi.
+                   Ils m'ont tous laissée partir, mais je me demande ce qu'ils ont pensé quand j'ai allumé mes bougies « magiques » qui
+                    lancent des étincelles dans tous les sens. 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Jusqu'à aujourd'hui, je n'ai jamais eu l'impression que Noël était important pour moi,
+                 sauf quand j'étais petite, à cause du Père Noël et des cadeaux. Et pourtant, hier soir, je ne jouais pas la comédie.
+                  Je pensais avec émotion à ma famille, à mes amis du bord du Rhin. C'est peut-être ridicule,
+                   mais il me semblait que je comprenais tout d'un coup, pour la première fois peut-être, ce que représentait Noël :
+                    message d'amour. En plein désert, dans ce campement, avec quatre Touaregs et six chameaux, sous un ciel plein d'étoiles,
+                     je suis plus proche des origines que tous les chrétiens d'Europe... 
+                    Peut-être que je me suis fabriqué moi-même une petite crise de mal du pays, tout bêtement. 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                Le 25 décembre, le soir 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Tout à l'heure, Ahmed, notre cuisinier, le plus curieux et aussi le plus gentil de tous ces hommes 
+                qui m'accompagnent, m'a demandé de lui expliquer Noël. Que vais-je lui raconter ? 
+                </Text>
+
+                </Body>
+            </CardItem>
+          </Card>
+        
+
+
+
+
+          <Card>
+          <CardItem header style={{flexDirection:'row-reverse'}}>
+          <Icon type="FontAwesome" name="coffee"/>
+          <Text>
+           دفترچه خاطرات سفر
+          </Text>
+            </CardItem>
+          
+          <CardItem>
+            <Body >
+              
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                25 سپتامبر ، قبل از صبحانه
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+               امروز صبح ، من احساسات متناقضی دارم ! این اولین عید کریسمسی است که من به دور از مادرم سپری میکنم ، به دور از خانه ام ، روستایم ، بدون مراسم 
+               عشای ربانی ، بدون درخت کریسمس ، بدون شمعها ، بدون آهنگهای کریسمس ، بدون کادویی برای دادن یا گرفتن.
+               دیشب بعد از شام هنگامی که موهایم را مرتب کردم و  لباس پوشیدم "مثل همیشه که بیرون میروم"
+               همه متوجه شدند که یک اتفاق مهم برای من اتفاق افتاده است.
+               همه آنها مرا ترک کرده بودند ، اما من از خودم پرسیدم آنها چگونه تصور میکنند هنگامی که من شمع های جادویی را که
+               در همه جهات میدرخشند را روشن میکنم.
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+               تا به امروز من هرگز حس نمیکردم که کریسمس آنقدر برای من مهم بوده است به جز زمانی که
+               بچه بودم و بخاطر بابانوئل و کادوها این حس را داشتم.
+               اما دیشب من نقش بازی نکردم. من با احساس درمورد خانواده ام ، دوستانم در سواحل رودخانه راین فکر میکردم.
+               ممکنه خنده دار به نظر برسه شاید برای اولین بار باشه که به طور ناگهانی متوجه شدم که کریسمس نشاندهنده چیست: پیام عشق (نامه عاشقانه)
+               در بحرو بیابان ، در چادر با چهار نفر از طایفه طوارق و شش شتر ، زیر آسمان پرستاره من از تمام اروپایی ها به ریشه های ... نزدیکتر
+               هستم. شاید من خودم ، خودم را دچار بحران کوچک دلتنگی خانه کرده ام ، کاملاً احمقانه است
+              </Text>
+
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+              25 دسامبر ، شب
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+               درست همین حالا ، احمد آشپز ما ، کنجکاوترین و مهربانترین تمام مردهایی که مرا همراهی میکنند
+               از من خواست تا برایش جشن کریسمس را توضیح دهم. چه چیزی من به او خواهم گفت ؟
+              </Text>
+              </Body>
+              </CardItem>
+              </Card>
+
+        
+
+
+             
 
         
           </ScrollView>
