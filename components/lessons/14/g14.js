@@ -34,45 +34,46 @@ export default class G3 extends Component {
          <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>کاربردهای گذشته کامل (ماضی بعید) قسمت اول</Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>بیان دلیل قسمت اول : حروف اضافه parce que و puisque</Text>
               </CardItem>
               <CardItem  style={{flexDirection:'row-reverse'}} >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                 
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                   ماضی بعید "گذشته در گذشته" است به این معنی که به ما اجازه میدهد تا درمورد
-                   اتفاقی که در گذشته قبل از اتفاقی دیگر در گذشته اتفاق افتاده است صحبت کنیم مثلا در فارسی می گوییم 
-                   قبل از اینکه به آنجا بروم او رفته بود به مثالهای زیر توجه کنید
+                   حرف اضافه puisque بین دو جمله برای بیان دلیل می آید که معمولاً جمله اولی وضعیتی را بیان میکند و 
+                   جمله دومی دلیلی را درمورد وضعیت جمله اولی بیان میکند که برای کسانی که ما آنها را خطاب قرار میدهیم ناشناخته است مثال :
                   </Text>
                   
 
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Au cours d'un voyage précédent, Nicoias avait déjà repéré le lieu de ses rêves.   
+                  Elisabeth est bilingue parce que sa mère est française et son père allemand.   
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  در سفر قبلی ، نیکلاس از قبل مکان رویایی اش را پیدا کرده بود.
+                  الیزابت دو زبانه است چون مادرش فرانسوی است و پدرش آلمانی است.
+                  </Text>
+                  
+                   
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  حرف اضافه puisque میتواند هم ابتدای جملات بیایید هم بین آنها قرار گیرد.
+                  puisque یک توجیه یا نظر را معرفی میکند و علتی که از آن صحبت میکنیم برای مخاطب ما شناخته شده است.
                   </Text>
                   
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Nous n'étions pas inquiets parce que nous avions consulté plusieurs médecins avant de partir   
+                  Les couleurs d'Elisabeth sont authentiques puisqu'elle les a trouvées dans le désert.       
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  ما نگران نبودیم چون ما قبل از راهی شدن با چندین پزشک مشورت کرده بودیم.
+                   رنگهای الیزابت واقعی (اصلی) هستند چون آنها را در بیابان پیدا کرده است.
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  به جمله زیر که از دو بخش تشکیل شده توجه کنید به بخش اول اتفاق مرجع در گذشته میگوییم و به بخش دوم اتفاقی که قبل از اتفاق
-                  مرجع افتاده میگوییم.
-                  </Text>
+
+
+
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Juste avant la naissance de montaine, il était allé chez les nomades de Sibérie.     
+                  Puisqu'elle veut aider les femmes sahariennes, Elisabeth vend ses peintures pour elles.        
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  درست قبل از تولد مانتین (اتفاق مرجع)، او پیش عشایر (خانه به دوش های) سیبری رفته بود. (اتفاق قبل از مرجع)
+                   چون او میخواهد به زنان ساهارایی کمک کند ، الیزابت نقاشی هایش را برای آنها میفروشد.
                   </Text>
- 
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  ما میتوانیم با استفاده از قید deja تاکید کنیم که این اتفاق انجام شده است.
-                  </Text>
+                 
 
                 </Body>
               </CardItem>
@@ -83,53 +84,52 @@ export default class G3 extends Component {
            <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>کاربردهای گذشته کامل (ماضی بعید) قسمت دوم</Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>ریشه حال فعل</Text>
               </CardItem>
               <CardItem  >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                 درون جملات شرطی ما از ماضی بعید برای اشاره به حالتی میکنیم که در گذشته انجام نشده است مثال :
+                 شکل ریشه حال فعل همانند مصدر فعل است ولی قبل از ضمیر قیدی en نمی آید.
+                 میتواند مرتبط با فاعل جمله یا مفعول باشد (مصدر همیشه مربوط به مفعول جمله است). 
+                 باید توجه داشت ریشه حال همیشه ثابت است و تغییر نمیکند و در موارد زیر از آن استفاده میکنیم:
                   </Text>
+                  
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                   برای ارائه اطلاعات تکمیلی :
+                  </Text>
+
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Si j'avais fait des études, je ne serais pas resté si longtemps sans travail,     
+                  Elle s'est spécialisée dans la traduction de livres 
+                  touchant le Sahara (= de livres qui touchent le Sahara).      
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  اگر من درس میخواندم ، من خیلی بیکار نمی ماندم.
+                  او تخصصش را در زمینه ترجمه کتابهای مرتبط با ساهارا کسب کرده است (= کتابهایی با موضوع ساهارا)
+                  </Text>
+                   
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                  برای بیان دلیل :
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  Elle a passé toute son enfance dans la région de Bale, 
+                  séjournant à Mulhouse (= parce qu'elle séjournait...).     
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                   او تمام کودکی اش را در منطقه بال گذراند ، در شهر مولوز اقامت داشت (= به این دلیل در مولوز اقامت داشت که تمام کودکی اش را ...)
                   </Text>
                   
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  در زبان محاوره ، ما به طور مکرر از ماضی بعید در یک عبارت ایزوله شد استفاده میکنیم
-                  برای این کار رفرنس به اتفاق قبلی میکنیم اما صراحتاً به آن اشاره نمیکنیم .
+                  برای بیان یک رابطه زمانی (موقتی) :
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Je te l'avais bien dit !     
+                  Vivant au début de traductions, elle est aujourd'hui 
+                  spécialisée... (= Alors qu'elle vivait de traductions au début, aujourd'hui elle est spécialisée...)     
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من که بهت گفته بودم خب !
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Ce n'est pas ce que j'avais compris.     
+                   اوایل مخارج زندگی اش را از ترجمه کسب میکرد ،امروزه او متخصص است (= در حالی که اوایل درآمدش را از ترجمه کسب میکرد
+                   ، او امروزه متخصص ... است.)
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  این چیزی نیست که من متوجه شدم.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Vous me l'aviez promis.     
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  شما به من قول داده بودید.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Je t'avais donné rendez-vous hier soir !    
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من که دیشب یک وقت ملاقات برات ردیف کردم.
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Je vous avais prévenu.    
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  من بهت گفته بودم (من بهت هشدار داده بودم).
+                    به استثناها توجه داشته باشید : avant به معنی داشتن ، etant به معنی بودن ، sachant به معنی دانستن.
                   </Text>
                 </Body>
               </CardItem>
@@ -141,64 +141,90 @@ export default class G3 extends Component {
            <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>جملات پیرو مقایسه ای</Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>ریشه گذشته فعل</Text>
               </CardItem>
               <CardItem  >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  بخش دوم یک جمله مقایسه ای میتواند یک جمله پیرو باشد.
+                  از ریشه گذشته فعل میتوان به عنوان صفت استفاده کرد ، از این ساختار برای موارد زیر استفاده میشود :
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Elle n'est pas aussi folle qu'on pourrait le croire.      
-                  </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  او آنقدرها هم دیوانه نیست که تو تصور میکنی.
-                  </Text>
-                  
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  ساختار جملات پیرو مقایسه ای زمانی که یک صفت مورد
-                  مقایسه قرار میگیرد بدین صورت است که ابتدا یکی از صفات تفضیلی plus , aussi , pas aussi , moins 
-                  را می آوریم سپس  صفت را قرار میدهیم و در انتها ضمیر موصولی que و بقیه جمله پیرو را استفاده میکنیم. مثال :
+                   
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                  کاهش یک عبارت :
                   </Text>
         
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Alain est beaucoup plus grand que je (le) croyais.      
+                  Très tôt attirée par le désert, elle a eu la chance d'y accompagner un groupe. (= Elle a été très tôt attirée par le désert 
+                  et elle a eu la chance d'y accompagner un groupe).       
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  آلن خیلی بزرگتر از اون چیزی هست که فکر میکردم.
+                   خیلی زود او مجذوب صحرا شد ، او شانس این را داشت که یک گروه را همراهی کند (= او خیلی زود مجذوب صحراشد و 
+                   شانس این را داشت تا یک گروه را همراهی کند.)
                   </Text>
 
  
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  مقایسه میتواند در مورد یک فعل باشد در این حالت ساختار جملات پیرو مقایسه ای بدین صورت است که
-                  ابتدا فعل را قرار میدهیم سپس صفت تفضیلی plus/davantage یا autant/pas autant یا moins را قرار میدهیم و در انتها
-                  ضمیر موصولی que و بقیه جمله پیرو را قرار میدهیم. مثال :
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                   بیان دلیل :
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  Catherine travaille moins qu'elle (le) dit     
+                  Femme engagée, elle a créé un petit cercle d'amis... (= Parce qu'elle était une femme engagée, elle...)    
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  کاترین کمتر از آن چیزی که میگوید کار میکند.
+                 زن متعهد ، او یک حلقه کوچک از دوستان را ساخت ... (= چون او یک زن متعهد بود ، او ...)
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  اگر مقایسه در مورد یک اسم بود ساختار جملات پیرو مقایسه ای بدین صورت است که
-                  ابتدا صفت تفضیلی plus/davantage de یا autant/pas autant de یا moins de را می آوریم سپس اسم و در انتهای ضمیر 
-                  موصولی que و بقیه جمله پیرو را قرار میدهیم. مثال:
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                  جایگزین کردن شکل گذشته فعل با حرف اضافه رابطه ای به همراه qui :
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  il n'y a pas autant d'habitants qu'on (l')imagine. 
+                  Elle présente ses œuvres inspirées de récents voyages... (= Elle présente ses œuvres qui ont été inspirées par de récents 
+                  voyages...). 
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  آنقدر جمعیت اینجا نیست که ما تصور میکنیم.
+                  او آثار هنری اش را که الهام گرفته از سفرهای اخیرش بودند را ارائه نمود (= او
+                  آثار هنری اش را که الهام گرفته از سفرهای اخیرش بودند را ارائه نمود.)
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  نکته : استفاده از ضمیر le در تمام جملات قبلی اختیاری است .
+                  ریشه گذشته فعل مثل یک صفت کاربرد دارد و با اسمی که آن را توصیف میکند مطابقت دارد.
                   </Text>
                 </Body>
               </CardItem>
            </Card> 
 
 
+
+
+
+
+
+           <Card>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+              <Icon type="FontAwesome" name="book"/>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>بیان دلیل قسمت دوم</Text>
+              </CardItem>
+              <CardItem  >
+                <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
+                <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  برای بیان دلیل بین چند رخداد از حالتهای زیر استفاده میکنیم :
+                  </Text>
+                   
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                  ساختار parce que / puisque + verbe .
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                  ساختار à cause de + اسم
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                  مصدر : ضمیر قیدی en + ریشه حال فعل
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                  ریشه حال فعل
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+                  ریشه گذشته فعل
+                  </Text>
+                </Body>
+              </CardItem>
+           </Card> 
            
            </ScrollView>
          </Container>
