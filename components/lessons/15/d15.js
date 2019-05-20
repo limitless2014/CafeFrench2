@@ -38,74 +38,85 @@ export default class D3 extends Component {
         <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
-          <Text>Des bords du Rhin au Sahara </Text>
+          <Text>Une disparition mystérieuse</Text>
             </CardItem>
             <CardItem>
                 <Body>
                 
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE JOURNALISTE :  
+                 
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Debout devant la fenêtre sale de son bureau, Albert Billot regardait la pluie tomber sur le square.
+                 Foutu mois de septembre, pensa-t-il, et pas la plus petite affaire. Lorsque le téléphone sonna,
+                  il sauta sur l'appareil en se disant que même une catastrophe serait préférable à l'ennui. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Quand je vous vois entourée de vos amis, j'ai l'impression que votre 
-                monde est ici. Et pourtant, vous repartez pour le Sahara. Pourquoi ?  
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                ELISABETH SAUER :     
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Ici, j'ai des amis, ou plutôt des connaissances.
-                 C'est vrai, ici je peux sortir, m'amuser, mais, comment dire,
-                  j'ai l'Impression que toutes ces activités m'etourdissent,
-                   qu'elles m'empêchent de vivre parce qu'elles cachent la vraie vie.  
+                « C'est l'agence Mergitur ? demanda une voix féminine.   
                 </Text>  
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE JOURNALISTE :   
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Oui, madame.    
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Vous recherchez la solitude ?    
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                ELISABETH SAUER :     
+                Monsieur Albert Billot ? continua la voix. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Ce n'est pas ça. Dans le désert, je ne suis pratiquement jamais seule.
-                 Ce que je veux dire, c'est que je veux être moi-même, faire des choses peut-être simples,
-                  mais des choses que j'ai choisi de faire, sans que des amis, la publicité ou la mode, ne m'aient poussée à les faire.
-                   Et je veux pouvoir aimer les gens pour ce qu'ils sont, pour ce qu'ils font, et non pas pour ce qu'ils ont. 
+                Lui-même.   
                 </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE JOURNALISTE :   
+ 
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Bonjour, monsieur Billot. Je suis la secrétaire de monsieur Du Murier,
+                 le directeur de la société Fernault. Monsieur Du Mûrier voudrait vous parler.
+                  Il s'agit d'une affaire très délicate. Pourriezvous passer à nos bureaux de la rue de Rivoli cet après-midi ? 
+                </Text>
+ 
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Aujourd'hui ! Un instant. J'ai un emploi du temps très chargé.
+                </Text>
+
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Il laissa passer le temps nécessaire pour consulter son agenda... qu'il savait vide. 
+                </Text>
+
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Ça devrait aller, entre deux rendez-vous. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Vous fuyez la société de consommation ?  
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                ELISABETH SAUER :  
+                Bien. Est-ce que 15 heures vous conviendrait ? 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Je ne dirais pas ça puisque j'en profile, même quand je suis en plein désert :
-                 mon sac à dos, mes chaussures, par exemple sont des produits de celle société.
-                  Pourquoi refuserais-je tout confort ? Disons que je recherche un monde naturel,
-                   authentique, pour avoir des rapports humains plus francs. Bien que nous ne parlions pas beaucoup,
-                    mes meilleures amies sont les femmes du désert. Vous savez que je fais de la peinture.
-                     Regardez mes couleurs. C'est le Sahara qui me les a données. Je ne les aurais pas trouvées ailleurs. 
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE JOURNALISTE :     
+                Parfaitement. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Depuis quand êtes-vous à la recherche de cette « authenticité » ?  
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                ELISABETH SAUER :    
+                Il raccrocha. Il ne savait pas quoi penser de ce rendez-vous.
+                 Il se rappela que c'était une Fernault qui avait gagné le dernier Grand Prix de Monaco, mais, pour rien au monde.
+                  Il n'aurait échangé sa vieille caisse contre une Fernault. On ne se refait pas. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Depuis toujours. Je n'ai pas connu mon père qui est mort avant ma naissance,
-                 et ma mère m'a élevée seule en ne me laissant pratiquement pas de liberté.
-                  Je crois que c'est par réaction que je rêvais d'aventures, que je voulais être libre,
-                   que je ne voulais plus rester une petite gamine et - c'est une image - plus jouer seulement à la poupée.
-                    Je tenais à montrer à tout le monde que je vivrais ma vie comme je le voudrais. 
+                À 15 heures précises, la secrétaire le fit entrer dans le bureau de Paul Du Murier.
+                 Ce dernier était inquiet pour son ingénieur en chef, Bertrand Hartman.
+                  On ne l'avait pas vu depuis quatre jours et personne ne savait où il était. Albert Billot demanda si Hartman avait de la famille. 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                « Il a encore sa mère, répondit Du Murier. Je lui ai téléphoné, mais pour elle, son fils est à Paris,
+                 à son travail, comme d'habitude. C'est une vieille dame, et je n'ai pas insisté pour ne pas l'inquiéter. » 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Ses collègues n'avaient rien remarqué de particulier, à part une certaine lassitude, peut-être.
+                 Ces derniers temps, Bertrand se plaignait souvent d'avoir trop de travail et trop de responsabilités, mais rien de bien grave. 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Il n'est pas marié ? voulut savoir Albert Billot. 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                 Non. 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                On lui connaît une liaison ? 
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Personne ne sait rien de sa vie privée. Bertrand est très réservé.
+                 Mme Leterrier, avec qui il travaille depuis très longtemps, pense qu'il y a une femme dans sa vie,
+                  du moins c'est ce que lui dit son intuition féminine. Bertrand ne lui en a jamais parlé.
+                   Voilà, je crois que je vous ai tout dit. » 
                 </Text>
                 </Body>
             </CardItem>
@@ -119,74 +130,87 @@ export default class D3 extends Component {
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-           از سواحل رودخانه راین (رودخانه ای در کشور آلمان) تا ساهارا (بیابانی در قاره افریقا)
+            ناپدید شدن مرموز
           </Text>
             </CardItem>
           
           <CardItem>
             <Body >
  
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              خبرنگار :
-              </Text>
+  
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                هنگامی که شما را دیدم که توسط دوستانتان احاطه شده بودید ، حس کردم که دنیای شما همینجاست ، اما شما راهی ساهارا هستید چرا؟
+                در کناره پنجره غبارآلودش ایستاده بود. آلبرت بیلوت میدان را که باران روی آن میبارید تماشا میکرد.
+                باخودش فکر میکرد ، ماه سپتامبر لعنتی است و حتی یک بیزینس خیلی کوچک وجود ندارد.
+                زمانی که تلفن اش زنگ زد او به سرعت به سمت تلفن رفت و گفت حتی یک فاجعه بهتر از بی حوصلگی (خستگی) است.
               </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              الیزابت سائر :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               اینجا ، من دوستان یا آشنایان بیشتری دارم. این درسته که من اینجا میتونم بیرون بروم ، خودم را سرگرم کنم
-               اما چطور بگم ، من حس میکنم که تمام این فعالیتها مرا گیج میکنند ، که آنها مانع زندگی کردن من میشوند بدلیل اینکه حقیقت زندگی
-               را مخفی میکنند.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              خبرنگار :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-              شما به دنبال تنهایی هستید ؟
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              الیزابت سائر :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                این درست نیست. در بیابان من تقریباً هیچ وقت تنها نیستم. منظورم اینه که میخواهم خودم باشم.
-                کارهای ساده ای را ممکنه انجام بدهم ، اما کارهایی را انجام میدهم که خودم انتخاب کرده ام ، بدون دوستان ، تبلیغات یا مد
-                  که مرا مجبور به انجام این کارها کنند. و من میخواهم بتوانم مردم را برای آنچه که هستند، آن چیزی که انجام میدهند
-                   دوست داشته باشم و نه برای اینکه چه چیزی دارند.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              خبرنگار :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                آیا از جامعه مصرف کننده محور فراری هستید ؟
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              الیزابت سائر :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               من این را نمیگویم چون از آن سود میبرم ، حتی زمانی که در بیابان هستم :
-               برای مثال کوله پشتی من ، کفشهایم محصول این جامعه هستند. چرا من تمام این ابزار راحتی را پس بزنم ؟
-               بیایید اینطور بگوییم که من به دنبال یک دنیای طبیعی ، اصیل میگردم تا روابط انسانی صادقانه تری داشته باشم.
-               اگرچه ما زیاد صحبت نمیکنیم ، بهترین دوستانم زنان صحرا هستند. شما میدانید که من نقاشی میکنم.
-               به رنگهای نقاشی ام نگاه کنید این ساهارا است که به من آنها را داده است.
-               من هیچ جای دیگری نمیتوانستم آنها را پیدا کنم.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              خبرنگار :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               از چه زمانی بدنبال این اصالت بودید ؟
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               الیزابت سائر :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                همیشه ، من از پدرم که قبل از تولد من مرده است شناختی ندارم و مادرم مرا به تنهایی بزرگ کرد و عملاً هیچ آزادی به من نداد.
-                من فکر میکنم که این عکس العمل بود که باعث شد رویای ماجراجویی ، آزاد بودن را داشته باشم ، که من نمیخواستم بیشتر از این 
-                یک دختر کوچک بمانم و این تنها یک تصور است که من دیگر تنها با عروسکهایم بازی کنم.
-                من میخواستم به همه نشان دهم که من هرجور که دوست دارم زندگی میکنم
-              </Text>
+               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                 کسی که میپرسید صدای زنانه داشت : آژانس مغگیتوغ است ؟
+                </Text> 
+                <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                 بله خانم.
+                </Text> 
+                <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                 صدا ادامه داشت : آقای آلبرت بیلوت هستید ؟
+                </Text>
+                <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  خودم هستم.
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  روزبخیر آقای بیلوت ، من منشی آقای موریر (مدیر شرکت فرنالت)  هستم.
+                  آقای موریر میخواست در مورد موضوع حساسی با شما صحبت کند. 
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  میتونید بعد از ظهر به اداره ما که در خیابان غیولی هست بیاید ؟
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  امروز ، یک لحظه لطفاً. امروز برنامه کاری ام کامله.
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  او گذاشت تا زمان لازم برای چک کردن برنامه کاری اش بگذرد ... چون برنامه اش خالی بود.
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  مشکلی نیست اگر بین دو ملاقات دیگه باشه ؟
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  خوبه ، ساعت 15 براتون مناسب هست ؟
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  عالیه
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  او تلفن را قطع میکند . او نمیدانست این ملاقات برای چه چیزی است (هیچ ایده ای نداشت).
+                  او به خاطر آورد که یک زن از شرکت فرنالت بود، شرکتی که آخرین مسابقه گراندپری موناکو (مسابقه اتومبیل رانی فرمول یک) را برنده شد.
+                   اما به ازای هیچ چیزی در دنیا، او ماشین قدیمی اش را با یک فرنالت تعویض نمیکند . مردم عوض نمیشوند.
+                   
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  راس ساعت 15 ، منشی او را به دفتر پاول موریر برد. او این اواخر نگران مهندس ارشدش برنارد هارتمن بود.
+                  چهار روز است که او دیده نشده است و هیچ کس خبر ندارد او کجا بوده است. آلبرت بیلوت میپرسد آیا او خانواده ای دارد.
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آقای موریر پاسخ داد :او هنوز مادرش را دارد.
+                  من با او تماس گرفتم ولی او فکر میکند که مثل همیشه پسرش در پاریس مشغول به کار است . پیرزن است و من زیاد سوال نکردم
+                  تا نگران نشود.
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  همکارانش به چیز خاصی اشاره نکرده اند ، به جز ضعف (کمبود انرژی) او ، این اواخر
+                  برنارد گاهی اوقات از کار بیش از حد و مسئولیت داشتن زیاد شکایت میکرد ولی چیز جدی نبود.
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آلبرت بیلوت میخواست بداند : آیا او متاهل است ؟
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  نه
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آیا او یک رابطه مخفیانه داشته است ؟
+                  </Text>
+                  <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  هیچ کس از زندگی شخصی اش چیزی نمیداند. برنارد خیلی محافظه کار است ، خانم لتغیه
+                  کسی است که با او مدت زمان زیادی کار کرده است ، فکر میکند که یک زن در زندگی او وجود دارد ، حداقل این چیزی است که
+                  حس زنانه اش به او میگوید. برتراند هرگز در این مورد با او حرف نزده است. بفرما فکر کنم من همه چیز را به تو گفتم.
+                  </Text>
+
               </Body>
               </CardItem>
               </Card>
@@ -200,34 +224,43 @@ export default class D3 extends Component {
         <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
-          <Text>Biographie</Text>
+          <Text>Connaissez-vous Bertrand Hartman ? </Text>
             </CardItem>
             <CardItem>
                 <Body>
                 
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Elisabeth Sauer est née le 17 mars 1945 en Suisse, à côté de Bâle. Sa 
-                mère est française, d'origine alsacienne. Elle n'a pas connu son père, 
-                allemand, mort en 1944. Elle a passé toute son enfance dans la région de BâIe,
-                 séjournant très souvent chez ses oncles et tantes français, à Mulhouse. Elle est parfaitement bilingue,
-                  allemand et français, mais elle a toujours considéré le français comme sa langue.
-                   Après des études secondaires sans problèmes,
-                    elle a passé son diplôme de traductrice-interprète en français-allemand pour « avoir de quoi gagner sa vie ». 
+                Albert Billot décida de faire le tour des trois ou quatre bistrots voisins de l'immeuble Fernault.
+                 Qui sait, on pourrait peut-être lui donner des informations sur Hartman. On le connaissait bien à La Table Ronde.
+                  Il y prenait son petit déjeuner tous les matins. La serveuse l'aimait bien : un homme discret,
+                   charmant, 35, 40 ans, pas mal du tout, précisa-t-elle. La fleuriste du Bouton d'or, le magasin d'à côté,
+                    qui était en train de prendre un petit noir au comptoir, le connaissait aussi. C'était un de ses clients, depuis quelques mois.
+                     Intéressé, Billot s'assit à côté d'elle. La fleuriste était enchantée de répondre à ses questions.
+                      Elle dit que Hartman achetait souvent des fleurs, toujours les mêmes, des roses jaunes, et que, deux ou trois fois,
+                       il lui avait demandé de livrer un bouquet rue Saint-Paul, dans le Marais.
+                        Billot lui demanda si elle pourrait retrouver l'adresse. Elle voulait bien essayer,
+                         mais il fallait qu'il la suive dans le magasin et qu'il lui laisse le temps de chercher dans ses papiers.
+                          Pendant qu'elle cherchait, elle lui fit part de ses impressions.
+                           Elle était sûre que Hartman envoyait des fleurs à une femme dont il était amoureux et qui l'aimait.
+                            Elle avait donc le même sentiment que la collègue de Bertrand Hartman.
+                             Décidément, il faut faire confiance à l'intuition féminine, se dit Billot,
+                              et il décida d'aller jeter un coup d'œil rue Saint-Paul, au domicile de cette Barbara Auteuil,
+                               qui aimait les roses jaunes. 
+ 
                 </Text>
 
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Très tôt attirée par le désert, le Sahara en particulier, elle a eu la chance d'y accompagner un groupe comme interprète.
-                 Depuis, elle s'est initiée à l'arabe. Vivant au début de traductions pour des entreprises suisses,
-                  allemandes ou françaises, elle s'est aujourd'hui spécialisée dans la traduction de livres d'art et de livres sur le Sahara.
-                   Curieusement, elle a refusé de traduire un livre sur les femmes touaregs,
-                    sans doute par respect pour une culture qu'elle admire.  
+                Billot sonna chez la concierge. Elle avait l'air de bien connaître Barbara Auteuil. qui habitait l'immeuble depuis trois ans.
+                 « Il faut vous dire que je ne passe pas mon temps à observer mes locataires, dit la concierge, j'ai trop à faire. »
+                  En fait, elle savait beaucoup de choses et elle avait envie de parler. Mme Auteuil recevait souvent la visite d'un homme.
+                   D'après sa description, c'était Hartman. Et ils sortaient tous les deux la main dans la main, comme des amoureux.
+                    Un couple charmant ! Il y avait presque une semaine que Barbara Auteuil était partie en vacances.
+                     Elle avait laisse une adresse où faire suivre son courrier. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Depuis quelques années, Elisabeth Sauer fait de la peinture.
-                 Elle essaie d'exprimer la couleur qu'elle dit tenir du désert lui-même.
-                  Elle présente aujourd'hui ses dernières œuvres inspirées de récents voyages.
-                   Femme engagée, elle a créé un petit cercle d'amis dans le but d'aider les femmes dans la zone saharienne.
-                    Le produit des ventes de ses peintures doit financer son action au Sahara.   
+                Comme la concierge commençait à distribuer le courrier,
+                 Billot en profita pour lire l'adresse de Barbara dans les papiers éparpillés sur la table de la petite loge :
+                  elle était à Castelbrac, dans les Corbières. 
                 </Text>
                 
                 </Body>
@@ -242,7 +275,7 @@ export default class D3 extends Component {
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-           زندگی نامه (بیوگرافی)
+           آیا شما برنارد هارتمن را میشناسید ؟
           </Text>
             </CardItem>
           
@@ -250,25 +283,35 @@ export default class D3 extends Component {
             <Body >
               
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               الیزابت سائر متولد هفدهم مارس 1945 در سوئیس است ، در حوالی شهر بال (سومین شهر پرجمعیت سوئیس).
-               مادرش فرانسوی است و اصلاتاً آلزایسی (استانی در فرانسه) . او پدر آلمانی اش را که در سال 1944 فوت کرد نمیشناخت.
-               او تمام دوران کودکی اش را در منطقه بال گذراند ، او اغلب اوقات  در خانه عموهای(دایی های) و عمه های (خاله های) فرانسوی اش
-               در شهر مولوز(در استان آلزایس) اقامت داشت. او یک دوزبانه بی نقص است ، آلمانی و فرانسوی را روان صحبت میکند
-               ولی همیشه فرانسوی را به عنوان زبان اصلیش در نظر میگیرد.
-               پس از گذراندن بی دردسر دوران متوسطه اش ، او دیپلم مترجمی - مفسری زبان فرانسه به آلمانی را گرفت "به اندازه ای که زندگی اش را بگذراند".
+                آلبرت بیلوت تصمیم گرفت که به سه یا چهار بار اطراف ساختمان فرنالت سربزند. چه کسی میداند شاید ما بتوانیم
+                به او درمورد هارتمن اطلاعاتی بدهیم. ما همه به یک اندازه از او اطلاع داریم. او هرروز صبح صبحانه اش را میل میکرد.
+                خدمتکار از او خوشش می آمد : یک مرد محتاط ، جذاب ، 35 تا 40 ساله ، اصلاً او آدم بدی نبود ، خدمتکار او را تحسین میکرد.
+                گلفروش مغازه Bouton d'or ، مغازه بغلی ، که داشت در کانتر اسپرسو میخورد ، همچنین او را شناخت.
+                 به مدت چند ماه او یکی از مشتریانش بود ، بیلوت که علاقمند به این موضوع بود ، کنار او نشست.
+                 گلفروش از اینکه به سوالهای او جواب میداد خوشحال بود. او گفت که هارتمن بیشتر اوقات گل میخرید ، همیشه گل رز زرد میخرید و اینکه
+                 دو یا سه بار هارتمن از گلفروش خواسته که دسته گل را به آدرسی در خیابان سنت پل در محله لومری تحویل دهد.
+                 بیلوت از او پرسید آیا میتواند آدرس را پیدا کند. گلفروش میخواست سعی کند آدرس را پیدا کند  اما باید بیلوت به دنبال گلفروش
+                 به مغازه میرفت و به او وقت میداد تا در کاغذهایش دنبال آدرس بگردد.
+                 زمانی که او داشت دنبال آدرس میگشت او نظرش در مورد هارتمن را میگفت.
+                 او مطمئن بود که هارتمن گلها را برای زنی میفرستاد که عاشقش بود و او را دوست داشت.
+                 او همان حسی را داشت که همکار برنارد هارتمن در مورد او داشت .
+                 بیلوت میگوید قطعاً ما باید به حس زنانه اعتماد کنیم و او تصمیم میگیرد که سری به خیابان سنت پاول که خانه
+                 باربارا اوتیل که رزهای زرد را دوست داشت بزند.
+
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-                خیلی زود او مجذوب صحرا شد ، بخصوص منطقه ساهارا ، او این شانس را داشت که بعنوان مترجم یک گروه را همراهی کند.
-                از آن زمان او شروع به یادگیری مفاهیم اولیه زبان عربی کرد.
-                اوایل مخارج زندگی اش را از ترجمه کردن برای شرکتهای سوئیسی ، آلمانی یا فرانسوی میگذراند ، او امروزه در ترجمه کتابهای هنری ، کتابهایی در مورد
-                ساهارا تخصص دارد. به طرز شگفت انگیزی او ترجمه کتابی در مورد زنان قبیله طوارق را رد کرده است بدون شک این کارش به این دلیل بوده است
-                که این کتاب بی احترامی به فرهنگی بوده است که او آن را تحسین میکند.
+               بیلوت زنگ خانه مسئول مجتمع را زد.
+               به نظر میرسید که او باربارا اوتیل را که سه سال است در آن ساختمان زندگی میکند به خوبی میشناسد.
+               من باید به شما بگویم که من وقتم را صرف تحت نظر گرفتن مستاجرانم نمیکنم ، این جمله را مسئول ساختمان میگوید ، من کارهای زیادی
+               دارم. درحقیقت او چیزهای زیادی میدانست و میخواست صحبت کند.  اغلب مواقع یک مرد به دیدارخانم اوتیل می آمد.
+               طبق توصیف او آن مردآقای هارتمن بود. و این دو دست در دست هم مثل دو عاشق با هم بیرون میرفتند.
+               یک زوج جذاب ! تقریباً یک هفته بود که باربارا به تعطیلات رفته بود. او آدرسی جدید برای دریافت نامه هایش گذاشته بود.
+
+
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               در سالهای اخیر الیزابت سائر مشغول به نقاشی بوده است. او سعی میکند تا مفاهیم رنگهایی را منتقل کند که او می گفت خود بیابان آنها را دربردارد.
-               او امروزه آخرین آثار هنری اش را با الهام از سفرهای اخیرش ارائه میکند.
-               او زنی متعهد(پایبند) به کارش است ، او به منظور کمک کردن به زنانی که در منطقه ساهارا هستند یک
-               حلقه (گروه) کوچکی از دوستان ایجاد کرده است. درآمد حاصل از فروش نقاشی هایش پشتیبان مالی جنبش او در ساهارا هستند.
+                زمانی که مسئول ساختمان شروع به توزیع نامه ها کرد ، بیلوت از فرصت استفاده کرد تا آدرس باربارا را از روی نامه های پخش 
+                شده روی میز اتاق دربان  بخواند : او در تفریحگاه ساحلی کستل براک در منطقه کوربیر بود.
               </Text>
               </Body>
               </CardItem>
@@ -280,22 +323,15 @@ export default class D3 extends Component {
               <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
-          <Text>Carnet de voyage</Text>
+          <Text>Une nouvelle vie</Text>
             </CardItem>
             <CardItem>
                 <Body>
                 
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                Le 25 décembre, avant le petit déjeuner 
-                </Text>
-
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Ce matin, j'éprouve des sentiments contradictoires ! C'est le premier Noël que je passe loin de ma mère,
-                 loin de chez moi, loin de mon village, loin de l'hiver Sans messe de minuit, sans sapin, sans bougies, sans chants de Noël,
-                  sans cadeaux à donner ou à recevoir. Hier soir, après notre dîner, quand je me suis coiffée et habillée « comme si je 
-                  sortais », tout le monde a compris qu'il se passait quelque chose d'important pour moi.
-                   Ils m'ont tous laissée partir, mais je me demande ce qu'ils ont pensé quand j'ai allumé mes bougies « magiques » qui
-                    lancent des étincelles dans tous les sens. 
+                Billot n'était pas mécontent de faire un petit voyage à Castelbrac, aux frais de Fernault. Il faisait un beau soleil 
+                de septembre quand il arriva au Cadeyer, la propriété des Auteuil. Au village, il avait appris que César Auteuil 
+                était décédé six mois auparavant et que, cette année, c'était sa nièce, Barbara, qui dirigeait les vendanges. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
                 Jusqu'à aujourd'hui, je n'ai jamais eu l'impression que Noël était important pour moi,
@@ -306,14 +342,27 @@ export default class D3 extends Component {
                      je suis plus proche des origines que tous les chrétiens d'Europe... 
                     Peut-être que je me suis fabriqué moi-même une petite crise de mal du pays, tout bêtement. 
                 </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                Le 25 décembre, le soir 
+    
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Il était presque midi et les vendangeurs étaient en train du manger au soleil, devant la maison. Il y avait 
+                tellement de monde que personne ne faisait attention à Billot. Les vendangeurs s'adressaient amicalement à une 
+                jeune femme, en l'appelant patronne. un homme plus âgé que les autres invita les jeunes à faire attention à ce 
+                qu'ils disaient car « l'homme de la patronne » était là. Tout le monde rit. Billot reconnut alors Bertrand Hartman, 
+                assis à côté de la « patronne », qui mangeait avec appétit. 
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Tout à l'heure, Ahmed, notre cuisinier, le plus curieux et aussi le plus gentil de tous ces hommes 
-                qui m'accompagnent, m'a demandé de lui expliquer Noël. Que vais-je lui raconter ? 
+                L'entretien avec Barbara et Bertrand fut très sympathique. Bertrand, un peu mal à l'aise quand Billot se 
+                présenta, avoua qu'il était parti sans rien dire parce qu'on aurait essayé de le retenir et qu'il ne savait pas s'il 
+                aurait pu résister. Du Murier voulait le garder auprès de lui à cause d'un prototype de formule 1. Et puis Fernault, 
+                c'était un peu sa famille, il y travaillait depuis 15 ans. Mais maintenant, il était plus sûr de lui. Barbara et lui 
+                avaient décidé de se marier, de s'installer dans la propriété et d'exploiter le vignoble... 
                 </Text>
-
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Hartman téléphona lui-même à Du Murier pour lui expliquer sa décision. Le patron de Fernault demanda à parler 
+                à Billot qu'il remercia pour son efficacité. Du Murier était déçu, mais il aimait trop Hartman pour lui en vouloir. 
+                Sur l'autoroute en direction de Paris, Billot pensait que, lui aussi, il aurait bien aimé s'installer dans une propriété
+                 des Corbières, mais qu'aucune femme ne le lui avait encore proposé. 
+                </Text>
                 </Body>
             </CardItem>
           </Card>
@@ -326,39 +375,39 @@ export default class D3 extends Component {
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-           دفترچه خاطرات سفر
+           یک زندگی جدید
           </Text>
             </CardItem>
           
           <CardItem>
             <Body >
-              
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-                25 سپتامبر ، قبل از صبحانه
+ 
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+                بیلوت از اینکه به یک سفر کوتاه به کستل براک با هزینه فرنالت برود بدش نمی آمد. زمانی که به ملک خانواده اوتیل
+                در منطقه کادور رسید خورشید زیبای ماه سپتامبر در آسمان میدرخشید. در دهکده فهمید که سزار اوتیل 6 ماه پیش فوت کرده است و
+                امسال خواهرزاده اش باربارا از تاکستان برداشت میکند.
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               امروز صبح ، من احساسات متناقضی دارم ! این اولین عید کریسمسی است که من به دور از مادرم سپری میکنم ، به دور از خانه ام ، روستایم ، بدون مراسم 
-               عشای ربانی ، بدون درخت کریسمس ، بدون شمعها ، بدون آهنگهای کریسمس ، بدون کادویی برای دادن یا گرفتن.
-               دیشب بعد از شام هنگامی که موهایم را مرتب کردم و  لباس پوشیدم "مثل همیشه که بیرون میروم"
-               همه متوجه شدند که یک اتفاق مهم برای من اتفاق افتاده است.
-               همه آنها مرا ترک کرده بودند ، اما من از خودم پرسیدم آنها چگونه تصور میکنند هنگامی که من شمع های جادویی را که
-               در همه جهات میدرخشند را روشن میکنم.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               تا به امروز من هرگز حس نمیکردم که کریسمس آنقدر برای من مهم بوده است به جز زمانی که
-               بچه بودم و بخاطر بابانوئل و کادوها این حس را داشتم.
-               اما دیشب من نقش بازی نکردم. من با احساس درمورد خانواده ام ، دوستانم در سواحل رودخانه راین فکر میکردم.
-               ممکنه خنده دار به نظر برسه شاید برای اولین بار باشه که به طور ناگهانی متوجه شدم که کریسمس نشاندهنده چیست: پیام عشق (نامه عاشقانه)
-               در بحرو بیابان ، در چادر با چهار نفر از طایفه طوارق و شش شتر ، زیر آسمان پرستاره من از تمام اروپایی ها به ریشه های ... نزدیکتر
-               هستم. شاید من خودم ، خودم را دچار بحران کوچک دلتنگی خانه کرده ام ، کاملاً احمقانه است
-              </Text>
+                نزدیک های ظهر بود که انگورچین ها داشتند زیر آفتاب جلوی خانه خانواده اوتیل نهار میخوردند.
+                افراد زیادی وجو داشتند که هیچکدامشان به بیلوت توجه نمیکرد.
+                انگورچینها با یک زن جوان دوستانه برخورد میکردند و او را رئیس صدا میزدند.
+                یک مرد مسن از جوانها خواست تا به چیزی که گفته اند توجه بیشتری کنند چون شوهر رئیس آنجا بود. همه خندیدند.
+                بیلوت ، برنارد هارتمن را شناخت ، بغل رئیس نشسته بود و با اشتها غذا میخورد.
 
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-              25 دسامبر ، شب
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               درست همین حالا ، احمد آشپز ما ، کنجکاوترین و مهربانترین تمام مردهایی که مرا همراهی میکنند
-               از من خواست تا برایش جشن کریسمس را توضیح دهم. چه چیزی من به او خواهم گفت ؟
+               گفتگو با باربارا و هارتمن خیلی دوستانه بود. برنارد زمانی که بیلوت خودش را معرفی کرد کمی ناراحت بود.
+               او گیج شده بود که بدون گفتن به هیچکسی آنجا را ترک کرده بود ، چون آنها اگر سعی میکردند جلویش را بگیرند نمیدانست مقابل 
+               آنها مقاومت میکند یا نه. آقای موریر میخواست او را نزدیک خودش نگهدارد تا نمونه اولیه فرمول 1 تکمیل شود.
+               و درثانی شرکت فرنارد خانواده کوچک او بود که 15 سال در آنجا کار کرده است. اما حالا او از خودش مطمئن تر شده بود.
+               باربارا و او تصمیم گرفتند باهم ازدواج کنند و در مزرعه ساکن شوند و از تاکستان بهره برداری کنند.
+              </Text>
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
+              هارتمن ، خودش با موریر تماس گرفت تا تصمیمی که گرفته بود را برای او توضیح دهد.
+              رئیس شرکت فرنالت درخواست کرد تا با بیلوت صحبت کند و از تلاشهای موثرش تشکر کند.
+              آقای موریر نا امید شده بود ولی هارتمن را بیشتر از آن چیزی دوست داشت که سرزنشش کند.
+              در بزرگراه پاریس بیلوت فکر کرد که خودش هم خیلی دوست دارد که در مزارع رشته کوه های کوربیر ساکن شود.
+              ولی هیچ زنی تاکنون به او چنین پیشنهادی نداده است.
               </Text>
               </Body>
               </CardItem>
