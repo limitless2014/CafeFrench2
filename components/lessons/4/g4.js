@@ -126,49 +126,83 @@ export default class G3 extends Component {
            <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>نقل قول غیر مستقیم بخش دوم : تطابق زمانی</Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>جملات سوالی غیر مستقیم بخش دوم : تطابق زمانی</Text>
               </CardItem>
               <CardItem  >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  زمانی که بخواهیم جمله ای را که شخصی به ما گفته به شخص دیگری بگوییم از نقل قول غیر مستقیم استفاده میکنیم
-                  مثال 
-                   Antoine : Est-ce que christine m'aime encore ? آنتوان : آیا کریستین هنوز مرا دوست دارد
-                   این جمله ، جمله ای است که توسط شخصی دیگر گفته شده است جمله ای که ما نقل میکنیم به این صورت است
-                   Antoine se demande si christine l'aime encore. آنتوان پرسید آیا کریستین هنوز او را دوست دارد
-                   در جمله نقل شده قبلی چون زمان وقوع سوال در زمان حال است زمان فعل se demande نیز زمان حال است وتغییری نمیکند.
-                   و زمان فعل جمله نقل شده که در اینجا aimer است نیز چون در زمان حال صرف شده تغییری نمیکند
-                   مثال بعدی جمله ای است که در زمان حال گفته شده ولی سوال در مورد زمان آینده است 
-                   Antoine : Est-ce que christine reviendra ?
-                   آنتوان : آیا کریستین برخواهد گشت ؟
-                   جمله گفته  شده بالا در زمان حال است اما فعل آن در زمان آینده است به جمله نقل شده توجه کنید 
-                   Antoine se demande si christine reviendra. آنتوان پرسید آیا کریستین بازخواهد گشت .
-                   در این جمله نقل شده نیز همانند حالت جمله قبل عمل میکنیم و با این تفاوت که اگر فعل جمله گفته شده که
-                   در اینجا فعل reviendra است در
-                   زمان آینده بود فعل جمله نقل شده نیز در زمان آینده باید صرف شود. اما اگر سوال در زمان گذشته ساده یا گذشته استمراری پرسیده شده باشد
-                   و فعل جمله سوال شده در زمان حال باشد فعل se demande در زمان گذشته ساده یا گذشته استمراری (imparfait)
-                   صرف میشود و فعل جمله  باید مطابق با زمان ماضی نقلی صرف شود. مثال 
-                   Antoine: Est-ce que Christine m'aime encore ? 
-                   آنتوان : آیا کریستین هنوز مرا دوست دارد ؟ (سوال در زمان گذشته پرسیده شده مثلاً دیروز پرسیده شده) برای
-                   تبدیل این جمله به صورت زیر عمل میکنیم
-                   Antoine se demandait/s'est demandé si Christine l'aimait encore.
-                   آنتوان پرسید آیا کریستین او را هنوز دوستش داشت
-                   در حالت بعدی فعل اصلی جمله گفته شده در زمان آینده است در این حالت فعل se demande مثل حالت قبلی در زمان گذشته ساده یا
-                   گذشته استمراری صرف میشود ولی فعل اصلی جمله در زمان شرطی صرف میشود مثال :
-                   Antoine: Est-ce que Christine reviendra ?
-                   آنتوان : آیا کریستین باز خواهد گشت ؟ (سوال در زمان گذشته پرسیده شده)
-                   جمله نقل شده به این صورت است 
-                   Antoine se demandait/s'est demandé si Christine reviendrait.
-                   آنتوان پرسیده بود آیا کریستین برخواهد گشت.
+                  زمانی که بخواهیم سوالی را که شخصی پرسیده به صورت غیر مستقیم آن را بیان کنیم طبق توضیحات درس دوم عمل میکنیم.
+                  باید به این نکته توجه داشت که جملات سوالی غیر مستقیم از دو بخش تشکیل شده اند بخش اول
+                  جمله معرفی کننده شخص گوینده است که حاوی فعل demander میباشد و بخش دوم
+                  بعد از کلمه si شروع میشود و به آن جمله پیرو میگوییم.
+                  در این بخش به این نکته اشاره شده که در جملات سوالی غیر مستقیم فعل اصلی بخش دوم
+                   از زمان فعل اصلی جمله ای پیروی میکند که آن را نقل میکنیم
+                  مثلا اگر جمله سوالی مستقیم در زمان حال یا آینده بود فعل جمله پیرو نیز در زمان حال یا آینده خواهد بود 
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  Antoine : Est-ce que christine m'aime encore ?  
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آنتوان : آیا کریستین هنوز مرا دوست دارد (سوالی مستقیم) 
+                  </Text>
+                    
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  Antoine se demande si christine l'aime encore. 
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آنتوان پرسید آیا کریستین هنوز او را دوست دارد (سوالی غیر مستقیم)
                   </Text>
 
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  Antoine : Est-ce que christine reviendra ? 
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آنتوان : آیا کریستین برخواهد گشت ؟ (سوالی مستقیم)
+                  </Text>
+                   
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  Antoine se demande si christine reviendra. 
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آنتوان پرسید آیا کریستین بازخواهد گشت . (سوالی غیر مستقیم)
+                  </Text>
 
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold',backgroundColor:'red'}}> 
-                   نکته : زمان جمله پیرو در جمله نقل شده از زمان فعل اصلی در جمله گفته شده پیروی میکند.
-                   </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                   اگر جمله سوالی  مستقیم در زمان گذشته بیان شده بود برای  تبدیل به جمله سوالی غیر مستقیم 
+                   حتی اگر در زمان حال باشد باید فعل جمله پیرو در زمان گذشته باشد این حالت استثنا است.
+                   اگر جمله سوالی مستقیم در زمان حال شرطی بود فعل جمله پیرو نیز در زمان حال شرطی صرف میشود. مثال:
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  Antoine: Est-ce que Christine m'aime encore ?
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آنتوان : آیا کریستین هنوز مرا دوست دارد ؟ (سوالی مستقیم)
+                  </Text>
+                   
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  Antoine se demandait/s'est demandé si Christine l'aimait encore.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آنتوان پرسید آیا کریستین او را هنوز دوستش داشت (سوالی غیر مستقیم)
+                  </Text>
+ 
+
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  Antoine: Est-ce que Christine reviendra ?
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آنتوان : آیا کریستین باز خواهد گشت ؟ (سوالی مستقیم)
+                  </Text>
+ 
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
+                  Antoine se demandait/s'est demandé si Christine reviendrait.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  آنتوان پرسیده بود آیا کریستین برخواهد گشت. (سوالی غیر مستقیم)
+                  </Text>
 
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold',backgroundColor:'red'}}>
-                  نکته : از زمان شرطی برای بیان آینده در گذشته استفاده میکنیم (جمله آخر)
+                  نکته : از جملات شرطی برای بیان آینده در گذشته استفاده میکنیم.
                   </Text>
 
                    

@@ -23,19 +23,52 @@ export default class About extends Component {
         </StyleProvider>
 
 
-        <ScrollView>
-        <Card>
+        <ScrollView style={{backgroundColor:'blue'}}>
+        <Card style={{paddingVertical:30,marginVertical:30}}>
             <CardItem header>
               <Body>
-               <Text style={{alignSelf:'center',fontWeight:'bold'}}>لیست دروس</Text>
-               <Text style={{alignSelf:'flex-end'}}>درس اول</Text>
-               <Text style={{alignSelf:'flex-end'}}>دیالوگ های صفحه 6 و 7 و 8 کتاب </Text>
-               <Text style={{alignSelf:'flex-end'}}>لغات صفحه  172 تا صفحه 189</Text>
-               <Text style={{alignSelf:'flex-end'}}>ضمایر ربطی qui , que صفحه 9 و ضمایر ربطی صحه 9</Text>
+               <Text style={{alignSelf:'center',paddingBottom:10,fontWeight:'bold'}}>درس اول</Text>
+               <Text style={styles.dialogs}>دیالوگ های صفحه 6 و 7 و 8 کتاب </Text>
+               <Text style={styles.vocabs}>لغات صفحه  172 تا صفحه 189</Text>
+               <Text style={styles.grammer}>ضمایر موصولی qui , que - ضمایر تاکیدی این ... کسی ، این ... که - سوالی کردن با جابجایی فاعل و فعل</Text>
+             </Body>
+            </CardItem>
+        </Card>
+        <Card style={{paddingVertical:30,marginVertical:30}}>
+            <CardItem header>
+              <Body>
+               <Text style={{alignSelf:'center',paddingBottom:10,fontWeight:'bold'}}>درس دوم</Text>
+               <Text style={styles.dialogs}>دیالوگ های صفحه 14 و 15 و 16 کتاب </Text>
+               <Text style={styles.vocabs}>لغات صفحه  172 تا صفحه 189</Text>
+               <Text style={styles.grammer}>تبدیل ضمایر مفعولی مستقیم و غیر مستقیم به شکل امری - جملات سوالی غیر مستقیم</Text>
              </Body>
             </CardItem>
         </Card>
          
+
+        <Card style={{paddingVertical:30,marginVertical:30}}>
+            <CardItem header>
+              <Body>
+               <Text style={{alignSelf:'center',paddingBottom:10,fontWeight:'bold'}}>درس سوم</Text>
+               <Text style={styles.dialogs}>دیالوگ های صفحه 24 و 25 و 26 کتاب </Text>
+               <Text style={styles.vocabs}>لغات صفحه  172 تا صفحه 189</Text>
+               <Text style={styles.grammer}>ضمایر موصولی dont , ou - ضمایر اشاره</Text>
+             </Body>
+            </CardItem>
+        </Card>
+
+
+
+        <Card style={{paddingVertical:30,marginVertical:30}}>
+            <CardItem header>
+              <Body>
+               <Text style={{alignSelf:'center',paddingBottom:10,fontWeight:'bold'}}>درس چهارم</Text>
+               <Text style={styles.dialogs}>دیالوگ های صفحه 32 و 33 و 34 کتاب </Text>
+               <Text style={styles.vocabs}>لغات صفحه  172 تا صفحه 189</Text>
+               <Text style={styles.grammer}>صرف فعل : زمان حال شرطی - جملات سوالی غیرمستقیم بخش دوم : تطابق زمانی</Text>
+             </Body>
+            </CardItem>
+        </Card>
         </ScrollView>
       </Container>
      
@@ -46,14 +79,23 @@ export default class About extends Component {
 
 const styles=StyleSheet.create({
   dialogs:{
-    backgroundColor:'blue',
+    color:'blue',
+    alignSelf:'flex-end',
+    lineHeight:30,
+    textAlign:'justify'
     
   }
   ,
   vocabs:{
-    backgroundColor:'red'
+    color:'red',
+    alignSelf:'flex-end',
+    lineHeight:30,
+    textAlign:'justify'
   },
   grammer:{
-    backgroundColor:'green'
+    color:'green',
+    alignSelf:'flex-end',
+    lineHeight:30,
+    textAlign:'justify'
   }
 })
