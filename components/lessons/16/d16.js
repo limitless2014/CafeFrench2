@@ -38,74 +38,42 @@ export default class D3 extends Component {
         <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
-          <Text>Des bords du Rhin au Sahara </Text>
+          <Text>Odile</Text>
             </CardItem>
             <CardItem>
                 <Body>
-                
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE JOURNALISTE :  
-                </Text>
+ 
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Quand je vous vois entourée de vos amis, j'ai l'impression que votre 
-                monde est ici. Et pourtant, vous repartez pour le Sahara. Pourquoi ?  
+                À quinze ans, mes vacances à Etretat ne se cantonnaient plus, comme à sept ou huit ans, dans le jardin de la villa.
+                 Je sentais le besoin de rechercher les autres. Je m'essayais avec les filles.
+                  Avec Beryl, notamment, une petite Américaine à la mèche blonde sur l'oeil, qui manifestait de l'Intérêt à mon égard.   
                 </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                ELISABETH SAUER :     
-                </Text>
+ 
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Ici, j'ai des amis, ou plutôt des connaissances.
-                 C'est vrai, ici je peux sortir, m'amuser, mais, comment dire,
-                  j'ai l'Impression que toutes ces activités m'etourdissent,
-                   qu'elles m'empêchent de vivre parce qu'elles cachent la vraie vie.  
+                L'un des hauts lieux, à Etretat, c'était la pâtisserie Lecoeur.
+                 Un jour que j'avais emmené Beryl manger un chou, entra une jeune fille Inconnue.
+                  À sa seule apparition, la couleur du jour, la qualité de l'air parurent se transformer.
+                   Grande, élancée, cette jeune fille irradiait la santé, la vie et la joie.
+                    Elle était accompagnée de deux petits garçons qui, riant aux éclats des histoires qu'elle leur contait à mi-voix, réclamaient :
+                     « Odile, j'ai droit à deux gâteaux aujourd'hui. Odile, moi aussi j'en veux deux.
+                      Odile, je veux en rapporter un à maman. » Et Odile souriait, caressait les garçons, les embrassait,
+                       choisissait un éclair pour le plus grand, une tarte pour le plus petit,
+                        hésitait pour elle-même, riait, plaisantait, essuyait les taches dc crème sur une blouse,
+                         jetait un regard gourmand sur les babas, finissait par engloutir une religieuse avec un appétit féroce,
+                          Un mélange d'exubérance et de douceur. De tendresse et de gravité. Jamais je n'avais rien vu de pareil : une fée.  
                 </Text>  
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE JOURNALISTE :   
-                </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Vous recherchez la solitude ?    
-                </Text>
+                Dès lors, je n'eus plus qu'une idée fixe : la revoir. Pendant plusieurs jours, je m'installai dans la pâtisserie.
+                 Je n'en bougeais plus. J'y passais mes journées à attendre.
+                  Je mangeais des gâteaux avec lenteur, avec plus de lenteur encore, à toutes petites bouchées,
+                   pour les faire durer, chacun, le plus longtemps possible. Un palmier. Un éclair. Un friand. Un autre éclair. Une tarte.
+                    Un chou. Encore un palmier. J'avais mal au coeur. Mais pour rien au monde, je n'aurais quitté la pâtisserie.
+                     Hélas ! Elle ne revint pas. Une fois, de loin, je l'aperçus dans la rue. Puis plus rien.
+                      Elle était repartie. Je ne savais ni qui elle était ni où elle vivait.
+                       Tout ce que je savais d'elle, c'était le nom : Odile. 
+                       </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                ELISABETH SAUER :     
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Ce n'est pas ça. Dans le désert, je ne suis pratiquement jamais seule.
-                 Ce que je veux dire, c'est que je veux être moi-même, faire des choses peut-être simples,
-                  mais des choses que j'ai choisi de faire, sans que des amis, la publicité ou la mode, ne m'aient poussée à les faire.
-                   Et je veux pouvoir aimer les gens pour ce qu'ils sont, pour ce qu'ils font, et non pas pour ce qu'ils ont. 
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE JOURNALISTE :   
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Vous fuyez la société de consommation ?  
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                ELISABETH SAUER :  
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Je ne dirais pas ça puisque j'en profile, même quand je suis en plein désert :
-                 mon sac à dos, mes chaussures, par exemple sont des produits de celle société.
-                  Pourquoi refuserais-je tout confort ? Disons que je recherche un monde naturel,
-                   authentique, pour avoir des rapports humains plus francs. Bien que nous ne parlions pas beaucoup,
-                    mes meilleures amies sont les femmes du désert. Vous savez que je fais de la peinture.
-                     Regardez mes couleurs. C'est le Sahara qui me les a données. Je ne les aurais pas trouvées ailleurs. 
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                LE JOURNALISTE :     
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Depuis quand êtes-vous à la recherche de cette « authenticité » ?  
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                ELISABETH SAUER :    
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Depuis toujours. Je n'ai pas connu mon père qui est mort avant ma naissance,
-                 et ma mère m'a élevée seule en ne me laissant pratiquement pas de liberté.
-                  Je crois que c'est par réaction que je rêvais d'aventures, que je voulais être libre,
-                   que je ne voulais plus rester une petite gamine et - c'est une image - plus jouer seulement à la poupée.
-                    Je tenais à montrer à tout le monde que je vivrais ma vie comme je le voudrais. 
+                D'après La Statue intérieure, de François Jacob, éd. Odile Jacob.  
                 </Text>
                 </Body>
             </CardItem>
@@ -119,74 +87,44 @@ export default class D3 extends Component {
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-           از سواحل رودخانه راین (رودخانه ای در کشور آلمان) تا ساهارا (بیابانی در قاره افریقا)
+           اودیل (اسم دخترانه)
           </Text>
             </CardItem>
           
           <CardItem>
             <Body >
  
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              خبرنگار :
-              </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                هنگامی که شما را دیدم که توسط دوستانتان احاطه شده بودید ، حس کردم که دنیای شما همینجاست ، اما شما راهی ساهارا هستید چرا؟
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              الیزابت سائر :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               اینجا ، من دوستان یا آشنایان بیشتری دارم. این درسته که من اینجا میتونم بیرون بروم ، خودم را سرگرم کنم
-               اما چطور بگم ، من حس میکنم که تمام این فعالیتها مرا گیج میکنند ، که آنها مانع زندگی کردن من میشوند بدلیل اینکه حقیقت زندگی
-               را مخفی میکنند.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              خبرنگار :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-              شما به دنبال تنهایی هستید ؟
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              الیزابت سائر :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                این درست نیست. در بیابان من تقریباً هیچ وقت تنها نیستم. منظورم اینه که میخواهم خودم باشم.
-                کارهای ساده ای را ممکنه انجام بدهم ، اما کارهایی را انجام میدهم که خودم انتخاب کرده ام ، بدون دوستان ، تبلیغات یا مد
-                  که مرا مجبور به انجام این کارها کنند. و من میخواهم بتوانم مردم را برای آنچه که هستند، آن چیزی که انجام میدهند
-                   دوست داشته باشم و نه برای اینکه چه چیزی دارند.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              خبرنگار :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                آیا از جامعه مصرف کننده محور فراری هستید ؟
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              الیزابت سائر :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               من این را نمیگویم چون از آن سود میبرم ، حتی زمانی که در بیابان هستم :
-               برای مثال کوله پشتی من ، کفشهایم محصول این جامعه هستند. چرا من تمام این ابزار راحتی را پس بزنم ؟
-               بیایید اینطور بگوییم که من به دنبال یک دنیای طبیعی ، اصیل میگردم تا روابط انسانی صادقانه تری داشته باشم.
-               اگرچه ما زیاد صحبت نمیکنیم ، بهترین دوستانم زنان صحرا هستند. شما میدانید که من نقاشی میکنم.
-               به رنگهای نقاشی ام نگاه کنید این ساهارا است که به من آنها را داده است.
-               من هیچ جای دیگری نمیتوانستم آنها را پیدا کنم.
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-              خبرنگار :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-               از چه زمانی بدنبال این اصالت بودید ؟
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold',alignSelf:'flex-end'}}>
-               الیزابت سائر :
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                همیشه ، من از پدرم که قبل از تولد من مرده است شناختی ندارم و مادرم مرا به تنهایی بزرگ کرد و عملاً هیچ آزادی به من نداد.
-                من فکر میکنم که این عکس العمل بود که باعث شد رویای ماجراجویی ، آزاد بودن را داشته باشم ، که من نمیخواستم بیشتر از این 
-                یک دختر کوچک بمانم و این تنها یک تصور است که من دیگر تنها با عروسکهایم بازی کنم.
-                من میخواستم به همه نشان دهم که من هرجور که دوست دارم زندگی میکنم
-              </Text>
+                در سن 15 سالگی تعطیلات من در اترات (بخشی در فرانسه) مانند زمانی که 7 یا 8 ساله بودم محدود به باغ ویلا نمیشد.
+                من حس کردم که نیاز دارم انسانهای دیگری را در زندگی ام پیدا کنم.
+                من با چندتا دختر قرار گذاشتم. خصوصاً با بریل (اسم شخصی) که یک دختر امریکایی قد کوتاه با موهای مش که تا روی چشمانش بودند ،
+                که علاقه اش را به من ابراز نمود.
+               </Text>
+               <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                 یکی از مکان های باکلاس در اترات ، شیرینی فروشی Lecoeur بود.
+                 یک روز بریل را به آنجا بردم تا یک Choux (نوعی کیک) بخوریم.
+                 یک زن جوان ناشناس وارد شد. با ظاهر منحصر به فردش ، رنگ روز و کیفیت هوا به نظرم عوض شد ، بلند قد ، قلمی بود این دختر جوان
+                 از خودش سلامتی ، زندگی و شادی را منعکس میکرد. دو پسربچه کوچک همراه او بودند که به داستانهایی که او برای آنها
+                 زمزمه میکرد با صدای بلند می خندیدند. با پافشاری از او میخواستند : اودیل من امروز حق دارم دو کیک بخرم ، اودیل من 
+                 هم همینطور دوتا کیک میخواهم ، اودیل من میخواهم یکی را برای مامان ببرم.
+                 و اودیل خندید ، پسر بچه ها را نوازش کرد ، آنها را در آغوش گرفت ، یک کیک برای پسر بچه بزرگتر و یک تارت (نوعی شیرینی) برای
+                 پسربچه کوچکتر انتخاب کرد. برای خودش تردید کرد چه چیزی انتخاب کند ، خندید ، شوخی کرد و لکه های 
+                 خامه را از روی بلوزش پاک کرد. من به طور حریصانه ای به باباها (نوعی شیرینی) نگاه کردم و در نهایت یک رلیگو (نوعی شیرینی)
+                 را با اشتهای زیادی خوردم. او ترکیبی از شیرینی و شادابی ، مهربانی و جاذبه بود.
+                 هرگز کسی مثل او را ندیده بودم. او یک فرشته بود.
+                 </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                 از آن زمان به بعد من فقط یک ایده داشتم : که او را دوباره ببینم. به مدت چند روز در شیرینی فروشی می نشستم.
+                 من دیگر از آن جا حرکت نمیکردم. روزهایم را در انتظارش سپری میکردم.
+                 من کیکم را آهسته و آهسته تر با گازهای کوچک میخوردم تا هرکدام از لقمه هایم تا حدی که امکان دارد دیرتر تمام شود.
+                 یک خرما ، یک کیک eclair ، یک کیک بادامی ، یک کیک eclair دیگر ، یک شیرینی تارت ، یک شیرینی choux ،
+                 یک خرمای دیگر . قلبم شکسته بود. ولی برای هیچ چیزی در دنیا شیرینی فروشی را ترک نمیکردم. بدبختانه!
+                 او برنگشت. یکبار او را از دور در خیابان دیدم. بعدش هیچی نشد . او رفته بود.
+                 من نه میدانستم او چه کسی بود نه میدانستم کجا زندگی میکند. تمام چیزی که من از او میدانستم اسمش بود : اودیل.
+                </Text>
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                 مطابق با کتاب مجسمه درون اثری از فرانسوا جیکوب نسخه اودیل جیکوب.
+                </Text>
               </Body>
               </CardItem>
               </Card>
@@ -200,36 +138,44 @@ export default class D3 extends Component {
         <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
-          <Text>Biographie</Text>
+          <Text>La revue</Text>
             </CardItem>
             <CardItem>
                 <Body>
                 
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Elisabeth Sauer est née le 17 mars 1945 en Suisse, à côté de Bâle. Sa 
-                mère est française, d'origine alsacienne. Elle n'a pas connu son père, 
-                allemand, mort en 1944. Elle a passé toute son enfance dans la région de BâIe,
-                 séjournant très souvent chez ses oncles et tantes français, à Mulhouse. Elle est parfaitement bilingue,
-                  allemand et français, mais elle a toujours considéré le français comme sa langue.
-                   Après des études secondaires sans problèmes,
-                    elle a passé son diplôme de traductrice-interprète en français-allemand pour « avoir de quoi gagner sa vie ». 
+                Pendant tout l'hiver, je gardai en moi, au chaud, au secret, cette image radieuse de jeune fille.
+                 Avec l'arrivée imminente de l'été, ce n'étaient plus seulement les vacances qui approchaient.
+                  C'était surtout la perspective de bientôt revoir Odile. Sans le moindre argument, sans la moindre raison,
+                   j'avais la certitude de la retrouver. Et, en effet, à peine arrivé en vacances depuis quelques jours,
+                    j'aperçus la longue et mince silhouette que j'espérais. Plus belle encore que dans mon souvenir,
+                     plus souriante, plus lumineuse. Cette fois, je m'arrangeai pour apprendre au plus vite son nom,
+                      pour savoir quelle était sa famille, où elle habitait.
+                       J'allais rôder près de sa maison. J'attendais le passage d'Odile.
+                        Mais quand je la rencontrais, je ne savais ni que faire ni que dire.
+                         Une fois qu'elle arrivait chargée de paquets, j'offris mes services. Elle refusa tout net.
+                          Pour faire sa connaissance, pour la rencontrer selon les règles, il fallut attendre la revue.  
                 </Text>
 
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Très tôt attirée par le désert, le Sahara en particulier, elle a eu la chance d'y accompagner un groupe comme interprète.
-                 Depuis, elle s'est initiée à l'arabe. Vivant au début de traductions pour des entreprises suisses,
-                  allemandes ou françaises, elle s'est aujourd'hui spécialisée dans la traduction de livres d'art et de livres sur le Sahara.
-                   Curieusement, elle a refusé de traduire un livre sur les femmes touaregs,
-                    sans doute par respect pour une culture qu'elle admire.  
+                La revue, c'était la fête de la saison. Une série de tableaux écrits et joués par des gens en vacances qui,
+                 sur des airs à la mode ou des opérettes d'Offenbach, se moquaient d'eux-mêmes avec un mélange de gentillesse et de férocité.
+                  Quinze jours avant la représentation, les répétitions commencèrent. Je n'avais jamais joué dans la revue.
+                   Mais, ayant appris la participation d'Odile, je m'inscrivis aussitôt.
+                    Comme collègues, il devenait facile de faire connaissance. Soyons juste. Mon rôle resta modeste.   
                 </Text>
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Depuis quelques années, Elisabeth Sauer fait de la peinture.
-                 Elle essaie d'exprimer la couleur qu'elle dit tenir du désert lui-même.
-                  Elle présente aujourd'hui ses dernières œuvres inspirées de récents voyages.
-                   Femme engagée, elle a créé un petit cercle d'amis dans le but d'aider les femmes dans la zone saharienne.
-                    Le produit des ventes de ses peintures doit financer son action au Sahara.   
+                Odile, au contraire, devint l'une des vedettes de cette revue.
+                 En longue robe rouge, elle chantait et dansait un duo avec un grand type brun.
+                  À la voir glisser dans les bras de ce garçon, je sentais monter en moi une furieuse jalousie.
+                   Pourtant, mon objectif était atteint. Depuis les répétitions, j'avais le droit de ramener Odile le soir.
+                    J'avais le droit de passer la chercher, de me promener et de nager avec elle.
+                     J'avais le droit de lui faire apprendre son rôle,
+                      de me glisser près d'elle dans l'obscurité de la salle pendant les répétitions.  
                 </Text>
-                
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                D'après La Statue intérieure. de François Jacob, éd. Odile Jacob. 
+                </Text>
                 </Body>
             </CardItem>
           </Card>
@@ -242,7 +188,7 @@ export default class D3 extends Component {
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-           زندگی نامه (بیوگرافی)
+           مراسم la revue
           </Text>
             </CardItem>
           
@@ -250,26 +196,34 @@ export default class D3 extends Component {
             <Body >
               
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               الیزابت سائر متولد هفدهم مارس 1945 در سوئیس است ، در حوالی شهر بال (سومین شهر پرجمعیت سوئیس).
-               مادرش فرانسوی است و اصلاتاً آلزایسی (استانی در فرانسه) . او پدر آلمانی اش را که در سال 1944 فوت کرد نمیشناخت.
-               او تمام دوران کودکی اش را در منطقه بال گذراند ، او اغلب اوقات  در خانه عموهای(دایی های) و عمه های (خاله های) فرانسوی اش
-               در شهر مولوز(در استان آلزایس) اقامت داشت. او یک دوزبانه بی نقص است ، آلمانی و فرانسوی را روان صحبت میکند
-               ولی همیشه فرانسوی را به عنوان زبان اصلیش در نظر میگیرد.
-               پس از گذراندن بی دردسر دوران متوسطه اش ، او دیپلم مترجمی - مفسری زبان فرانسه به آلمانی را گرفت "به اندازه ای که زندگی اش را بگذراند".
+               در تمام زمستان ، من گرمای وجودش را ، رازش را ، تصویر درخشان دختر جوان را درون خودم نگهداری کردم.
+               با ورود قریب الوقوع تابستان ، فقط تعطیلات نبودند که نزدیک میشدند بلکه این چشم انداز دیدار دوباره اودیل در آینده بود که نزدیک میشد.
+               بدون  کوچکترین استدلال و دلیلی من مطمئن بودم که او را پیدا میکنم. در نهایت بمدت چند روز برای تعطیلات آمد.
+               ،من آن نیم رخ بلند و باریک را که امیدش را داشتم، دیدم از آن چیزی که در رویایم بود زیباتر ، خندان تر ، نورانی تر بود.
+               این دفعه موفق شدم که هرچه سریع تر اسم او را یادبگیرم ، فهمیدم خانواده اش چه کسانی هستند و اینکه کجا زندگی میکند.
+               من نزدیک خانه اش پرسه زدم ، من منتظر اودیل بودم تا از آنجا عبور کند. ولی من تا او را دیدم نمیدانستم چه بگویم
+               یا چه کاری انجام دهم. زمانی که او با پاکت های پر رسید من به او پیشنهاد کمک دادم ولی او هیچ کمکی را قبول نکرد.
+               برای شناختن او ، برای دوباره دیدن قانونی او ، باید منتظر میشدم تا جشن la revue فرا برسد.
+
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-                خیلی زود او مجذوب صحرا شد ، بخصوص منطقه ساهارا ، او این شانس را داشت که بعنوان مترجم یک گروه را همراهی کند.
-                از آن زمان او شروع به یادگیری مفاهیم اولیه زبان عربی کرد.
-                اوایل مخارج زندگی اش را از ترجمه کردن برای شرکتهای سوئیسی ، آلمانی یا فرانسوی میگذراند ، او امروزه در ترجمه کتابهای هنری ، کتابهایی در مورد
-                ساهارا تخصص دارد. به طرز شگفت انگیزی او ترجمه کتابی در مورد زنان قبیله طوارق را رد کرده است بدون شک این کارش به این دلیل بوده است
-                که این کتاب بی احترامی به فرهنگی بوده است که او آن را تحسین میکند.
+                 جشن la revue یک جشن فصل بود .یک سری از نقاشی های ترسیم شده در مورد ملودی های مد روز (مرسوم) یا در مورد اپرت های (ژانری از اپرا) آفن باخ(آهنگساز المانی)  توسط افرادی که در تعطیلات هستند 
+                 به اجرا گذاشته میشد. آنها خودشان را با ترکیبی از مهربانی و بی رحمی سرگرم کرده بودند.
+                 پنج روز قبل از اجرا تمرینات شروع شدند. من هرگز در جشن la revue تا به حال بازی نکرده بودم.
+                 ولی از قبل فهمیده بودم که اودیل میخواهد در این جشن شرکت کند. من فوری ثبت نام کردم. همکاری با او شناختنش را برایم راحت تر کرد.
+                 بیایید منصفانه باشیم. نقش من در نمایشنامه متواضع بود (نه خیلی خوب بود نه خیلی بد).
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               در سالهای اخیر الیزابت سائر مشغول به نقاشی بوده است. او سعی میکند تا مفاهیم رنگهایی را منتقل کند که او می گفت خود بیابان آنها را دربردارد.
-               او امروزه آخرین آثار هنری اش را با الهام از سفرهای اخیرش ارائه میکند.
-               او زنی متعهد(پایبند) به کارش است ، او به منظور کمک کردن به زنانی که در منطقه ساهارا هستند یک
-               حلقه (گروه) کوچکی از دوستان ایجاد کرده است. درآمد حاصل از فروش نقاشی هایش پشتیبان مالی جنبش او در ساهارا هستند.
+                اودیل برعکس من ، او تبدیل به یک ستاره در جشن la revue شد. او با یک لباس بلند قرمز رنگ
+                در یک دئو (اجرای دو نفره) همراه با یک مرد بلند قد با یک تیپ قهوه ای رقصید و آواز خواند.
+                زمانی که او را دیدم روی دستان آن پسر لم داده بود حس کردم که حسادت خشنی در من پدید آمد.
+                اما من به هدفم رسیده بودم. از زمان شروع تمرینات من میتوانستم که او را شبها تا خانه اش همراهی کنم. من اجازه داشتم تا دنبالش بروم
+                ، با او پیاده روی و شنا کنم. 
+                من میتوانستم نقش او را یادش بدهم ، من میتوانستم بطور مخفیانه در تاریکی سالن هنگام تمرینات به او نزدیک شوم.
               </Text>
+              <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                 مطابق با کتاب مجسمه درون اثری از فرانسوا جیکوب نسخه اودیل جیکوب.
+                </Text>
               </Body>
               </CardItem>
               </Card>
@@ -280,38 +234,35 @@ export default class D3 extends Component {
               <Card>
           <CardItem header>
           <Icon type="FontAwesome" name="coffee"/>
-          <Text>Carnet de voyage</Text>
+          <Text>Le rendez-vous</Text>
             </CardItem>
             <CardItem>
                 <Body>
                 
+                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
+                Odile devait partir d'Etretat trois jours après la revue. Pour son dernier jour, elle accepta une promenade seule avec moi.
+                 À peine éveillé, ce matin-là. je me précipitai ouvrir les volets pour voir s'il ferait beau.
+                  Oui, il ferait beau. Oui, ce serait une chaude journée, avec ciel bleu, soleil et chants d'oiseaux.
+                   Une heure avant le rendez-vous fixé, je tournais déjà autour de la maison d'Odile.
+                    Quand elle parut, étincelante, dans sa robe bleue et ses espadrilles,
+                     pas un instant je ne doutai que j'allais sortir avec la plus belle des jeunes filles du monde.
+                      Nous avions décidé d'aller gouter dans une ferme, en partant par la falaise et le bord de mer pour revenir par l'intérieur.
+                       En haut, soufflait une brise tiède et fraîche à la fois, une brise venue de l'océan.
+                        Étonnant panorama avec, ce jour-là, le bleu intense de la mer, le bleu très pâle d'un ciel sans nuage,
+                         et sur ce fond, Odile, avec la douceur de son visage, la tendresse de son sourire.
+                          Merveilleuse promenade au bout du monde, dans l'air du large, avec l'odeur de l'océan.
+                           Nous avions tant de choses à nous dire. Sur nos études, sur nos lectures. Le théâtre. Les gens d'Étretal.
+                            Paris et les amis communs. Je ne savais ce que j'admirais le plus en elle, de sa manière de conter,
+                             de se moquer des gens, sans toutefois manquer de tendresse.
+                              Ou de son aisance, de celle maîtrise de gestes que donne une complète souplesse et qui permet,
+                               sans hésitation, d'exécuter, avec une parfaite précision, les mouvements choisis.
+                                A plusieurs reprises, pendant la montée, j'offris, pour l'aider, une main à Odile. Chaque fois, elle la refusa.
+                                 Était-ce réserve ? Crainte ? Mépris ? 
+                                 Nous revînmes à Étretat. Elle partit le lendemain. 
+                </Text>
+                            
                 <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                Le 25 décembre, avant le petit déjeuner 
-                </Text>
-
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Ce matin, j'éprouve des sentiments contradictoires ! C'est le premier Noël que je passe loin de ma mère,
-                 loin de chez moi, loin de mon village, loin de l'hiver Sans messe de minuit, sans sapin, sans bougies, sans chants de Noël,
-                  sans cadeaux à donner ou à recevoir. Hier soir, après notre dîner, quand je me suis coiffée et habillée « comme si je 
-                  sortais », tout le monde a compris qu'il se passait quelque chose d'important pour moi.
-                   Ils m'ont tous laissée partir, mais je me demande ce qu'ils ont pensé quand j'ai allumé mes bougies « magiques » qui
-                    lancent des étincelles dans tous les sens. 
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Jusqu'à aujourd'hui, je n'ai jamais eu l'impression que Noël était important pour moi,
-                 sauf quand j'étais petite, à cause du Père Noël et des cadeaux. Et pourtant, hier soir, je ne jouais pas la comédie.
-                  Je pensais avec émotion à ma famille, à mes amis du bord du Rhin. C'est peut-être ridicule,
-                   mais il me semblait que je comprenais tout d'un coup, pour la première fois peut-être, ce que représentait Noël :
-                    message d'amour. En plein désert, dans ce campement, avec quatre Touaregs et six chameaux, sous un ciel plein d'étoiles,
-                     je suis plus proche des origines que tous les chrétiens d'Europe... 
-                    Peut-être que je me suis fabriqué moi-même une petite crise de mal du pays, tout bêtement. 
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
-                Le 25 décembre, le soir 
-                </Text>
-                <Text style={{padding:5,textAlign:'justify',lineHeight:30}}>
-                Tout à l'heure, Ahmed, notre cuisinier, le plus curieux et aussi le plus gentil de tous ces hommes 
-                qui m'accompagnent, m'a demandé de lui expliquer Noël. Que vais-je lui raconter ? 
+                D'après Lu Statue intérieure, de François Jacob, éd. Odile Jacob. 
                 </Text>
 
                 </Body>
@@ -326,40 +277,36 @@ export default class D3 extends Component {
           <CardItem header style={{flexDirection:'row-reverse'}}>
           <Icon type="FontAwesome" name="coffee"/>
           <Text>
-           دفترچه خاطرات سفر
+           قرارملاقات
           </Text>
             </CardItem>
           
           <CardItem>
-            <Body >
+            <Body>
               
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-                25 سپتامبر ، قبل از صبحانه
-              </Text>
+    
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               امروز صبح ، من احساسات متناقضی دارم ! این اولین عید کریسمسی است که من به دور از مادرم سپری میکنم ، به دور از خانه ام ، روستایم ، بدون مراسم 
-               عشای ربانی ، بدون درخت کریسمس ، بدون شمعها ، بدون آهنگهای کریسمس ، بدون کادویی برای دادن یا گرفتن.
-               دیشب بعد از شام هنگامی که موهایم را مرتب کردم و  لباس پوشیدم "مثل همیشه که بیرون میروم"
-               همه متوجه شدند که یک اتفاق مهم برای من اتفاق افتاده است.
-               همه آنها مرا ترک کرده بودند ، اما من از خودم پرسیدم آنها چگونه تصور میکنند هنگامی که من شمع های جادویی را که
-               در همه جهات میدرخشند را روشن میکنم.
+                اودیل 3 روز بعد از مراسم la revue مجبور بود تا اترات را ترک کند.
+                در آخرین روز ، او قبول کرد که با من تنهایی به پیاده روی بیاید.
+                آن روز صبح به سختی بیدار شدم. سریع پرده پنجره را کشیدم تا ببینم هوا خوب است یا نه. بله هوا خوب خواهد بود . بله روزی گرم ، همراه با آسمانی آبی و آفتابی
+                خواهد بود وپرنده ها هم آواز میخواندند. یک ساعت قبل از قرار ملاقات من اطراف خانه اودیل پرسه میزدم.
+                زمانی که او با لباس آبی اش و کفشهای بند دارش ، به طور نورانی ظاهر شد حتی یک لحظه هم شک نکردم که دارم
+                با زیباترین دختر دنیا بیرون میروم. ما تصمیم گرفتیم که در یک مزرعه غذا بخوریم.
+                ما از کنار صخره ها و ساحل دریا شروع به رفتن کردیم تا داخل مزرعه رسیدیم.
+                در ارتفاعات یک نسیم ملایم و تازه ای از سمت اقیانوس وزید ، پانورما ای (دید 360 درجه) خیره کننده ، رنگ آبی تیره دریا
+                در آن روز ، رنگ آبی کم رنگ آسمان بدون ابر ، و در این پیش زمینه ، اودیل با ملایمت صورتش و لبخند مهربانش قرار داشت.
+                یک پیاده روی شگفت انگیز در پایان دنیا ، در هوای اقیانوس ، با بوی اقیانوس بود.
+                ما حرف های زیادی برای گفتن به همدیگر داشتیم. درباره چیزهایی که مطالعه کرده بودیم ، چیزهایی که خوانده بودیم.
+                ، تئاتر ، مردم اترات ، پاریس و دوستان مشترک ، من نمیدانستم چه چیزی را بیشتر از همه در او تحسین میکنم ، طرز
+                صحبت کردنش را ، شوخی کردن او با مردم را ، همیشه مهربانی او را.
+                سادگی او را. بدون تردید تسلط او بر ژستهایش  به او انعطاف پذیری کاملی را میداد و او را قادر میساخت تا
+                حرکات منتخب را با دقت عالی ای چندین بار انجام دهد.
+                زمانی که صخره نوردی میکردیم من به اودیل پیشنهاد کمک دادم هردفعه او کمک را رد کرد آیا او خجالتی بود ؟ میترسید ؟ 
+                احساس حقارت میکرد ؟. ما به اترات برگشتیم و او فردای آن روز رفت.
               </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               تا به امروز من هرگز حس نمیکردم که کریسمس آنقدر برای من مهم بوده است به جز زمانی که
-               بچه بودم و بخاطر بابانوئل و کادوها این حس را داشتم.
-               اما دیشب من نقش بازی نکردم. من با احساس درمورد خانواده ام ، دوستانم در سواحل رودخانه راین فکر میکردم.
-               ممکنه خنده دار به نظر برسه شاید برای اولین بار باشه که به طور ناگهانی متوجه شدم که کریسمس نشاندهنده چیست: پیام عشق (نامه عاشقانه)
-               در بحرو بیابان ، در چادر با چهار نفر از طایفه طوارق و شش شتر ، زیر آسمان پرستاره من از تمام اروپایی ها به ریشه های ... نزدیکتر
-               هستم. شاید من خودم ، خودم را دچار بحران کوچک دلتنگی خانه کرده ام ، کاملاً احمقانه است
-              </Text>
-
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-              25 دسامبر ، شب
-              </Text>
-              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30}}>
-               درست همین حالا ، احمد آشپز ما ، کنجکاوترین و مهربانترین تمام مردهایی که مرا همراهی میکنند
-               از من خواست تا برایش جشن کریسمس را توضیح دهم. چه چیزی من به او خواهم گفت ؟
-              </Text>
+              <Text style={{padding:5,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}>
+                 مطابق با کتاب مجسمه درون اثری از فرانسوا جیکوب نسخه اودیل جیکوب.
+                </Text>
               </Body>
               </CardItem>
               </Card>
