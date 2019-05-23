@@ -14,7 +14,7 @@
     "react-native-gesture-handler": "^1.1.0",
     "react-native-snap-carousel": "^3.7.5",
     "react-native-splash-screen": "^3.2.0",
-    "react-native-tts": "^2.0.0",
+    "react-native-tts": "^3.0.0",
     "react-navigation": "^3.7.1",
     "rn-nodeify": "^10.0.1"
   },
