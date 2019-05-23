@@ -13,7 +13,7 @@ export default class SideBar extends Component {
     try {
       const result = await Share.share({
         message:
-          'سلام شما با استفاده از لینک زیر میتوانید اپلیکیشن کافه فرنج 2 را نصب کنید \n https://cafebazaar.ir/app/com.example.android.cafecreme/?l=en',
+          '',
       });
 
       if (result.action === Share.sharedAction) {

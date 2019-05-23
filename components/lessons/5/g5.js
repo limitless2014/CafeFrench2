@@ -31,7 +31,7 @@ export default class G3 extends Component {
          </StyleProvider>
          <ScrollView >
          <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',padding:5}}>
               <Icon type="FontAwesome" name="book"/>
               <Text style={{paddingRight:10,fontSize:20,color:'white'}}>جملات شرطی (قسمت اول): SI + زمان حال </Text>
               </CardItem>
@@ -75,10 +75,10 @@ export default class G3 extends Component {
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   اگر تو پاریس را دوست نداشته باشی ، شغلت را عوض کن (ساختار سوم).
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold',backgroundColor:'red'}}> 
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}> 
                    نکته : هرگز در جمله اول بعد از حرف اضافه si فعل در زمان آینده صرف نمیشود 
                    </Text>
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold',backgroundColor:'red'}}> 
+                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}> 
                    نکته : نباید حرف اضافه si را که در جمله شرطی است با جمله سوالی غیر مستقیم اشتباه بگیریم همیشه در جمله شرطی حرف اضافه
                    si در ابتدای جمله می آید ، و در جملات سوالی غیر مستقیم بین دو جمله می آید.
                    </Text>
@@ -103,7 +103,7 @@ export default class G3 extends Component {
 
 
            <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',padding:5}}>
               <Icon type="FontAwesome" name="book"/>
               <Text style={{paddingRight:10,fontSize:20,color:'white'}}>ساختار Quelque Chose + مصدر ، Rien A + مصدر</Text>
               </CardItem>
@@ -141,7 +141,7 @@ export default class G3 extends Component {
 
 
            <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',padding:5}}>
               <Icon type="FontAwesome" name="book"/>
               <Text style={{paddingRight:10,fontSize:20,color:'white'}}>هماهنگی : Quand...Et Que ... ، Parce Que...Et Que...</Text>
               </CardItem>
@@ -184,7 +184,7 @@ export default class G3 extends Component {
 
 
            <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',padding:5}}>
               <Icon type="FontAwesome" name="book"/>
               <Text style={{paddingRight:10,fontSize:20,color:'white'}}>نقل قول مستقیم (قسمت اول) زمان حال</Text>
               </CardItem>

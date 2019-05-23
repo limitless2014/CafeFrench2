@@ -31,7 +31,7 @@ export default class G3 extends Component {
          </StyleProvider>
          <ScrollView >
          <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',padding:5}}>
               <Icon type="FontAwesome" name="book"/>
               <Text style={{paddingRight:10,fontSize:20,color:'white'}}> سوال کردن با کلمات qui , que ... </Text>
               </CardItem>
@@ -86,7 +86,7 @@ export default class G3 extends Component {
 
 
            <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',padding:5}}>
               <Icon type="FontAwesome" name="book"/>
               <Text style={{paddingRight:10,fontSize:20,color:'white'}}>صرف فعل : وجه التزامی (قسمت اول)</Text>
               </CardItem>
@@ -152,7 +152,7 @@ export default class G3 extends Component {
            </Card> 
 
            <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',padding:5}}>
               <Icon type="FontAwesome" name="book"/>
               <Text style={{paddingRight:10,fontSize:20,color:'white'}}>ضمیر سوالی lequel</Text>
               </CardItem>

@@ -31,7 +31,7 @@ export default class G3 extends Component {
          </StyleProvider>
          <ScrollView >
          <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',padding:5}}>
               <Icon type="FontAwesome" name="book"/>
               <Text style={{paddingRight:10,fontSize:20,color:'white'}}>صرف فعل : زمان حال شرطی </Text>
               </CardItem>
@@ -124,7 +124,7 @@ export default class G3 extends Component {
 
 
            <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',padding:5}}>
               <Icon type="FontAwesome" name="book"/>
               <Text style={{paddingRight:10,fontSize:20,color:'white'}}>جملات سوالی غیر مستقیم بخش دوم : تطابق زمانی</Text>
               </CardItem>
@@ -201,7 +201,7 @@ export default class G3 extends Component {
                   آنتوان پرسیده بود آیا کریستین برخواهد گشت. (سوالی غیر مستقیم)
                   </Text>
 
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold',backgroundColor:'red'}}>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
                   نکته : از جملات شرطی برای بیان آینده در گذشته استفاده میکنیم.
                   </Text>
 
@@ -213,7 +213,7 @@ export default class G3 extends Component {
 
 
            <Card>
-           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',borderBottomLeftRadius:50,borderTopRightRadius:50,borderTopLeftRadius:20,borderBottomRightRadius:20}}>
+           <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green',padding:5}}>
               <Icon type="FontAwesome" name="book"/>
               <Text style={{paddingRight:10,fontSize:20,color:'white'}}>ضمایر موصولی مرکب : A qui , Auquel , pour qui , pour lequel ,avec qui</Text>
               </CardItem>
@@ -250,7 +250,7 @@ export default class G3 extends Component {
                    دوستانی که من به آنها نامه نوشتم حالشان خوب است
                   </Text>
                    
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold',backgroundColor:'red'}}> 
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}> 
                    نکته : حروف اضافه  À, pour, avec, par, sur,...+ qui فقط برای اشخاص بکار میروند.
                    </Text>
                    <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
@@ -267,7 +267,7 @@ export default class G3 extends Component {
                   این دوستی است که من برای او احترام زیادی قائل هستم.
                   </Text>
 
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold',backgroundColor:'red'}}> 
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}> 
                    نکته : حروف اضافه pour , avec , en , sur + lequel , laquelle , lesquels , lesquelles برای اشیا و ایده ها بکار میروند
                    و همچنین احتمال دارد که برای اشخاص  بکار روند.
                    </Text>
@@ -305,7 +305,7 @@ export default class G3 extends Component {
 
 
 
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold',backgroundColor:'red'}}> 
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,fontWeight:'bold'}}> 
                    نکته : À + lequel = auquel, à laquelle, auxquels, auxquelles 
                    باید توجه داشت که از auquel برای مفرد مذکر و auxqueles برای جمع مذکر استفاده میشود و همچنین زمانی که
                    جنسیت مونث بود از  à laquelle برای حالت مفرد و از auxquelles برای حالت جمع استفاده میشود.
