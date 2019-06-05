@@ -37,7 +37,7 @@ export default class G2 extends Component {
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                    به طور کلی ضمایر مفعولی به جای مفعول در جمله می آیند در این حالت برای تبدیل ضمایر مفعولی 
-                   به امری کافی است که فاعل حذف شود سپس فعل و بعد از آن
+                   به امری کافی است که فاعل حذف شود سپس 
                    اگر ضمیر مفعولی me بود به moi و اگر te بود به toi تبدیل میشود و در انتهای جمله قرار میگیرد.
                    بقیه ضمایر مفعولی بدون تغییر در انتهای جمله می آیند این روش برای تبدیل هر دو ضمیر مفعولی مستقیم و غیر مستقیم استفاده میشود.
                   </Text>
@@ -81,11 +81,11 @@ export default class G2 extends Component {
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
                   Vous leur envoyez une carte. Envoyez-leur une carte</Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                  ضما برای آنها یک کارت دعوت میفرستید . برای آنها یک کارت دعوت بفرستید.  
+                  شما برای آنها یک کارت دعوت میفرستید . برای آنها یک کارت دعوت بفرستید.  
                   </Text>
                   
                    <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}> 
-                   همیشه یک خط تیره بین فعل و ضمیر قرار میگیرد
+                   همیشه یک خط تیره بین فعل و ضمیر مفعولی قرار میگیرد
                    </Text>
                    
                   
@@ -108,7 +108,7 @@ export default class G2 extends Component {
 
                   
                    <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
-                    زمانی که میخواستیم جمله امری از ضمایر مفعولی مستقیم و غیر مستقیم بسازیم یک قاعده کلی وجود دارد و آن
+                    زمانی که میخواستیم جمله امری منفی از ضمایر مفعولی مستقیم و غیر مستقیم بسازیم یک قاعده کلی وجود دارد و آن
                     این است که ضمایر مفعولی قبل از فعل می آیند.
                    </Text>
                    
@@ -167,8 +167,8 @@ export default class G2 extends Component {
                 <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   جملات سوالی مستقیم بدین صورت است که شخص مستقیماً از شخص دیگری سوال میپرسد مثل آیا شما اینجا زندگی میکنید ؟ 
                   در مقابل جمله سوالی غیر مستقیم حالتی است که شخص مکالمه ای را تشریح میکند 
-                  که در آن یک شخص دیگر از دیگری سوال میکند مثلا برنارد پرسید آیا او اینجا زندگی میکند. برای ساخت جملات سوالی غیر مستقیم اگر
-                  جمله سوالی مستقیم با est-ce que پرسیده شده باشد باید برای تبدیل ابتدا فاعل (سوال کننده) را می آوریم سپس فعل demande و مفعول
+                  که در آن یک شخص دیگر از دیگری سوال میکند مثلا برنارد از آلن پرسید آیا او اینجا زندگی میکند. برای ساخت جملات سوالی غیر مستقیم اگر
+                  جمله سوالی مستقیم با est-ce que پرسیده شده باشد باید برای تبدیل ابتدا فاعل (سوال کننده) را قراردهیم سپس فعل demande و مفعول
                   را می آوریم در مرحله بعد کلمه si را می آوریم سپس سوال را از زبان خودمان نقل میکنیم.
                   </Text>
                   <Text style={{padding:8,lineHeight:30}}> 

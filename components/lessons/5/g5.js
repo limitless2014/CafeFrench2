@@ -110,7 +110,7 @@ export default class G3 extends Component {
               <CardItem  >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                  از ساختار فعل داشتن + اسم + حرف اضافه à + مصدر برای بیان یک التزام استفاده میشود.
+                  از ساختار فعل avoir + اسم + حرف اضافه à + مصدر برای بیان یک التزام استفاده میشود.
                   </Text>
 
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
@@ -132,8 +132,23 @@ export default class G3 extends Component {
                   او یک نامه دارد که بنویسد.
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  ساختار دوم که rien a + مصدر است نیز کاربردی مشابه با ساختار قبل دارد با این تفاوت که
                   در این ساختار به جای اسم مکرراً از کلمه Quelque Chose یا rien استفاده میشود.
                   </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  J'ai quelque chose à vous annoncer 
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  من خبری (چیزی) دارم که به شما اعلام کنم.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                  ll n'y a rien à faire.
+                  </Text>
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                  هیچ چیز برای انجام دادن وجود ندارد.
+                  </Text>
+
+                  
                 </Body>
               </CardItem>
            </Card> 
@@ -148,7 +163,7 @@ export default class G3 extends Component {
               <CardItem  >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
                 <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                به طور کلی زمانی که دو جمله پایه و پیرو را بهم وصلی میکنیم با کلمه et یا ou را بهم وصل میکنیم
+                به طور کلی زمانی که دو جمله پایه و پیرو را بهم وصل میکنیم با کلمه et یا ou را بهم وصل میکنیم
                 ما parce que ، quand و dès que را تکرار نمیکنیم بجای آن از que استفاده میکنیم. به مثالهای زیر توجه کنید.
                 </Text>
 

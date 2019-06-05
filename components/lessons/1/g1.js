@@ -49,8 +49,11 @@ export default class G1 extends Component {
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                   فستیوال هنرمندانی را دورهم جمع میکند که موفق هستند  
                   </Text>
-                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>Le festival réunit des artistes. Les jeunes aiment beaucoup ces artistes.
-                  
+                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
+                    Le festival réunit des artistes. Les jeunes aiment beaucoup ces artistes.
+                 </Text>
+                 <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
+                   فستیوال هنرمندان را دورهم جمع میکند . جوانان خیلی این هنرمندان را دوست دارند 
                  </Text>
                  <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 
                   <Icon name="arrow-forward" style={{fontSize:15,marginRight:4}} />
@@ -58,11 +61,9 @@ export default class G1 extends Component {
                   beaucoup.
                    </Text>
 
-                 <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>فستیوال هنرمندان را دورهم جمع میکند . جوانان خیلی این هنرمندان را دوست دارند 
-
-                 </Text>
+              
                  <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
-                 فستیوال هنرمندانی را دورهم جمع میکند که جوانان دوست دارند
+                 فستیوال هنرمندانی را دورهم جمع میکند که جوانان خیلی دوست دارند
                  </Text>
                 </Body>
               </CardItem>
@@ -75,7 +76,7 @@ export default class G1 extends Component {
            <Card>
            <CardItem Header style={{flexDirection:'row-reverse',borderWidth:2,backgroundColor:'green'}}>
               <Icon type="FontAwesome" name="book"/>
-              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>ضمایر تاکیدی: این ... کسی ، این ... که</Text>
+              <Text style={{paddingRight:10,fontSize:20,color:'white'}}>ضمایر تاکیدی: c'est ... qui , c'est ... que</Text>
               </CardItem>
               <CardItem >
                 <Body style={{borderLeftWidth:1,borderRightWidth:1,borderBottomWidth:1}}>
@@ -169,17 +170,13 @@ export default class G1 extends Component {
                    چگونه شما با موسیقی راک آشنا شدید ؟
                    </Text> 
                    <Text style={{padding:8,textAlign:'justify',lineHeight:30}}>
-                   از روش فوق در سوالات جزیی استفاده میشود (یک کلمه سوالی قبل از فعل می آید).
+                   از روش فوق در سوالات جزیی استفاده میشود (در سوالاتی که یک کلمه سوالی مثل comment , Pourquoi , Où قبل از فعل می آید).
+                   در این نوع جملات ضمیر شخصی بعد از فعل می آید
                    </Text> 
                   
-                  
-                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}> 
-                  ضمیر فاعلی قبل از فعل می آید. 
-                   </Text>
-                   
                    
                    <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}> 
-                   همیشه یک خط تیره بین فعل و ضمیر شخصی آید.
+                   نکته : همیشه یک خط تیره بین فعل و ضمیر شخصی آید.
                    </Text>
                    
 

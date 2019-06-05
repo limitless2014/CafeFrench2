@@ -169,7 +169,7 @@ export default class G3 extends Component {
 
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
                    اگر جمله سوالی  مستقیم در زمان گذشته بیان شده بود برای  تبدیل به جمله سوالی غیر مستقیم 
-                   حتی اگر در زمان حال باشد باید فعل جمله پیرو در زمان گذشته باشد این حالت استثنا است.
+                   باید فعل جمله پیرو در زمان گذشته باشد .
                    اگر جمله سوالی مستقیم در زمان حال شرطی بود فعل جمله پیرو نیز در زمان حال شرطی صرف میشود. مثال:
                   </Text>
                   <Text style={{padding:8,textAlign:'justify',lineHeight:30}}> 

@@ -13,7 +13,7 @@ export default class SideBar extends Component {
     try {
       const result = await Share.share({
         message:
-          '',
+          'https://cafebazaar.ir/app/com.cafefrench2/?l=fa',
       });
 
       if (result.action === Share.sharedAction) {

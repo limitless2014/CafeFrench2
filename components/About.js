@@ -29,7 +29,7 @@ export default class About extends Component {
             <CardItem>
               <Body>
              <Image style={{width:'100%'}} resizeMode='stretch' source={require('../assets/img/drawer.png')}/>
-             <Text style={{alignSelf:'center', fontWeight:'bold',paddingTop:20}}>App Version :{app_version}</Text>
+             <Text style={{alignSelf:'center', fontWeight:'bold',paddingTop:20}}>App Version : 1.0</Text>
              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end'}}>
               اپلیکیشن کافه فرنچ 2 بر اساس کتاب کافه کرم 2 ساخته شده است.
               </Text>
@@ -53,13 +53,10 @@ export default class About extends Component {
               شناسه افزوده : trevisi , sandra
               </Text>
               <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
-              منابع :
+              نویسنده و مترجم :
               </Text>
-              <Text  style={{padding:5,textAlign:'justify',lineHeight:30}}>
-              1. https://b-amooz.com/
-              </Text>
-              <Text  style={{padding:5,textAlign:'justify',lineHeight:30}}>
-              2. http://conjugator.reverso.net/
+              <Text  style={{direction:"rtl",padding:5,textAlign:'justify',lineHeight:30,alignSelf:'flex-end',fontWeight:'bold'}}>
+              احسان پورحسین
               </Text>
              </Body>
             </CardItem>
